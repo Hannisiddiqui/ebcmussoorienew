@@ -119,7 +119,7 @@ export default async function LandingPage({ params }: Params) {
           </div>
 
           {/* divider */}
-          <div className="w-full h-px bg-primary" />
+          {/* <div className="w-full h-px bg-primary" /> */}
 
           <div className="md:space-y-6 space-y-4">
             {/* {data.date && (
