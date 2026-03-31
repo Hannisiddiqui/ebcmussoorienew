@@ -26,11 +26,11 @@ export const aboutPageData = {
   },
 
   experienceData: {
-    title: "For the next few lazy days & cozy nights!",
+    title: "For the next few lazy days & cozy <i>nights!</i>",
     description: [
       "Get ready to experience the best of both worlds with our glamorous camping. We've carefully curated a luxurious indoor experience that blends perfectly with the wild outdoors. Our tents are fully equipped with all the modern amenities and decorated with a mix of modern and rustic interiors, creating a unique and comfortable atmosphere. Get in touch with your wild side, clad in comfortable jungle wear, and immerse yourself in the natural beauty of the surroundings. Get ready to roar like a wolf and snore like a lion, as you indulge in the ultimate glamping experience at EBC Mussoorie.",
     ],
-    images: ["/about/experience.webp"],
+    image: "/about-us/experience.png",
   },
 
   aroundCampData: {

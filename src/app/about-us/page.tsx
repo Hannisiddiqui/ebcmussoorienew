@@ -4,6 +4,7 @@ import AdventuresSection from "@/components/CommonSections/AdventuresSection";
 import StayWith from "@/components/CommonSections/StayWith";
 import AboutSection from "@/components/CommonSections/AboutSection";
 import ThreeGridLayoutBanner from "@/components/banner/ThreeGridLayoutBanner";
+import CozyNight from "./components/CozyNight";
 
 export default function AboutUsPage() {
   return (
@@ -11,6 +12,7 @@ export default function AboutUsPage() {
       <ThreeGridLayoutBanner {...aboutPageData.bannerData} />
       <IntroSection {...aboutPageData.introData} />
       <AdventuresSection {...aboutPageData.georgeEverestData} />
+      <CozyNight {...aboutPageData.experienceData} />
       <AboutSection {...aboutPageData.aroundCampData} />
       <StayWith {...aboutPageData.ctaData} />
     </main>

@@ -13,7 +13,7 @@ export const homePageData = {
   },
 
   PetFriendly: {
-    title: ["Pet Friendly Stays", "at EBC Mussoorie!"],
+    title: ["Pet Friendly <i>Stays</i>", "at EBC <i>Mussoorie!</i>"],
     images: ["/home/pet-1.png", "/home/pet-2.png"],
   },
 

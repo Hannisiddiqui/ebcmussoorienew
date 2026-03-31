@@ -59,7 +59,7 @@ export const footerNavLinks = [
   { name: "Contact Us", href: "/contact-us/" },
   { name: "Activities", href: "/activities/" },
   { name: "Park Cafe", href: "/park-cafe/" },
-  { name: "Blog", href: "/blog/" },
+  { name: "Blogs", href: "/blogs/" },
   { name: "Gallery", href: "/gallery/" },
   { name: "Privacy Policy", href: "/privacy-policy/" },
   { name: "Terms & Conditions", href: "/terms-and-conditions/" },
@@ -103,7 +103,7 @@ export const webSiteFooterData: WebSiteFooterData = {
         {
           icon: <FillLocationIcon />,
           label: "Address: " + contacts.addresses[0].address,
-          href: contacts.addresses[0].mapUrl,
+          href: contacts.addresses[0].addressUrl,
         },
         {
           title: "call: ",

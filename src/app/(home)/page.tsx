@@ -1,19 +1,21 @@
 import FiveLayoutGridBanner from "@/components/banner/FiveLayoutGridBanner";
-import { homePageData } from "./components/homePageData";
-import IntroSection from "@/components/CommonSections/IntroSection";
 import AboutSection from "@/components/CommonSections/AboutSection";
-import ExperienceSection from "./components/ExperienceSection";
+import AdventuresSection from "@/components/CommonSections/AdventuresSection";
+import IntroSection from "@/components/CommonSections/IntroSection";
+import StayWith from "@/components/CommonSections/StayWith";
 import AmenitiesSection from "./components/AmenitiesSection";
 import DiningSection from "./components/DiningSection";
-import AdventuresSection from "@/components/CommonSections/AdventuresSection";
+import ExperienceSection from "./components/ExperienceSection";
 import ExploreNearbySection from "./components/ExploreNearbySection";
-import StayWith from "@/components/CommonSections/StayWith";
+import { homePageData } from "./components/homePageData";
+import PetFriendly from "./components/PetFriendly";
 import PressSection from "./components/PressSection";
 
 export default function Home() {
   return (
     <main>
       <FiveLayoutGridBanner {...homePageData.bannerData} />
+      <PetFriendly {...homePageData.PetFriendly} />
       <IntroSection
         {...homePageData.introData}
         contentWrapperClassName="max-w-4xl w-full"

@@ -107,7 +107,7 @@ export const navData: NavData = {
       {
         title: "Mussoorie, Uttarakhand",
         label: "Mussoorie, Uttarakhand",
-        href: contacts.addresses[0].mapUrl,
+        href: contacts.addresses[0].addressUrl,
         icon: <FillLocationIcon />,
       },
       {
