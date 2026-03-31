@@ -196,26 +196,26 @@ const blogData = [
     lastupdate: "Last updated 3 mins ago",
     image: "/blog/Mussoorievisit.webp",
     imageTitle: "Sir George Everest House Mussoorie",
-    imgItems: [
-      {
-        title:
-          "Gun Hill: Take a ride on the cable car to Gun Hill, the second-highest peak in Mussoorie. The panoramic view of the Himalayas and the Doon Valley is an experience you won't forget.",
-        img: "/blog/familyadvanture.webp",
-        subtitle: "Cable Ride at Gun Hill Mussoorie",
-      },
-      {
-        title:
-          "Gun Hill: Take a ride on the cable car to Gun Hill, the second-highest peak in Mussoorie. The panoramic view of the Himalayas and the Doon Valley is an experience you won't forget.",
-        img: "/blog/familyadvanture.webp",
-        subtitle: "Cable Ride at Gun Hill Mussoorie",
-      },
-      {
-        title:
-          "Gun Hill: Take a ride on the cable car to Gun Hill, the second-highest peak in Mussoorie. The panoramic view of the Himalayas and the Doon Valley is an experience you won't forget.",
-        img: "/blog/familyadvanture.webp",
-        subtitle: "Cable Ride at Gun Hill Mussoorie",
-      },
-    ],
+    // imgItems: [
+    //   {
+    //     title:
+    //       "Gun Hill: Take a ride on the cable car to Gun Hill, the second-highest peak in Mussoorie. The panoramic view of the Himalayas and the Doon Valley is an experience you won't forget.",
+    //     img: "/blog/familyadvanture.webp",
+    //     subtitle: "Cable Ride at Gun Hill Mussoorie",
+    //   },
+    //   {
+    //     title:
+    //       "Gun Hill: Take a ride on the cable car to Gun Hill, the second-highest peak in Mussoorie. The panoramic view of the Himalayas and the Doon Valley is an experience you won't forget.",
+    //     img: "/blog/familyadvanture.webp",
+    //     subtitle: "Cable Ride at Gun Hill Mussoorie",
+    //   },
+    //   {
+    //     title:
+    //       "Gun Hill: Take a ride on the cable car to Gun Hill, the second-highest peak in Mussoorie. The panoramic view of the Himalayas and the Doon Valley is an experience you won't forget.",
+    //     img: "/blog/familyadvanture.webp",
+    //     subtitle: "Cable Ride at Gun Hill Mussoorie",
+    //   },
+    // ],
 
     content: [
       {
