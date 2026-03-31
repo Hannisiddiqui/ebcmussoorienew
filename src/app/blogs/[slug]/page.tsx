@@ -137,7 +137,7 @@ export default async function LandingPage({ params }: Params) {
                 />
               </div>
             )}
-            {data.imgItems && (
+            {/* {data.imgItems && (
               <div className="grid md:grid-cols-3 gap-4 mt-6">
                 {data.imgItems.map((img, i) => (
                   <div key={i} className="space-y-2">
@@ -153,7 +153,7 @@ export default async function LandingPage({ params }: Params) {
                   </div>
                 ))}
               </div>
-            )}
+            )} */}
             {data.imgTitle && (
               <p className=" text-primary md:text-xl">{data.imgTitle}</p>
             )}
