@@ -73,22 +73,22 @@ export default async function LandingPage({ params }: Params) {
   const path = await params;
   const data = blogData.find((post) => post.slug === path.slug);
 
-    const randomBLogs = getRandomBlog(path.slug);
+  const randomBLogs = getRandomBlog(path.slug);
 
-    const randomData = {
-      title: "Explore More Blogs",
-      cta: {
-        title: "View all Blogs",
-        url: "/blogs",
-      },
-      cards: [
-        ...randomBLogs.map((item) => ({
-          src: item.image,
-          title: item.title,
-          slug: item.slug,
-        })),
-      ],
-    };
+  const randomData = {
+    title: "Explore More Blogs",
+    cta: {
+      title: "View all Blogs",
+      url: "/blogs",
+    },
+    cards: [
+      ...randomBLogs.map((item) => ({
+        src: item.image,
+        title: item.title,
+        slug: item.slug,
+      })),
+    ],
+  };
 
   if (!data) {
     return (
@@ -122,11 +122,11 @@ export default async function LandingPage({ params }: Params) {
           <div className="w-full h-px bg-primary" />
 
           <div className="md:space-y-6 space-y-4">
-            <div className="flex items-center gap-4 divide-x divide-main-border">
+            {data.date && (
               <p className="text-[#686868] md:text-lg pr-4">
                 Date: <span className="text-light">{data.date}</span>
               </p>
-            </div>
+            )}
             {data.image && (
               <div className="w-full max-w-xl border-4 border-background-2 relative aspect-4/3 md:aspect-[4/2.7] overflow-hidden rounded-2xl">
                 <Image
@@ -186,7 +186,7 @@ export default async function LandingPage({ params }: Params) {
                 {"items" in item && item.items && (
                   <ul className="list-disc pl-5 space-y-1 text-[#686868] md:text-[1.375rem]">
                     {item.items.map((listItem, i) => (
-                      <li key={i} >{listItem}</li>
+                      <li key={i}>{listItem}</li>
                     ))}
                   </ul>
                 )}
