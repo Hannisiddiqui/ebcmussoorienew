@@ -122,11 +122,11 @@ export default async function LandingPage({ params }: Params) {
           <div className="w-full h-px bg-primary" />
 
           <div className="md:space-y-6 space-y-4">
-            {data.date && (
+            {/* {data.date && (
               <p className="text-[#686868] md:text-lg pr-4">
                 Date: <span className="text-light">{data.date}</span>
               </p>
-            )}
+            )} */}
             {data.image && (
               <div className="w-full max-w-xl border-4 border-background-2 relative aspect-4/3 md:aspect-[4/2.7] overflow-hidden rounded-2xl">
                 <Image
