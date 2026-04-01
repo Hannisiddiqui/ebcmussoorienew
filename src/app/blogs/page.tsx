@@ -23,13 +23,13 @@ export default function BlogPage() {
             <Link
               href={card.link}
               key={index}
-              className="relative block w-full aspect-4/3 md:rounded-3xl overflow-hidden  rounded-xl"
+              className="relative block w-full aspect-4/3 rounded-3xl overflow-hidden"
             >
               <Image
                 src={card.image}
                 alt={card.title}
                 fill
-                className="object-cover p-2 bg-background-1 md:rounded-3xl rounded-xl"
+                className="object-cover p-2 bg-background-1 rounded-3xl"
               />
             </Link>
           ))}
