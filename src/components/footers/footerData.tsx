@@ -1,4 +1,4 @@
-import { contacts } from "@/utils/constant";
+import { bookingLink, contacts } from "@/utils/constant";
 import {
   FillFaceBookIcon,
   FillLocationIcon,
@@ -70,7 +70,7 @@ export const webSiteFooterData: WebSiteFooterData = {
   description: "Reserve your luxury holiday!",
   link: {
     label: "BOOK NOW",
-    href: contacts.WhatsAppCta,
+    href: bookingLink,
   },
   lists: [
     {

@@ -4,9 +4,16 @@ import { SectionWithContainer } from "../sectionComponants";
 interface StayWithProps {
   title: string[];
   images: string[];
+  isShowBgImage?: boolean;
+  aspectRatio?: string;
 }
 
-const StayWith: React.FC<StayWithProps> = ({ title, images }) => {
+const StayWith: React.FC<StayWithProps> = ({
+  title,
+  images,
+  isShowBgImage = true,
+  aspectRatio = "aspect-[4/1.7]",
+}) => {
   return (
     <SectionWithContainer
       sectionClassName="bg-primary relative"
@@ -15,7 +22,7 @@ const StayWith: React.FC<StayWithProps> = ({ title, images }) => {
       <h2 className="text-3xl lg:text-5xl/tight flex flex-wrap gap-2 items-center justify-center font-extralight text-center font-primary text-white">
         <span className="" dangerouslySetInnerHTML={{ __html: title[0] }} />
         <span className="flex gap-2 items-center justify-center">
-          <span className="inline-block w-30 aspect-[4/1.7] -mt-1 relative">
+          <span className={`inline-block w-30  -mt-1 relative ${aspectRatio}`}>
             <Image
               src={images[0]}
               alt={title[0]}
@@ -31,24 +38,26 @@ const StayWith: React.FC<StayWithProps> = ({ title, images }) => {
         </span>
       </h2>
 
-      <div className="absolute bottom-0 inset-x-0 flex justify-between items-center">
-        <div className="relative w-[38.81px] aspect-4/4.25">
-          <Image
-            src="/white-tree.png"
-            alt="tree"
-            fill
-            className="object-contain scale-x-[-1]"
-          />
+      {isShowBgImage && (
+        <div className="absolute bottom-0 inset-x-0 flex justify-between items-center">
+          <div className="relative w-[38.81px] aspect-4/4.25">
+            <Image
+              src="/white-tree.png"
+              alt="tree"
+              fill
+              className="object-contain scale-x-[-1]"
+            />
+          </div>
+          <div className="relative w-[38.81px] aspect-4/4.25">
+            <Image
+              src="/white-tree.png"
+              alt="tree"
+              fill
+              className="object-contain"
+            />
+          </div>
         </div>
-        <div className="relative w-[38.81px] aspect-4/4.25">
-          <Image
-            src="/white-tree.png"
-            alt="tree"
-            fill
-            className="object-contain"
-          />
-        </div>
-      </div>
+      )}
     </SectionWithContainer>
   );
 };

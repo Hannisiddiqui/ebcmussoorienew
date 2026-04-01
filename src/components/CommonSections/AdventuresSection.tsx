@@ -2,21 +2,27 @@ import Image from "next/image";
 import { SectionWithContainer } from "../sectionComponants";
 import SectionHeading from "../typography/SectionHeading";
 import { CtaBtn } from "../buttons/CtaBtn";
+import ContentSlider from "../slider/ContentSlider";
 
 interface AdventuresSectionProps {
   title: string;
-  description: string[];
+  description?: string[];
   image: string;
   link?: {
     label: string;
     href: string;
   };
+  testimonials?: {
+    title: string;
+    subtle: string;
+  }[];
 }
 const AdventuresSection: React.FC<AdventuresSectionProps> = ({
   title,
   description,
   image,
   link,
+  testimonials,
 }) => {
   return (
     <SectionWithContainer sectionClassName="relative">
@@ -41,19 +47,18 @@ const AdventuresSection: React.FC<AdventuresSectionProps> = ({
               className="object-cover md:rounded-3xl rounded-2xl"
             />
           </div>
-          <div className="text-gray-600 mb-4">
-            {description.map((desc, index) => (
-              <p key={index} className="md:text-[1.375rem] text-light">
-                {desc}
-              </p>
-            ))}
-          </div>
+         {testimonials && <ContentSlider testimonials={testimonials} />}
+          {description?.map((desc, index) => (
+            <p key={index} className="md:text-[1.375rem] text-light">
+              {desc}
+            </p>
+          ))}
           {link && (
             <CtaBtn
               type="link"
               label={link.label}
               href={link.href}
-              className="w-fit rounded-md text-primary font-primary text-lg"
+              className="w-fit rounded-md mt-4 text-primary font-primary text-lg"
             />
           )}
         </div>

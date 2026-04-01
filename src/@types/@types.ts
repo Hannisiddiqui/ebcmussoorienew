@@ -24,3 +24,36 @@ export interface BannerProps {
   title?: string;
   images: string[];
 }
+
+export interface CommonCardSectionProps {
+  title?: string;
+  subTitle?: string;
+  description?: string[];
+  images: string[];
+  link?: CtaBtnPropsType;
+  titleColor?: string;
+  subTitleColor?: string;
+  btnClassName?: string;
+  sectionColor?: string;
+  wrapperClassName?: string;
+}
+
+export interface CommonCard2Props {
+  title: string;
+  description?: string;
+  items: {
+    title: string;
+    description: string[];
+    image?: string;
+    images?: string[];
+  }[];
+}
+
+export interface CuisineProps {
+  title: string;
+  description: string[];
+  images: {
+    title: string;
+    src: string;
+  }[];
+}

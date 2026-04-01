@@ -2,6 +2,7 @@
 
 import useBookingForm from "@/hooks/useBookingForm";
 import { countries } from "@/utils/countryCode";
+import React from "react";
 
 const Form1 = () => {
   const {
@@ -48,7 +49,7 @@ const Form1 = () => {
   return (
     <form className="flex flex-col gap-4 text-xl" onSubmit={handleSubmit}>
       {formFields.map((field, index) => (
-        <>
+        <React.Fragment key={index}>
           {field.type === "textarea" ? (
             <textarea
               key={index}
@@ -107,7 +108,7 @@ const Form1 = () => {
           {errors[field.name] && (
             <p className="text-red-500">{errors[field.name]}</p>
           )}
-        </>
+        </React.Fragment>
       ))}
       <button
         type="submit"

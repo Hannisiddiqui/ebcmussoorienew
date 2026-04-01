@@ -10,12 +10,14 @@ import ExploreNearbySection from "./components/ExploreNearbySection";
 import { homePageData } from "./components/homePageData";
 import PetFriendly from "./components/PetFriendly";
 import PressSection from "./components/PressSection";
+import Partner from "./components/Partner";
 
 export default function Home() {
   return (
     <main>
       <FiveLayoutGridBanner {...homePageData.bannerData} />
       <PetFriendly {...homePageData.PetFriendly} />
+      <Partner partners={homePageData.partners} />
       <IntroSection
         {...homePageData.introData}
         contentWrapperClassName="max-w-4xl w-full"

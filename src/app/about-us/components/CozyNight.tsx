@@ -11,7 +11,7 @@ interface CozyNightProps {
 const CozyNight: React.FC<CozyNightProps> = ({ title, description, image }) => {
   return (
     <SectionWithContainer sectionClassName="relative after:bg-primary after:z-[-2] after:inset-0 after:absolute">
-        <div className={`absolute inset-0 z-[-1] bg-[url('/about-us/experience.png')] bg-cover bg-no-repeat opacity-50`}/>
+        <div className={`absolute lg:hidden inset-0 z-[-1] bg-[url('/about-us/experience.png')] bg-cover bg-no-repeat opacity-50`}/>
       <div className="grid lg:grid-cols-[1.2fr_2fr] grid-cols-1 gap-8 md:gap-16">
         <div className="">
           <SectionHeading title={title} titleColor="white" mdTextCenter />

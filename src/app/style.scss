@@ -113,7 +113,7 @@
 .marquee-wrapper {
   display: flex;
   width: max-content;
-  animation: marquee 18s linear infinite;
+  animation: marquee 38s linear infinite;
 }
 
 .marquee-track {
@@ -177,9 +177,9 @@ input:focus {
 }
 
 
-.blog-data {
+.content-class {
   line-height: 1.7;
-  font-size: clamp(1rem, 1.1vw, 1.125rem); // 16px → 18px
+  font-size: clamp(1rem, 2.5vw, 1.25rem); // 16px → 22px
 
   /* Reset */
   > *:last-child {
@@ -193,10 +193,10 @@ input:focus {
   h4,
   h5,
   h6 {
-    font-weight: 600;
+    font-weight: 200;
     line-height: 1.3;
     margin: 2rem 0 1rem;
-    color: #111827;
+    font-family: var(--font-pppangaia);
   }
 
   h1 {
@@ -234,6 +234,7 @@ input:focus {
   li {
     // margin-bottom: 0.6rem;
     line-height: 1.65;
+    font-size: inherit;
   }
 
   ul li {

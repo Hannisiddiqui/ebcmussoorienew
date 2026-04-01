@@ -13,7 +13,7 @@ type CtaBtnProps = {
   type: BtnType;
   [key: string]: unknown;
   target?: string;
-  icon?: "arrow" | "arrow2" | "none";
+  icon?: "arrow" | "arrow2" | "direction" | "none";
 
   startIcon?: "mail" | "whatsapp" | "call" | "download" | "Booking" | "none";
 };
@@ -80,9 +80,7 @@ export const CtaBtn: React.FC<CtaBtnProps> = ({
       onClick={onClick}
     >
       {startIcon === "Booking" && (
-        <span
-          className={`text-white ${startIconClass}`}
-        >
+        <span className={`text-white ${startIconClass}`}>
           <BookingIcon />
         </span>
       )}
@@ -106,6 +104,13 @@ export const CtaBtn: React.FC<CtaBtnProps> = ({
           className={`w-6 aspect-square flex items-center justify-center rounded-full ${iconClass ? iconClass : "text-primary"} bg-white`}
         >
           <ArrowBtn2 />
+        </span>
+      )}
+      {icon === "direction" && (
+        <span
+          className={`w-6 aspect-square flex items-center justify-center rounded-full ${iconClass ? iconClass : "text-primary"} bg-white`}
+        >
+          <DirectionIcon />
         </span>
       )}
     </Link>
@@ -176,6 +181,24 @@ export const BookingIcon = () => (
     <path
       d="M19.8671 14.5877L16.2146 17.9777L14.6378 16.4683C14.4128 16.2527 14.0584 16.262 13.8428 16.4852C13.6271 16.7102 13.6365 17.0664 13.8596 17.2802L15.819 19.1552C15.9278 19.2583 16.0684 19.3108 16.2071 19.3108C16.344 19.3108 16.4809 19.2602 16.5896 19.1608L20.6303 15.4108C20.8571 15.1989 20.8721 14.8427 20.6603 14.6158C20.4503 14.3908 20.094 14.3758 19.8671 14.5877Z"
       fill="currentColor"
+    />
+  </svg>
+);
+
+export const DirectionIcon = () => (
+  <svg
+    width={24}
+    height={24}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M20.0021 14.9996C20.0021 14.9996 22.0011 13.5266 22.0011 12.9996C22.0011 12.4726 20.0011 10.9996 20.0011 10.9996M21.7761 12.8666C20.3641 13.1566 17.7181 13.2696 16.4081 10.8166C15.8651 9.95258 15.9671 8.50658 15.9671 6.86058C15.9331 6.19058 15.3611 4.96958 13.9291 5.00058C12.4971 5.03158 12.0271 6.20658 11.9711 6.79058V16.9016C11.9851 17.7536 11.4911 18.9986 9.97509 18.9986C8.49509 18.9986 7.91509 17.6866 8.04309 16.7036C8.38909 14.0396 7.58009 11.2466 4.08009 11.0026H1.99609"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

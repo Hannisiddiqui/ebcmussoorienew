@@ -77,7 +77,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
       {subTitle && (
         <Headings
           level={subTitleLevel}
-          className={`md:text-[2.5rem]/[3rem] text-xl font-semibold ${subTitleClassName} ${subTitleColor ? `text-${subTitleColor}` : "text-primary"} ${
+          className={`md:text-[1.375rem] text-xl font-medium ${subTitleClassName} ${subTitleColor ? `text-${subTitleColor}` : "text-[#686868]"} ${
             mdTextCenter ? "md:text-center" : ""
           } ${textCenter ? "text-center mx-auto" : ""} ${
             smTextCenter ? "max-md:text-center" : ""

@@ -38,8 +38,8 @@ const WebSiteFooter = () => {
             />
           </Link>
           {/* call contact */}
-          <div className="flex flex-col gap-2 max-md:order-3">
-            <p className="max-md:text-center">{webSiteFooterData.description}</p>
+          <div className="flex flex-col gap-3 max-md:order-3">
+            <p className="max-md:text-center text-xl font-medium">{webSiteFooterData.description}</p>
             <div className="md:ml-auto max-md:mx-auto w-fit flex items-center">
               <CtaBtn
                 type="link"
@@ -128,7 +128,7 @@ const WebSiteFooter = () => {
             <span className="md:block hidden">|</span>
             <p className="">All Rights Reserved</p>
             <span className="md:block hidden">|</span>
-            <p className="">Powered by Eazotel</p>
+            <p className="">Powered by Fielmente</p>
           </div>
         </Container>
       </div>

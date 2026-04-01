@@ -1,5 +1,13 @@
 import { nearby } from "@/utils/constant";
-import { CarDriveIcon, DistanceIcon, ManWalkingIcon } from "@/utils/homeIcons";
+import {
+  CarDriveIcon,
+  DistanceIcon,
+  HotelIcon1,
+  HotelIcon2,
+  HotelIcon3,
+  HotelIcon4,
+  ManWalkingIcon,
+} from "@/utils/homeIcons";
 
 export const homePageData = {
   bannerData: {
@@ -16,6 +24,45 @@ export const homePageData = {
     title: ["Pet Friendly <i>Stays</i>", "at EBC <i>Mussoorie!</i>"],
     images: ["/home/pet-1.png", "/home/pet-2.png"],
   },
+  partners: [
+    {
+      icon: <HotelIcon1 />,
+      title: "4.9/5",
+      src: "/partners/tripadvisor.png",
+    },
+    {
+      icon: <HotelIcon2 />,
+      title: "9.2/10",
+      src: "/partners/booking.png",
+    },
+    {
+      icon: <HotelIcon3 />,
+      title: "4.6/5",
+      src: "/partners/makemytrip.png",
+    },
+    {
+      icon: <HotelIcon4 />,
+      title: "8.8/10",
+      src: "/partners/Expedia.png",
+    },
+
+    {
+      icon: <HotelIcon1 />,
+      title: "4.5/5",
+      src: "/partners/yatra.png",
+    },
+
+    {
+      icon: <HotelIcon2 />,
+      title: "4.5/5",
+      src: "/partners/cleartrip.png",
+    },
+    {
+      icon: <HotelIcon3 />,
+      title: "9.1/10",
+      src: "/partners/Agoda-Logo.png",
+    },
+  ],
 
   introData: {
     title: "Everest Base Camp is a Luxury <i>Glamping</i> Resort!",
