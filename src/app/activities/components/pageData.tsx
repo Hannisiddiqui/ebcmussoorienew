@@ -50,13 +50,13 @@ export const activitiesPageData = {
   ],
 
   paidAddonsData: {
-    title: "Paid Add-ons!",
+    title: "Paid <i>Add-ons!</i>",
     description:
       "Enhance Your Experience with Our Paid Add-Ons: Exclusive Options for Extra Comfort and Adventure",
 
     items: [
       {
-        title: "Picnic in the Meadows!",
+        title: "Picnic in the <i>Meadows!</i>",
         description: [
           "Enjoy a peaceful picnic amidst the beauty of nature, with a basket brimming with delightful snacks and refreshing beverages. Our idyllic property offers the ideal setting for a relaxing afternoon, spent cherishing moments with friends and family.",
         ],
@@ -67,7 +67,7 @@ export const activitiesPageData = {
         ],
       },
       {
-        title: "Gather Together for a Barbecue!",
+        title: "Gather Together for a <i>Barbecue!</i>",
         description: [
           "Join us for an enchanting evening of grilling under the stars. Surrounded by the tranquil beauty of our property, enjoy a memorable night filled with warmth and camaraderie. As the fire crackles, savour a delightful array of your favourite grilled meats and vegetables, creating the perfect backdrop for relaxation and connection with family and friends.",
         ],
@@ -78,7 +78,7 @@ export const activitiesPageData = {
         ],
       },
       {
-        title: "Enjoy Bonfire!",
+        title: "Enjoy <i>Bonfire!</i>",
         description: [
           "Experience the magic of a private bonfire under the starlit sky, creating cherished moments with your loved ones. Unwind after exploring Mussoorie's natural beauty in the warmth of your own intimate setting, fostering both adventure and relaxation.",
         ],
@@ -89,7 +89,7 @@ export const activitiesPageData = {
         ],
       },
       {
-        title: "Nature Trekking!",
+        title: "Nature <i>Trekking!</i>",
         description: [
           "Embark on the George Everest Peak trek amidst Mussoorie's serene hills, with our knowledgeable guide providing direction and companionship along the way. Enjoy a refreshing sandwich, tea, and water as you explore hidden gems and breathtaking Himalayan views.",
         ],

@@ -13,7 +13,7 @@ const Cuisine: React.FC<CuisineProps> = ({ title, description, images }) => {
         <SingleImageSlider images={images} />
       </div>
       <div className="flex flex-col w-full overflow-hidden gap-6">
-        <SectionHeading title={title} titleColor="white" />
+        <SectionHeading title={title} titleColor="white" mdTextCenter />
         <div className="w-full xl:hidden ">
           <SingleImageSlider images={images} />
         </div>

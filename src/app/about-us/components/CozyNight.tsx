@@ -14,7 +14,7 @@ const CozyNight: React.FC<CozyNightProps> = ({ title, description, image }) => {
         <div className={`absolute lg:hidden inset-0 z-[-1] bg-[url('/about-us/experience.png')] bg-cover bg-no-repeat opacity-50`}/>
       <div className="grid lg:grid-cols-[1.2fr_2fr] grid-cols-1 gap-8 md:gap-16">
         <div className="">
-          <SectionHeading title={title} titleColor="white" mdTextCenter />
+          <SectionHeading title={title} titleColor="white" smTextCenter />
           <div className="w-full relative aspect-4/1.5 mt-.5 lg:block hidden">
             <Image src={image} alt={title} fill className="object-contain" />
           </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Banner: React.FC<BannerProps> = ({ images }) => {
   return (
-    <Section defaultPadding={false} className="bg-background-1 p-1">
+    <Section defaultPadding={false} className="bg-background-1 py-1">
       {images.length < 2 ? (
         <div className="w-full relative md:aspect-[4/1.8] aspect-4/2">
           <Image

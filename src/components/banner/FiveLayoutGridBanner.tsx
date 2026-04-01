@@ -16,7 +16,7 @@ const FiveLayoutGridBanner: React.FC<FiveLayoutGridBannerProps> = ({
     "col-span-3 row-span-1",
   ];
   return (
-    <Section defaultPadding={false} className="overflow-hidden p-1" >
+    <Section defaultPadding={false} className="overflow-hidden lg:py-1 py-0.5" >
       <div className="md:grid hidden grid-cols-10 lg:auto-rows-[18.5rem] auto-rows-[14rem] grid-flow-row overflow-hidden gap-1">
         {images.map((item, index) => (
           <div

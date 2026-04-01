@@ -10,7 +10,7 @@ const CommonCard2: React.FC<CommonCard2Props> = ({
   items,
 }) => {
   return (
-    <SectionWithContainer containerClassName="space-y-8 md:space-y-16">
+    <SectionWithContainer containerClassName="space-y-6 md:space-y-16">
       <SectionHeading title={title} textCenter />
       {description && (
         <p className="text-[1.375rem] text-center text-[#686868]">
@@ -24,7 +24,7 @@ const CommonCard2: React.FC<CommonCard2Props> = ({
               className={`w-full xl:block hidden ${index % 2 !== 0 ? "order-2" : "order-1"}`}
             >
               {item.image && (
-                <div className="w-full relative aspect-4/2.75  rounded-3xl">
+                <div className="w-full relative aspect-4/2.75 rounded-3xl overflow-hidden">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -45,7 +45,7 @@ const CommonCard2: React.FC<CommonCard2Props> = ({
             <div
               className={`flex flex-col gap-6 ${index % 2 !== 0 ? "order-1" : "order-2"}`}
             >
-              <SectionHeading title={item.title} />
+              <SectionHeading title={item.title} titleClassName="md:text-[2.5rem] text-[1.875rem] max-lg:text-center!"  />
               <div className={`w-full xl:hidden`}>
                 {item.image && (
                   <div className="w-full relative aspect-4/2.75 overflow-hidden rounded-3xl">

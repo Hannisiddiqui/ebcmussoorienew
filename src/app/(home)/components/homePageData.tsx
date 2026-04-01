@@ -13,7 +13,7 @@ export const homePageData = {
   bannerData: {
     images: [
       "/banner/1.png",
-      "/banner/bnr2.png",
+      "/home/bnr.png",
       "/banner/3.png",
       "/banner/2_1.png",
       "/banner/3_2.png",
@@ -46,22 +46,22 @@ export const homePageData = {
       src: "/partners/Expedia.png",
     },
 
-    {
-      icon: <HotelIcon1 />,
-      title: "4.5/5",
-      src: "/partners/yatra.png",
-    },
+    // {
+    //   icon: <HotelIcon1 />,
+    //   title: "4.5/5",
+    //   src: "/partners/yatra.png",
+    // },
 
     {
       icon: <HotelIcon2 />,
       title: "4.5/5",
       src: "/partners/cleartrip.png",
     },
-    {
-      icon: <HotelIcon3 />,
-      title: "9.1/10",
-      src: "/partners/Agoda-Logo.png",
-    },
+    // {
+    //   icon: <HotelIcon3 />,
+    //   title: "9.1/10",
+    //   src: "/partners/Agoda-Logo.png",
+    // },
   ],
 
   introData: {
@@ -73,7 +73,7 @@ export const homePageData = {
   },
 
   aboutData: {
-    title: "About Everest Base Camp Mussoorie!",
+    title: "About Everest Base Camp <i>Mussoorie!</i>",
     description: [
       '"We are a pet-friendly escape where your furry companions are always welcome."',
       "Discover Your Mountain Oasis. Experience Luxury Camping at Everest Base Camp Mussoorie! Our seven spacious rooms, each uniquely inspired by nature, offer top-notch bed and bath fittings with stunning views of the hills and forests. Enjoy the relaxing corridor and cozy patio overlooking the jungle. Experience nature's tranquility and wake up to the sweet songs of songbirds at our resort!",
@@ -86,7 +86,7 @@ export const homePageData = {
   },
 
   experienceData: {
-    title: "Not Just a Stay, It’s An Experience!",
+    title: "Not Just a Stay, It’s An <i>Experience!</i>",
     description:
       "Experience luxury amidst the serene hills at Everest Base Camp with a range of amenities to choose from, including a fine dining restaurant, outdoor activities, and luxury accommodations, we provide the perfect escape from the hustle and bustle of everyday life. Discover the perfect blend of nature and luxury at our resort.",
   },
@@ -148,7 +148,7 @@ export const homePageData = {
   },
 
   exploreNearbyData: {
-    title: "Explore Beyond Your Stay!",
+    title: "Explore Beyond Your <i>Stay!</i>",
     description:
       "Discover scenic spots, hidden gems, and local attractions just minutes away. Step out and explore experiences that make your stay even more memorable.",
     image: "/mountain.png",

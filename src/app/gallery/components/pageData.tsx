@@ -4,8 +4,7 @@ export const galleryPageData = {
     title: "Our <i>Gallery!</i>",
     description:
       "Immerse yourself in serene Himalayan landscapes with breathtaking views and guided adventures at every step. Experience the perfect harmony of luxury camping and nature’s tranquility in Mussoorie.",
-    // images: ["/rooms/room1.png", "/rooms/room2.png"],
-    images: ["/activities/banner-1.png", "/activities/banner-2.png"]
+    images: ["/gallery/bnr-2.png", "/gallery/bnr-1.png"]
   },
 
   cards: [

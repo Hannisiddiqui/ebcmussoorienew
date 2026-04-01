@@ -5,7 +5,7 @@ import BannerSlider from "./BannerSlider";
 
 const ThreeGridLayoutBanner: React.FC<BannerProps> = ({ title, images }) => {
   return (
-    <Section defaultPadding={false} className="overflow-hidden p-1">
+    <Section defaultPadding={false} className="overflow-hidden lg:py-1 py-0.5">
       <div className="md:grid hidden md:grid-cols-3 gap-1 ">
         {images.map((item, index) => (
           <div

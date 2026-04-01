@@ -17,7 +17,7 @@ const StayWith: React.FC<StayWithProps> = ({
   return (
     <SectionWithContainer
       sectionClassName="bg-primary relative"
-      containerClassName="md:max-w-[35rem]! max-md:py-6"
+      containerClassName="md:max-w-[35rem]! max-md:py-8"
     >
       <h2 className="text-3xl lg:text-5xl/tight flex flex-wrap gap-2 items-center justify-center font-extralight text-center font-primary text-white">
         <span className="" dangerouslySetInnerHTML={{ __html: title[0] }} />

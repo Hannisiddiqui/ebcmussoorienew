@@ -32,7 +32,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
         </div>
         {/* Text Content */}
         <div className="flex flex-col gap-6 md:gap-8">
-          <SectionHeading title={title} smTextCenter />
+          <SectionHeading title={title} />
           <BannerSlider images={images} wrapperClassName="lg:hidden block rounded-3xl" />
           <div className="flex flex-col gap-5">
             {description.map((para, index) => (

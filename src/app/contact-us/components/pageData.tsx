@@ -23,7 +23,7 @@ export const contactUsPageData = {
   },
   mapUrl: contacts.addresses[0].mapUrl,
   formData: {
-    title: "Have Questions?",
+    title: "Have <i>Questions?</i>",
     description: "Contact Us and Start Your Next Adventure!",
   },
 };

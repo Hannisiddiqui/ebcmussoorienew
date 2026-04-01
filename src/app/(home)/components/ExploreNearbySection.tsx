@@ -21,6 +21,9 @@ const ExploreNearbySection: React.FC<ExploreNearbyProps> = ({
           </div>
           <SectionHeading title={title} titleColor="white" />
           <p className="md:text-[1.375rem] text-white">{description}</p>
+          <div className="lg:col-span-5 lg:hidden">
+          <ExploreNearbySlider cards={cards} />
+        </div>
           <CtaBtn
             label={link.label}
             href={link.href}
@@ -28,7 +31,7 @@ const ExploreNearbySection: React.FC<ExploreNearbyProps> = ({
             className="text-white bg-transparent rounded-lg w-fit font-primary border-white"
           />
         </div>
-        <div className="lg:col-span-5">
+        <div className="lg:col-span-5 lg:block hidden">
           <ExploreNearbySlider cards={cards} />
         </div>
       </div>

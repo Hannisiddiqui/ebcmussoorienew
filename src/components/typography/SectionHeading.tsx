@@ -64,7 +64,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
           <Headings
             level={titleLevel}
             heading={title}
-            className={`md:text-5xl text-3xl font-extralight font-primary ${titleClassName} ${
+            className={`md:text-5xl/[56px] text-3xl font-extralight font-primary ${titleClassName} ${
               mdTextCenter ? "md:text-center" : ""
             } ${textCenter ? "text-center" : ""} ${
               smTextCenter ? "max-md:text-center" : ""

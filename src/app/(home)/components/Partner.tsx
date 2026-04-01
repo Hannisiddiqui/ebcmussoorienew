@@ -9,7 +9,7 @@ interface PartnerProps {
 }
 
 const Partner: React.FC<{ partners: PartnerProps[] }> = ({ partners }) => {
-    partners = [...partners, ...partners];
+  partners = [...partners, ...partners];
   return (
     <SectionWithContainer defaultPadding={false} sectionClassName="bg-primary">
       <div
@@ -19,7 +19,7 @@ const Partner: React.FC<{ partners: PartnerProps[] }> = ({ partners }) => {
           <div className="marquee-track">
             {partners.map((t, i) => (
               <div key={i} className="marquee-item font-semibold">
-                <div className="flex items-center gap-2 justify-center">
+                <div className="flex items-center gap-6 justify-center">
                   <span>{t.icon}</span>
                   <div>
                     <h3 className="text-2xl text-primary font-secondary">
@@ -35,7 +35,7 @@ const Partner: React.FC<{ partners: PartnerProps[] }> = ({ partners }) => {
                     </div>
                   </div>
                 </div>
-                <span className="separator w-0.5 h-7 aspect-square bg-primary"></span>
+                <span className="separator w-[0.5px] h-10 aspect-square bg-primary"></span>
               </div>
             ))}
           </div>

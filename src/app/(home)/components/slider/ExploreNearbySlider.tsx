@@ -2,7 +2,7 @@
 import { ExploreNearbyProps } from "@/@types/@homeType";
 import SwiperCarousel from "@/components/slider/SwiperCarousel";
 import Image from "next/image";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 const ExploreNearbySlider: React.FC<{ cards: ExploreNearbyProps["cards"] }> = ({
   cards,
@@ -11,14 +11,27 @@ const ExploreNearbySlider: React.FC<{ cards: ExploreNearbyProps["cards"] }> = ({
     <div className="w-full block overflow-hidden">
       <SwiperCarousel
         data={cards}
-        modules={[Navigation]}
-        slidesPerView={1.5}
+        modules={[Navigation, Autoplay]}
+        loop
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        slidesPerView={1}
         spaceBetween={16}
         breakpoints={{
           768: {
-            slidesPerView: 2.2,
+            slidesPerView: 1,
             spaceBetween: 24,
           },
+          1024: {
+            slidesPerView: 1.2,
+            spaceBetween: 24,
+          },
+          1280: {
+            slidesPerView: 2.2,
+            spaceBetween: 24,
+          }
         }}
         renderSlide={(card) => <ExploreNearbyCard {...card} />}
       />

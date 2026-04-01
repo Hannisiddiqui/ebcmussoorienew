@@ -11,13 +11,13 @@ const PetFriendly: React.FC<PetFriendlyProps> = ({ title, images }) => {
       sectionClassName="bg-primary relative"
       containerClassName="md:max-w-[35rem]! max-md:py-6"
     >
-      <h2 className="text-3xl lg:text-5xl/tight flex flex-wrap gap-2 items-center justify-center font-extralight text-center font-primary text-white">
+      <h2 className="text-[1.75rem] md:text-5xl/tight flex flex-wrap gap-2 items-center justify-center font-extralight text-center font-primary text-white">
         <span className="flex gap-2 items-center justify-center">
           <span
             className="mt-1"
             dangerouslySetInnerHTML={{ __html: title[0] }}
           />
-          <span className="inline-block w-30 aspect-4/2 -mt-1 relative rounded-full overflow-hidden border-2 border-white">
+          <span className="inline-block w-30 md:aspect-4/2 aspect-4/1.5 -mt-1 relative rounded-full overflow-hidden border-2 border-white">
             <Image
               src={images[0]}
               alt={title[0]}
@@ -28,7 +28,7 @@ const PetFriendly: React.FC<PetFriendlyProps> = ({ title, images }) => {
           </span>
         </span>
         <span className="flex gap-2 items-center justify-center">
-          <span className="inline-block w-30 aspect-4/2 -mt-1 relative rounded-full overflow-hidden border-2 border-white">
+          <span className="inline-block w-30 md:aspect-4/2 aspect-4/1.5 -mt-1 relative rounded-full overflow-hidden border-2 border-white">
             <Image
               src={images[1]}
               alt={title[1]}

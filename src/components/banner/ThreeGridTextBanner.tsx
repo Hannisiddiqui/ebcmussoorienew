@@ -14,7 +14,7 @@ const ThreeGridTextBanner: React.FC<ThreeGridTextBannerProps> = ({
   images,
 }) => {
   return (
-    <Section defaultPadding={false}>
+    <Section defaultPadding={false} className="lg:py-1 py-0.5">
       <div className="grid lg:grid-cols-3 grid-cols-1">
         <div className="w-full relative lg:aspect-4/4.75 aspect-square">
           <Image src={images[0]} alt={title} fill className="object-cover" />

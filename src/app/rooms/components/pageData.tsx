@@ -19,7 +19,7 @@ export const roomPageData = {
   },
   rooms: [
     {
-      title: "The Camper",
+      title: "The <i>Camper!</i>",
       subTitle: "Homely Haven  | 1-3 people  | 280sqft",
       description: [
         "Experience a cozy retreat in our Camper rooms, perfectly suited for couples seeking a luxurious holiday getaway. Nestled amidst the serene surroundings, these heat-insulated rooms provide unparalleled comfort and warmth. Step out onto your private balcony to soak in the breathtaking views of the Deodar forest while savoring delicious coffee.",
@@ -43,7 +43,7 @@ export const roomPageData = {
       },
     },
     {
-      title: "The Glamper",
+      title: "The <i>Glamper!</i>",
       subTitle: "Opulent Nature  | 1-3 people  | 375sqft",
       description: [
         "Glamper combines sophistication and style, providing a luxurious glamping experience in the wilderness of Everest Base Camp, Mussoorie. Enjoy plush interiors and exclusive luxury rooms for a truly indulgent retreat. Step into a world of extravagance and nature as you sip on delicious hot chocolate and admire the beauty of the Deodar forest. Best suited for small groups. ",
@@ -68,7 +68,7 @@ export const roomPageData = {
       },
     },
     {
-      title: "The Surveyor",
+      title: "The <i>Surveyor!</i>",
       subTitle: "Meadow view Cabins  | 1-3 people  | 450sqft",
       description: [
         "Experience in the ultimate wilderness retreat amidst our expansive 20 acres of spacious tents, offering the best views of a lush green forest meadow. After a day of exploration, find solace and rejuvenate your senses in the serene surroundings, surrounded by breathtaking views of the Deodar forest. Best Suited for families or small friend groups. ",
@@ -93,7 +93,7 @@ export const roomPageData = {
       },
     },
     {
-      title: "The Surveyor Suite",
+      title: "The Surveyor <i>Suite!</i>",
       subTitle: "Opulent Wilderness  | 1-4 people | 600sqft",
       description: [
         "Experience unparalleled luxury amidst nature in our Surveyor Suite at Everest Base Camp, Mussoorie. Immerse yourself in a meticulously designed tent featuring spacious living areas, extravagant amenities, and breathtaking forest views. Relax in style with a king-sized bed and the option to set up a queen-sized sofa bed, accommodating up to four people. Perfect for families or friend groups of 4.",

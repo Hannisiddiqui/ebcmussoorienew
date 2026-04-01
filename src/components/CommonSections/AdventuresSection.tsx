@@ -37,7 +37,7 @@ const AdventuresSection: React.FC<AdventuresSectionProps> = ({
             className="object-cover md:rounded-3xl rounded-2xl"
           />
         </div>
-        <div className="flex flex-col lg:gap-4 gap-8 lg:p-6 lg:ml-10">
+        <div className="flex flex-col lg:gap-4 gap-6 lg:p-6 lg:ml-10">
           <SectionHeading title={title} />
           <div className="relative aspect-4/3 w-full lg:hidden">
             <Image
