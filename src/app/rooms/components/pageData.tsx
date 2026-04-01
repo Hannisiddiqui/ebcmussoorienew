@@ -119,7 +119,7 @@ export const roomPageData = {
     },
     {
       title: "The <i>Zenith!</i>",
-      subTitle: "Opulent Wilderness  | 1-4 people | 600sqft",
+      subTitle: "The luxury cottage | 2+2 people | 510sqft",
       description: [
         "Our newest luxury cottage featuring warm tones, elegant interiors, and stunning forest views. The ultimate luxury retreat experience with private deck and hammock access. Ideal for intimate leadership gatherings and executive off-sites.",
       ],

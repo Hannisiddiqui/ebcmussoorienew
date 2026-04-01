@@ -14,8 +14,12 @@ const ImageSlider: React.FC<
 
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const buttonNextClassName = (title && title.split(" ")[1].replace(/[^\w\s-]/g, "")) || "button-next";
-  const buttonPrevClassName = (title && title.split(" ")[1].replace(/[^\w\s-]/g, "")) || "button-prev";
+  const buttonNextClassName =
+    (title && title.split(" ")[1].replace(/[^\w\s-]/g, "")) + "next" ||
+    "button-next";
+  const buttonPrevClassName =
+    (title && title.split(" ")[1].replace(/[^\w\s-]/g, "")) + "prev" ||
+    "button-prev";
   return (
     <div className="w-full aspect-[4/1.37] relative">
       <SwiperCarousel

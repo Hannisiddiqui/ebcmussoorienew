@@ -90,7 +90,7 @@ const WebSiteFooter = () => {
                       href={item.href}
                       className="flex gap-2"
                     >
-                      <span className={`md:text-[1.375rem] font-medium capitalize ${index === 3 && suIndex === 1 ? "font-secondary " : ""}`}>
+                      <span className={` font-medium capitalize ${index === 3 && suIndex === 1 ? "font-secondary font-normal! md:text-lg" : "md:text-[1.375rem]"}`}>
                         {item.label}
                       </span>
                     </Link>
@@ -105,7 +105,7 @@ const WebSiteFooter = () => {
                         <span
                           className={`${
                             index === 1
-                              ? "font-aboreto text-2xl my-auto"
+                              ? "text-2xl my-auto"
                               : "md:text-lg text-white"
                           }`}
                         >

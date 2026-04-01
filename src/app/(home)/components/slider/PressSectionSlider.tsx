@@ -39,12 +39,12 @@ const PressSectionSlider: React.FC<{ links: PressSectionProps["links"] }> = ({
       />
       <div className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2 xl:w-[104%] w-full  flex items-center justify-between">
         <button
-          className={`w-12 aspect-square rounded-full disabled:bg-white/80 backdrop-blur-md bg-background-1 flex items-center justify-center box-shadow rotate-180 press-prev`}
+          className={`w-12 aspect-square rounded-full disabled:opacity-75 backdrop-blur-md bg-background-1 flex items-center justify-center box-shadow rotate-180 press-prev`}
         >
           <ButtonNext />
         </button>
         <button
-          className={`w-12 aspect-square rounded-full disabled:bg-white/80 backdrop-blur-md bg-background-1 flex items-center justify-center box-shadow press-next`}
+          className={`w-12 aspect-square rounded-full disabled:opacity-75 backdrop-blur-md bg-background-1 flex items-center justify-center box-shadow press-next`}
         >
           <ButtonNext />
         </button>
