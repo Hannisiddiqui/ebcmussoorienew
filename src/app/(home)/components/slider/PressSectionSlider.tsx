@@ -10,17 +10,16 @@ const PressSectionSlider: React.FC<{ links: PressSectionProps["links"] }> = ({
   links,
 }) => {
   return (
-    <div className="w-full mt-8">
+    <div className="w-full mt-8 relative">
       <SwiperCarousel
         data={links}
         slidesPerView={1}
         spaceBetween={12}
         modules={[Navigation]}
         navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".press-next",
+          prevEl: ".press-prev",
         }}
-        loop
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -38,6 +37,18 @@ const PressSectionSlider: React.FC<{ links: PressSectionProps["links"] }> = ({
         speed={900}
         renderSlide={(card) => <PressSectionCard {...card} />}
       />
+      <div className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2 xl:w-[104%] w-full  flex items-center justify-between">
+        <button
+          className={`w-12 aspect-square rounded-full disabled:bg-white/80 backdrop-blur-md bg-background-1 flex items-center justify-center box-shadow rotate-180 press-prev`}
+        >
+          <ButtonNext />
+        </button>
+        <button
+          className={`w-12 aspect-square rounded-full disabled:bg-white/80 backdrop-blur-md bg-background-1 flex items-center justify-center box-shadow press-next`}
+        >
+          <ButtonNext />
+        </button>
+      </div>
     </div>
   );
 };
@@ -51,13 +62,33 @@ export const PressSectionCard: React.FC<PressSectionProps["links"][0]> = ({
   link,
 }) => {
   return (
-    <div className="relative w-full aspect-4/3 bg-black rounded-2xl overflow-hidden">
+    <Link
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="relative w-full block aspect-4/3 bg-black rounded-2xl overflow-hidden"
+    >
       <Image src={backImage} alt={name} fill className="object-cover" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-        <Link href={link} target="_blank" rel="noopener noreferrer" className="relative aspect-4/1.5 w-45 bg-background-1 flex items-center justify-center rounded-2xl overflow-hidden">
+        <div className="relative aspect-4/1.5 w-45 bg-background-1 flex items-center justify-center rounded-2xl overflow-hidden">
           <Image src={src} alt={name} fill className="object-contain py-2" />
-        </Link>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
+
+export const ButtonNext = () => (
+  <svg
+    width={8}
+    height={16}
+    viewBox="0 0 8 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M1.02538 16L0 14.8239L5.94925 8L0 1.17612L1.02538 0L8 8L1.02538 16Z"
+      fill="#29422C"
+    />
+  </svg>
+);

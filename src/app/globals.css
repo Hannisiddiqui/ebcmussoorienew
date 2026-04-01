@@ -5,6 +5,11 @@
   src: url("/public/font/PPPangaia-Medium-BF654c530cc86d5.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "PPPangaia Ultralight";
+  src: url("/public/font/PPPangaia-Ultralight-BF654c530cd00f1.otf") format("opentype");
+}
+
 :root {
   --primary: #29422C;
   --secondary: #DFB65C;
@@ -13,6 +18,7 @@
   --background-2:#F7F5EE;
   --light:#797979;
   --font-primary-medium: "PPPangaia Medium";
+  --font-primary-ultralight: "PPPangaia Ultralight";
 }
 
 @theme inline {
@@ -36,6 +42,11 @@ body {
 
 .font-primary-medium {
   font-family: var(--font-primary-medium);
+  letter-spacing: 3%;
+}
+
+.font-primary-ultralight {
+  font-family: var(--font-primary-ultralight);
   letter-spacing: 3%;
 }
 

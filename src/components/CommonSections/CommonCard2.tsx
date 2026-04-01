@@ -19,12 +19,12 @@ const CommonCard2: React.FC<CommonCard2Props> = ({
       )}
       <div className="space-y-16">
         {items.map((item, index) => (
-          <div className="grid xl:grid-cols-2 gap-8 items-center" key={index}>
+          <div className="grid xl:grid-cols-2 grid-cols-1 gap-8 items-center" key={index}>
             <div
               className={`w-full xl:block hidden ${index % 2 !== 0 ? "order-2" : "order-1"}`}
             >
               {item.image && (
-                <div className="w-full relative aspect-4/2.75 overflow-hidden rounded-3xl">
+                <div className="w-full relative aspect-4/2.75  rounded-3xl">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -46,27 +46,27 @@ const CommonCard2: React.FC<CommonCard2Props> = ({
               className={`flex flex-col gap-6 ${index % 2 !== 0 ? "order-1" : "order-2"}`}
             >
               <SectionHeading title={item.title} />
-              <div
-              className={`w-full xl:hidden`}
-            >
-              {item.image && (
-                <div className="w-full relative aspect-4/2.75 overflow-hidden rounded-3xl">
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              )}
-              {item.images && (
-                <SingleImageSlider
-                  images={item.images}
-                  aspectRatio="aspect-4/2.5"
-                  btnName={item.title}
-                />
-              )}
-            </div>
+              <div className={`w-full xl:hidden`}>
+                {item.image && (
+                  <div className="w-full relative aspect-4/2.75 overflow-hidden rounded-3xl">
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                )}
+                {item.images && (
+                  <div className="w-full overflow-hidden">
+                    <SingleImageSlider
+                      images={item.images}
+                      aspectRatio="md:aspect-4/2.5 aspect-4/3 overflow-hidden"
+                      btnName={item.title}
+                    />
+                  </div>
+                )}
+              </div>
               {item.description.map((item, index) => (
                 <p
                   key={index}

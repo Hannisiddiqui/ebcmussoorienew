@@ -21,6 +21,9 @@ const SingleImageSlider: React.FC<Props> = ({
   aspectRatio,
   btnName,
 }) => {
+
+
+
   const buttonNextClassName = btnName
     ? btnName
         .replace(/[^\w\s-]/g, "")
@@ -33,8 +36,12 @@ const SingleImageSlider: React.FC<Props> = ({
         .replace(/\s+/g, "-")
         .replace(/-+/g, "-") + "button-prev"
     : "button-prev";
+
+
+
+
   return (
-    <div className="w-full relative block">
+    <div className="relative w-full! max-lg:overflow-hidden! block!">
       <SwiperCarousel
         data={images}
         slidesPerView={1}
@@ -42,6 +49,7 @@ const SingleImageSlider: React.FC<Props> = ({
         modules={[Autoplay, Navigation]}
         centeredSlides
         loop
+        className=""
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -57,7 +65,7 @@ const SingleImageSlider: React.FC<Props> = ({
 
           return (
             <div
-              className={`w-full relative ${aspectRatio || "md:aspect-4/3.25"} aspect-square`}
+              className={`w-full relative ${aspectRatio || "md:aspect-4/3.25 aspect-square"} `}
             >
               <Image
                 src={src}
@@ -70,7 +78,7 @@ const SingleImageSlider: React.FC<Props> = ({
           );
         }}
       />
-      <div className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2 z-10 xl:w-[108%] w-full  flex items-center justify-between">
+      <div className="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2 xl:w-[108%] w-full  flex items-center justify-between">
         <button
           className={`w-12 aspect-square rounded-full bg-background-1 flex items-center justify-center box-shadow rotate-180 ${buttonPrevClassName}`}
         >

@@ -44,7 +44,7 @@ const ImageSlider: React.FC<
         }}
         renderSlide={(image, index) => (
           <div
-            className={`w-full relative rounded-3xl transition-all duration-300 ease-in-out overflow-hidden ${index === activeIndex ? "aspect-4/2.5" : "aspect-[4/2.15] mt-8"}`}
+            className={`w-full relative rounded-3xl transition-all duration-300 ease-in-out overflow-hidden ${index === activeIndex ? "md:aspect-4/2.5 aspect-square" : "md:aspect-[4/2.15] aspect-square md:mt-8"}`}
           >
             <Image
               src={image}

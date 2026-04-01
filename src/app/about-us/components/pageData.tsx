@@ -1,3 +1,5 @@
+import { bookingLink } from "@/utils/constant";
+
 export const aboutPageData = {
   bannerData: {
     title: "About Everest Base Camp, Mussoorie!",
@@ -45,7 +47,7 @@ export const aboutPageData = {
     ],
     link: {
       label: "BOOK YOUR STAY",
-      href: "#",
+      href: bookingLink,
     },
   },
 

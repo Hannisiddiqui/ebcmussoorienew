@@ -29,14 +29,14 @@ const MobileNav = () => {
           <IoClose size={24} />
         </button>
 
-        <nav className="flex flex-col gap-4 mt-10">
+        <nav className="flex flex-col gap-3 mt-10">
           {navLinks.map((link, index) => {
             return (
               <div key={index} className="text-lg">
                 <div className="flex items-center justify-between">
                   <Link
                     href={link.href || "#"}
-                    className={`text-nowrap text-xl font-semibold border-l-4 pl-2 capitalize text-primary ${
+                    className={`text-nowrap text-xl uppercase font-medium border-l-4 pl-2 text-primary ${
                       pathName === link.href
                         ? "border-secondary"
                         : "border-transparent"

@@ -266,32 +266,32 @@ export const homePageData = {
         link: "https://www.architecturaldigest.in/story/weekend-getaways-from-delhi-that-are-perfect-for-last-minute-planning/",
       },
       {
-        backImage: "/banner/3_2.png",
+        backImage: "/images/LLB.png",
         src: "/images/lbb.png",
         name: "LBB",
         link: "https://lbb.in/delhi/away-from-the-city-around-all-things-pretty-ebc-mussoorie/",
       },
       {
-        backImage: "/banner/3_2.png",
+        backImage: "/images/prSO.png",
         src: "/images/so.png",
         name: "So",
         link: "https://so.city/delhi/article/this-dreamy-resort-is-a-modern-campers-playground-with-luxury-tents-a-cafe-on-the-hill",
       },
       {
-        backImage: "/banner/3_2.png",
+        backImage: "/images/ISSU.png",
         src: "/images/issuu.png",
         name: "Issuu",
         link: "https://issuu.com/ebcmussoorie/docs/camp_stay_at_ebc_mussoorie_a_himalayan_foothills_",
       },
 
       {
-        backImage: "/banner/3_2.png",
+        backImage: "/images/PressReleases3.webp",
         src: "/images/Group_media.png",
         name: "curlytales",
         link: "https://curlytales.com/dine-under-the-sky-and-even-stay-inside-dreamy-glamps-at-mussoories-everest-base-camp-resort/",
       },
       {
-        backImage: "/banner/3_2.png",
+        backImage: "/banner/1.png",
         src: "/images/wanderalone.png",
         name: "WanderAlone",
         link: "https://wanderalone.co.in/did-you-know-that-just-7-hours-from-delhi-theres-an-everest-base-camp-no-were-not-kidding/",

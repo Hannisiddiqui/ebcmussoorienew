@@ -51,7 +51,7 @@ export const ExploreNearbyCard: React.FC<ExploreNearbyProps["cards"][0]> = ({
         </div>
       </div>
       <div className="px-4 py-5 min-h-52">
-        <h3 className="uppercase text-2xl font-primary font-extralight text-primary">
+        <h3 className="uppercase text-2xl font-primary-ultralight font-extralight text-primary">
           {placeName}
         </h3>
         <p className="text-primary text-[1.375rem]">{placeDetails}</p>
