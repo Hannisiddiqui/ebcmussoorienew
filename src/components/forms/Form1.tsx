@@ -112,7 +112,7 @@ const Form1 = () => {
       ))}
       <button
         type="submit"
-        className="bg-primary rounded-lg text-white text-lg py-4 font-primary font-medium tracking-widest!"
+        className="bg-primary rounded-t-lg rounded-b-3xl max-md:rounded-b-2xl hover:scale-105 duration-300 ease-in-out active:scale-95 text-white text-lg md:py-4 py-3 font-primary font-medium tracking-widest!"
       >
         {isSubmitting ? (
           "Submitting..."

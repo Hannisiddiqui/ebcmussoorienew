@@ -69,7 +69,7 @@ export const webSiteFooterData: WebSiteFooterData = {
   logo: "/logo-2.png",
   description: "Reserve your luxury holiday!",
   link: {
-    label: "BOOK NOW",
+    label: "Book Now",
     href: bookingLink,
   },
   lists: [

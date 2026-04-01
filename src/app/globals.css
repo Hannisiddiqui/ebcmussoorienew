@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "PPPangaia Medium";
+  src: url("/public/font/PPPangaia-Medium-BF654c530cc86d5.otf") format("opentype");
+}
+
 :root {
   --primary: #29422C;
   --secondary: #DFB65C;
@@ -7,6 +12,7 @@
   --background-1:#FCFCF9;
   --background-2:#F7F5EE;
   --light:#797979;
+  --font-primary-medium: "PPPangaia Medium";
 }
 
 @theme inline {
@@ -25,6 +31,11 @@ body {
 
 .font-primary {
   font-family: var(--font-pppangaia);
+  letter-spacing: 3%;
+}
+
+.font-primary-medium {
+  font-family: var(--font-primary-medium);
   letter-spacing: 3%;
 }
 

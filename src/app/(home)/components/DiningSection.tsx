@@ -13,7 +13,7 @@ interface DiningSectionProps {
 const DiningSection: React.FC<DiningSectionProps> = ({ image, link }) => {
   return (
     <Section defaultPadding={false}>
-      <div className="relative w-full aspect-[4/1.95]">
+      <div className="relative w-full md:aspect-[4/1.95] aspect-square">
         <Image
           src={image}
           alt="Dining Experience"
@@ -32,7 +32,7 @@ const DiningSection: React.FC<DiningSectionProps> = ({ image, link }) => {
               <CtaBtn
                 type="link"
                 href={link.href}
-                className="absolute bottom-6 right-10 z-20 bg-background-1 border-none text-primary rounded-lg font-primary"
+                className="absolute bottom-6 md:right-10 w-fit! max-md:left-1/2 max-md:-translate-x-1/2 transform z-20 bg-background-1 border-none text-primary rounded-lg font-primary"
                 label={link.label}
               />
             </div>

@@ -248,6 +248,24 @@ export const homePageData = {
     title: "Featured Press <i>Releases!</i>",
     links: [
       {
+        backImage: "/images/PressReleases-1.png",
+        src: "/images/tripoto2.png",
+        name: "Tripoto",
+        link: "https://www.tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8",
+      },
+      {
+        backImage: "/images/PressReleases-2.png",
+        src: "/images/hotelier_inda.png",
+        name: "Hotelier India",
+        link: "https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie",
+      },
+      {
+        backImage: "/images/PressReleases-3.png",
+        src: "/images/logo-ad-int.svg",
+        name: "AD",
+        link: "https://www.architecturaldigest.in/story/weekend-getaways-from-delhi-that-are-perfect-for-last-minute-planning/",
+      },
+      {
         backImage: "/banner/3_2.png",
         src: "/images/lbb.png",
         name: "LBB",
@@ -261,28 +279,11 @@ export const homePageData = {
       },
       {
         backImage: "/banner/3_2.png",
-        src: "/images/hotelier_inda.png",
-        name: "Hotelier India",
-        link: "https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie",
-      },
-      {
-        backImage: "/banner/3_2.png",
-        src: "/images/tripoto2.png",
-        name: "Tripoto",
-        link: "https://www.tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8",
-      },
-      {
-        backImage: "/banner/3_2.png",
         src: "/images/issuu.png",
         name: "Issuu",
         link: "https://issuu.com/ebcmussoorie/docs/camp_stay_at_ebc_mussoorie_a_himalayan_foothills_",
       },
-      {
-        backImage: "/banner/3_2.png",
-        src: "/images/logo-ad-int.svg",
-        name: "AD",
-        link: "https://www.architecturaldigest.in/story/weekend-getaways-from-delhi-that-are-perfect-for-last-minute-planning/",
-      },
+
       {
         backImage: "/banner/3_2.png",
         src: "/images/Group_media.png",

@@ -4,7 +4,7 @@ export const aboutPageData = {
     images: [
       "/about-us/bnr-1.png",
       "/about-us/bnr-2.png",
-      "/about-us/bnr-1.png",
+      "/about-us/bnr-3.png",
     ],
   },
 

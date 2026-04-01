@@ -47,7 +47,7 @@ const WebSiteFooter = () => {
                 label={webSiteFooterData.link.label}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-primary hover:shadow-none text-xl gap-4 font-primary rounded-lg border-primary"
+                className="bg-white text-primary hover:shadow-none uppercase text-xl font-primary-medium gap-4 rounded-lg border-primary"
                 startIcon="Booking"
                 startIconClass="text-primary!"
               />

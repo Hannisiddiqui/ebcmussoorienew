@@ -54,7 +54,7 @@ export const PressSectionCard: React.FC<PressSectionProps["links"][0]> = ({
     <div className="relative w-full aspect-4/3 bg-black rounded-2xl overflow-hidden">
       <Image src={backImage} alt={name} fill className="object-cover" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-        <Link href={link} className="relative aspect-4/1.5 w-45 bg-background-1 flex items-center justify-center rounded-2xl overflow-hidden">
+        <Link href={link} target="_blank" rel="noopener noreferrer" className="relative aspect-4/1.5 w-45 bg-background-1 flex items-center justify-center rounded-2xl overflow-hidden">
           <Image src={src} alt={name} fill className="object-contain py-2" />
         </Link>
       </div>

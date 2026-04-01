@@ -28,7 +28,7 @@ const AdventuresSection: React.FC<AdventuresSectionProps> = ({
     <SectionWithContainer sectionClassName="relative">
       <div className="absolute lg:left-1/2 left-0 bg-background-1 lg:w-1/2 w-full z-[-2] inset-y-0 transform  border-l border-primary" />
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
+      <div className="grid lg:grid-cols-2 grid-cols-1 items-center py-8">
         <div className="relative aspect-4/3 w-full md:w-[90%] lg:block hidden">
           <Image
             src={image}

@@ -9,7 +9,7 @@ import Image from "next/image";
 import { CtaBtn } from "../buttons/CtaBtn";
 import MobileNav from "./MobileNav";
 const Header = () => {
-  const { setIsMobileNavOpen,isMobileNavOpen } = useAppContext();
+  const { setIsMobileNavOpen, isMobileNavOpen } = useAppContext();
 
   const pathName = usePathname();
 
@@ -48,7 +48,9 @@ const Header = () => {
                     {navData.upperNav.links[0].label}
                   </span>
                 </span>
-                <span className="max-md:hidden">{navData.upperNav.links[0].label}</span>
+                <span className="max-md:hidden">
+                  {navData.upperNav.links[0].label}
+                </span>
               </Link>
             </div>
 
@@ -102,7 +104,7 @@ const Header = () => {
             />
           </Link>
           {/*  */}
-          <ul className="xl:flex hidden items-center gap-6">
+          <ul className="xl:flex hidden items-center gap-7">
             {desktopViewLinks?.map((link, index) => (
               <li key={index} className="group">
                 <Link
@@ -117,17 +119,19 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <button onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
-            <MenuIcon />
-          </button>
-          <CtaBtn
-            type="link"
-            href={"#"}
-            label={"Book Now"}
-            startIcon="Booking"
-            startIconClass="text-primary!"
-            className="bg-background-1 rounded-lg text-primary max-xl:hidden hover:shadow-none uppercase font-primary"
-          />
+          <div className="flex items-center gap-6">
+            <button onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
+              <MenuIcon />
+            </button>
+            <CtaBtn
+              type="link"
+              href={"#"}
+              label={"Book Now"}
+              startIcon="Booking"
+              startIconClass="text-primary!"
+              className="bg-background-1 rounded-lg text-primary max-xl:hidden hover:shadow-none uppercase font-primary-medium text-xl"
+            />
+          </div>
         </Container>
       </nav>
       <MobileNav />
