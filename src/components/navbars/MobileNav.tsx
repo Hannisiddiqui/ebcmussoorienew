@@ -10,10 +10,7 @@ const MobileNav = () => {
   const { isMobileNavOpen, setIsMobileNavOpen } = useAppContext();
   const pathName = usePathname();
 
-  const navLinks =
-    typeof window !== "undefined" && window.innerWidth > 1024
-      ? desktopNavLinks.slice(5)
-      : desktopNavLinks;
+  const navLinks = desktopNavLinks;
 
   return (
     <div

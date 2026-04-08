@@ -17,11 +17,7 @@ const Header = () => {
     altitude: navData?.upperNav?.temperature,
   });
 
-  const ignorePathIndex = [5, 6, 7, 8, 9];
-  // ignorePath index for desktop view
-  const desktopViewLinks = navData?.bottomNav?.navLink.filter(
-    (link, index) => !ignorePathIndex.includes(index)
-  );
+  const desktopViewLinks = navData?.bottomNav?.navLink.slice(0, 5);
 
   return (
     <header className="max_screen_width">

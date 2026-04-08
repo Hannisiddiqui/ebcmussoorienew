@@ -18,6 +18,7 @@ export const desktopNavLinks = [
   { name: "About Us", href: "/about-us/" },
   { name: "Rooms", href: "/rooms/" },
   { name: "Park Cafe", href: "/park-cafe/" },
+  { name: "Den", href: "/den/" },
   { name: "Contact Us", href: "/contact-us/" },
   { name: "Activities", href: "/activities/" },
   { name: "Blogs", href: "/blogs/" },
