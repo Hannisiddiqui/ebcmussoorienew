@@ -14,7 +14,7 @@ const Header = () => {
   const pathName = usePathname();
 
   const { temp } = useWeather({
-    altitude: navData?.upperNav?.temperature,
+    altitude: navData.upperNav.temperature,
   });
 
   const desktopViewLinks = navData?.bottomNav?.navLink.slice(0, 5);
@@ -32,7 +32,9 @@ const Header = () => {
                 <span>
                   <TempIcon />
                 </span>
-                <span className="text-xl font-secondary">{temp}°C</span>
+                <span className="text-xl font-secondary">
+                  {temp?.toFixed(1)} °C
+                </span>
               </div>
               <Link
                 href={navData.upperNav.links[0].href}
