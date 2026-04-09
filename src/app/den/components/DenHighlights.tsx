@@ -7,7 +7,7 @@
 //     <Section className="relative bg-background-2 py-16 sm:py-20">
 //       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
 //         <div className="grid gap-10 lg:grid-cols-[minmax(400px,1fr)_minmax(420px,1fr)] items-center">
-          
+
 //           {/* Image */}
 //           <div className="overflow-hidden rounded-[2rem] border border-[#29422C]/10 bg-white">
 //             <div className="relative aspect-[4/3] sm:aspect-[5/4]">
@@ -61,7 +61,7 @@ import { Section } from "@/components/sectionComponants";
 interface DenHighlightsProps {
   image: string;
   title: string;
-  description: string;
+  description: string[];
 }
 
 const DenHighlights: React.FC<DenHighlightsProps> = ({
@@ -73,16 +73,10 @@ const DenHighlights: React.FC<DenHighlightsProps> = ({
     <Section className="relative bg-background-2 py-16 sm:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
         <div className="grid gap-10 lg:grid-cols-[minmax(400px,1fr)_minmax(420px,1fr)] items-center">
-          
           {/* Image */}
           <div className="overflow-hidden rounded-[2rem] border border-[#29422C]/10 bg-white">
             <div className="relative aspect-[4/3] sm:aspect-[5/4]">
-              <Image
-                src={image}
-                alt={title}
-                fill
-                className="object-cover"
-              />
+              <Image src={image} alt={title} fill className="object-cover" />
             </div>
           </div>
 
@@ -92,11 +86,8 @@ const DenHighlights: React.FC<DenHighlightsProps> = ({
               {title}
             </h2>
 
-            <p className="text-base leading-7 text-[#4C4C4C]">
-              {description}
-            </p>
+            <p className="text-base leading-7 text-[#4C4C4C]">{description}</p>
           </div>
-
         </div>
       </div>
 

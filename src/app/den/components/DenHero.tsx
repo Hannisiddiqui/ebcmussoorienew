@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
+import { Section } from "@/components/sectionComponants";
 import SwiperCarousel from "@/components/slider/SwiperCarousel";
+import Image from "next/image";
 import { Autoplay } from "swiper/modules";
-import { Section, SectionWithContainer } from "@/components/sectionComponants";
 
 interface DenHeroProps {
   images: string[];
@@ -11,7 +11,10 @@ interface DenHeroProps {
 
 const DenHero: React.FC<DenHeroProps> = ({ images }) => {
   return (
-    <Section className=" py-1 relative overflow" defaultPadding={false} >
+    <Section
+      className=" py-1 relative overflow bg-white"
+      defaultPadding={false}
+    >
       <SwiperCarousel
         data={images}
         slidesPerView={1}
@@ -22,7 +25,7 @@ const DenHero: React.FC<DenHeroProps> = ({ images }) => {
         autoplay={{ delay: 4500, disableOnInteraction: false }}
         className="h-full"
         renderSlide={(image) => (
-          <div className="w-full h-[500px] sm:h-[600px] lg:h-[650px] relative overflow-hidden">
+          <div className="w-full md:aspect-4/2 aspect-4/3 relative overflow-hidden">
             <Image
               src={image}
               alt="The Den hero"
@@ -33,23 +36,6 @@ const DenHero: React.FC<DenHeroProps> = ({ images }) => {
           </div>
         )}
       />
-
-      <div className="absolute inset-0 bg-black/25" />
-      {/* <div className="absolute inset-0 flex items-end justify-start">
-        <div className="max-w-7xl mx-auto w-full px-4 sm:px-8 lg:px-12 pb-10 sm:pb-16">
-          <div className="max-w-2xl text-white">
-            <p className="text-xs uppercase tracking-[0.4em] text-white/80 mb-3">
-              Den
-            </p>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-primary leading-tight">
-              The Den
-            </h1>
-            <p className="mt-4 text-sm sm:text-base text-white/80 max-w-xl">
-              Welcome to The Den — a warm intimate lounge at Everest Base Camp Mussoorie where you can relax, connect with friends, and enjoy gourmet bites in a cozy ambience.
-            </p>
-          </div>
-        </div>
-      </div> */}
     </Section>
   );
 };
