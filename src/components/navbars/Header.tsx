@@ -8,6 +8,7 @@ import { navData } from "./navData";
 import Image from "next/image";
 import { CtaBtn } from "../buttons/CtaBtn";
 import MobileNav from "./MobileNav";
+import { useEffect, useRef, useState } from "react";
 const Header = () => {
   const { setIsMobileNavOpen, isMobileNavOpen } = useAppContext();
 
@@ -18,122 +19,148 @@ const Header = () => {
   });
 
   const desktopViewLinks = navData?.bottomNav?.navLink.slice(0, 5);
+  const [showNavbar, setShowNavbar] = useState(true);
+  const lastScrollY = useRef(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
 
+      if (Math.abs(currentScrollY - lastScrollY.current) < 10) return;
+
+      if (currentScrollY < 50) {
+        setShowNavbar(true);
+      } else if (currentScrollY > lastScrollY.current) {
+        setShowNavbar(false);
+      } else {
+        setShowNavbar(true);
+      }
+
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <header className="max_screen_width">
-      {/* nav upper */}
-      <div className="bg-background-2 text-primary py-3.5">
-        <Container>
-          <div className="flex items-center justify-between gap-6">
-            {/* left side content */}
+    <>
+      <header
+        className={`max_screen_width fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}
+      >
+        {/* nav upper */}
+        <div className="bg-background-2 text-primary py-3.5">
+          <Container>
+            <div className="flex items-center justify-between gap-6">
+              {/* left side content */}
 
-            <div className="flex items-center gap-4 divide-x-2 divide-primary">
-              <div className="flex items-center gap-2 pr-4">
-                <span>
-                  <TempIcon />
-                </span>
-                <span className="text-xl font-secondary">
-                  {temp?.toFixed(1)} °C
-                </span>
-              </div>
-              <Link
-                href={navData.upperNav.links[0].href}
-                className="flex items-center gap-2 text-xl font-medium"
-              >
-                <span className="text-primary">
-                  {navData.upperNav.links[0].icon}
-                  <span className="sr-only">
+              <div className="flex items-center gap-4 divide-x-2 divide-primary">
+                <div className="flex items-center gap-2 pr-4">
+                  <span>
+                    <TempIcon />
+                  </span>
+                  <span className="text-xl font-secondary">
+                    {temp?.toFixed(1)} °C
+                  </span>
+                </div>
+                <Link
+                  href={navData.upperNav.links[0].href}
+                  className="flex items-center gap-2 text-xl font-medium"
+                >
+                  <span className="text-primary">
+                    {navData.upperNav.links[0].icon}
+                    <span className="sr-only">
+                      {navData.upperNav.links[0].label}
+                    </span>
+                  </span>
+                  <span className="max-md:hidden">
                     {navData.upperNav.links[0].label}
                   </span>
-                </span>
-                <span className="max-md:hidden">
-                  {navData.upperNav.links[0].label}
-                </span>
-              </Link>
-            </div>
+                </Link>
+              </div>
 
-            {/* right side content */}
+              {/* right side content */}
 
-            <div className="flex items-center gap-4 lg:divide-x-2 divide-primary">
-              <Link
-                href={navData.upperNav.links[1].href}
-                className="flex items-center gap-2 font-medium lg:px-4"
-              >
-                <span>{navData.upperNav.links[1].icon}</span>
-                <span className="sr-only">
-                  {navData.upperNav.links[1].label}
-                </span>
-                <span className="lg:flex hidden flex-col">
-                  <span>{navData.upperNav.links[1].title}</span>
-                  <span className="font-secondary">
+              <div className="flex items-center gap-4 lg:divide-x-2 divide-primary">
+                <Link
+                  href={navData.upperNav.links[1].href}
+                  className="flex items-center gap-2 font-medium lg:px-4"
+                >
+                  <span>{navData.upperNav.links[1].icon}</span>
+                  <span className="sr-only">
                     {navData.upperNav.links[1].label}
                   </span>
-                </span>
-              </Link>
-              <ul className="md:flex hidden items-center gap-2">
-                {navData.upperNav.links.slice(2).map((link, index) => (
-                  <li key={index}>
-                    <Link
-                      href={link.href}
-                      className="flex items-center gap-2 text-xl text-white bg-primary w-10.5 aspect-square  justify-center rounded-full"
-                    >
-                      <span>{link.icon}</span>
-                      <span className="sr-only">{link.label}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </Container>
-      </div>
-      {/* nav lower */}
-      <nav className="bg-primary text-white py-2.5">
-        <Container className="flex items-center justify-between">
-          {/* logo */}
-          <Link href="/" className="relative md:w-47 w-35 block aspect-4/2.5">
-            <Image
-              src="/logo.png"
-              alt="logo"
-              fill
-              className="object-contain"
-              priority
-              sizes="100vw"
-            />
-          </Link>
-          {/*  */}
-          <ul className="xl:flex hidden items-center gap-7">
-            {desktopViewLinks?.map((link, index) => (
-              <li key={index} className="group">
-                <Link
-                  href={link.href}
-                  className={`text-[1.375rem] font-medium uppercase p-2 relative `}
-                >
-                  {link.name}
-                  <span
-                    className={`absolute left-0 w-0 -bottom-0.5 h-0.5 bg-secondary z-10 transition-all duration-300 group-hover:w-full ${pathName === link.href ? "w-full" : ""}`}
-                  ></span>
+                  <span className="lg:flex hidden flex-col">
+                    <span>{navData.upperNav.links[1].title}</span>
+                    <span className="font-secondary">
+                      {navData.upperNav.links[1].label}
+                    </span>
+                  </span>
                 </Link>
-              </li>
-            ))}
-          </ul>
-          <div className="flex items-center gap-6">
-            <button onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
-              <MenuIcon />
-            </button>
-            <CtaBtn
-              type="link"
-              href={"#"}
-              label={"Book Now"}
-              startIcon="Booking"
-              startIconClass="text-primary!"
-              className="bg-background-1 rounded-lg text-primary max-xl:hidden hover:shadow-none uppercase font-primary-medium text-xl"
-            />
-          </div>
-        </Container>
-      </nav>
-      <MobileNav />
-    </header>
+                <ul className="md:flex hidden items-center gap-2">
+                  {navData.upperNav.links.slice(2).map((link, index) => (
+                    <li key={index}>
+                      <Link
+                        href={link.href}
+                        className="flex items-center gap-2 text-xl text-white bg-primary w-10.5 aspect-square  justify-center rounded-full"
+                      >
+                        <span>{link.icon}</span>
+                        <span className="sr-only">{link.label}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </Container>
+        </div>
+        {/* nav lower */}
+        <nav className="bg-primary text-white py-2.5">
+          <Container className="flex items-center justify-between">
+            {/* logo */}
+            <Link href="/" className="relative md:w-47 w-35 block aspect-4/2.5">
+              <Image
+                src="/logo.png"
+                alt="logo"
+                fill
+                className="object-contain"
+                priority
+                sizes="100vw"
+              />
+            </Link>
+            {/*  */}
+            <ul className="xl:flex hidden items-center gap-7">
+              {desktopViewLinks?.map((link, index) => (
+                <li key={index} className="group">
+                  <Link
+                    href={link.href}
+                    className={`text-[1.375rem] font-medium uppercase p-2 relative `}
+                  >
+                    {link.name}
+                    <span
+                      className={`absolute left-0 w-0 -bottom-0.5 h-0.5 bg-secondary z-10 transition-all duration-300 group-hover:w-full ${pathName === link.href ? "w-full" : ""}`}
+                    ></span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <div className="flex items-center gap-6">
+              <button onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
+                <MenuIcon />
+              </button>
+              <CtaBtn
+                type="link"
+                href={"#"}
+                label={"Book Now"}
+                startIcon="Booking"
+                startIconClass="text-primary!"
+                className="bg-background-1 rounded-lg text-primary max-xl:hidden hover:shadow-none uppercase font-primary-medium text-xl"
+              />
+            </div>
+          </Container>
+        </nav>
+        <MobileNav />
+      </header>
+      <div className="h-[178px] md:h-[210px] lg:h-[214px]"></div>
+    </>
   );
 };
 

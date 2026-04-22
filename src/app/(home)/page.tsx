@@ -11,11 +11,12 @@ import { homePageData } from "./components/homePageData";
 import PetFriendly from "./components/PetFriendly";
 import PressSection from "./components/PressSection";
 import Partner from "./components/Partner";
+import VideoBanner from "@/components/banner/VideoBanner";
 
 export default function Home() {
   return (
     <main>
-      <FiveLayoutGridBanner {...homePageData.bannerData} />
+      <VideoBanner {...homePageData.bannerData} />
       <PetFriendly {...homePageData.PetFriendly} />
       <Partner partners={homePageData.partners} />
       <IntroSection
@@ -29,7 +30,7 @@ export default function Home() {
       <AdventuresSection {...homePageData.activitiesData} />
       <ExploreNearbySection {...homePageData.exploreNearbyData} />
       <PressSection {...homePageData.pressData} />
-      <StayWith {...homePageData.ctaData}/>
+      <StayWith {...homePageData.ctaData} />
     </main>
   );
 }

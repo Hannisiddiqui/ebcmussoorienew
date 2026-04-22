@@ -11,13 +11,10 @@ import {
 
 export const homePageData = {
   bannerData: {
-    images: [
-      "/banner/1.png",
-      "/home/bnr.png",
-      "/banner/3.png",
-      "/banner/2_1.png",
-      "/banner/3_2.png",
-    ],
+    video: {
+      src: "https://eazotel-client-webp-images.s3.ap-south-1.amazonaws.com/Ebc-New-Ui-Image/0408-2.mp4",
+      poster: "/home/video-poster.png",
+    },
   },
 
   PetFriendly: {

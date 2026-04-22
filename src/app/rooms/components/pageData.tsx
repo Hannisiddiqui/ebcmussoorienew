@@ -137,6 +137,53 @@ export const roomPageData = {
         type: btnType,
       },
     },
+
+    {
+      title: "Andrew’s <i>Villa!</i>",
+      subTitle: "Your Private Luxury Escape | 1-4 people | 1300sq.ft.",
+      description: [
+        "Experience unparalleled luxury amidst nature in our Surveyor Suite at Everest Base Camp, Mussoorie. Immerse yourself in a meticulously designed tent featuring spacious living areas, extravagant amenities, and breathtaking forest views. Relax in style with a king-sized bed and the option to set up a queen-sized sofa bed, accommodating up to four people. Perfect for families or friend groups of four.",
+        "Enjoy the utmost privacy and seclusion in our most premium and spacious room, offering tranquility and indulgence like never before.",
+      ],
+
+      images: [
+        "/andrew-villa/Suite-Bedroom-2.png",
+        "/andrew-villa/Suite-Bedroom-3.png",
+        "/andrew-villa/Suite-Bedroom-4.png",
+        "/andrew-villa/Suite-Bedroom-5.png",
+        "/andrew-villa/Suite-Bedroom-6.png",
+        "/andrew-villa/Suite-Bedroom-7.png",
+      ],
+      link: {
+        label: "BOOK YOUR STAY",
+        href: bookingLink,
+        type: btnType,
+      },
+    },
+    {
+      title: "Twin Luxury  <i>Cottages!</i>",
+      subTitle: "Hillside Luxury for Families & Groups | 1250 sq. ft",
+      description: [
+        "Spanning approximately 1300 sq. ft., Andrew’s Villa is a spacious duplex private villa, ideal for families and groups seeking an exclusive yet flexible stay experience.",
+        "Positioned around 40 ft above the ground, the villa offers some of the finest panoramic views on the property. The soundproof design ensures complete peace and privacy, while premium comforts such as heated WC make it perfect for a luxurious all-weather stay.",
+        "We have 2 villas in this category, each consisting of 2 well-appointed rooms with separate entrances. This unique layout allows different families to stay together while still enjoying their own private spaces—making it ideal for group travel with enhanced privacy.",
+        "The villa also features a large indoor lounge/living area perfect for gathering and spending quality time together which can also be coverted into a private room with queen size bed, Each floor includes an balcony with comfortable seating and a  offering beautiful spaces to relax and take in the surroundings. The bottom floor offers a huge outdoor deck with hammock and dinning table and loungers. Set amidst serene landscapes, the villa combines expansive interiors with thoughtfully designed indoor and outdoor areas—making it ideal for celebrations, family getaways, and premium group stays.",
+      ],
+
+      images: [
+        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-3.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-4.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-5.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-6.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-7.png",
+      ],
+      link: {
+        label: "BOOK YOUR STAY",
+        href: bookingLink,
+        type: btnType,
+      },
+    },
   ],
   ctaData: {
     title: ["Come Stay with us at,", "EBC <i>Mussoorie!</i>"],
