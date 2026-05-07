@@ -3,11 +3,17 @@ import SectionHeading from "@/components/typography/SectionHeading";
 import { blogPagedata } from "./components/pageData";
 import Image from "next/image";
 import Link from "next/link";
+import BlogSection from "./components/BlogSection";
+import HeroHeaderSection from "@/components/CommonSections/HeroHeaderSection";
+import BlogSocialSection from "./components/BlogSocialSection";
 
 export default function BlogPage() {
   return (
-    <main>
-      <SectionWithContainer>
+    <main className="bg-black py-12">
+      <HeroHeaderSection {...blogPagedata?.banner} />
+      <BlogSection cards={blogPagedata?.cards} />
+      <BlogSocialSection {...blogPagedata.socialSection} />
+      {/* <SectionWithContainer>
         <SectionHeading
           title={blogPagedata.banner.title}
           level={1}
@@ -16,8 +22,9 @@ export default function BlogPage() {
         <p className="text-[#686868] md:text-[1.375rem] font-medium text-center mt-4">
           {blogPagedata.banner.description}
         </p>
-      </SectionWithContainer>
-      <SectionWithContainer sectionClassName="bg-primary">
+      </SectionWithContainer> */}
+
+      {/* <SectionWithContainer sectionClassName="bg-primary">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
           {blogPagedata.cards.map((card, index) => (
             <Link
@@ -34,7 +41,7 @@ export default function BlogPage() {
             </Link>
           ))}
         </div>
-      </SectionWithContainer>
+      </SectionWithContainer> */}
     </main>
   );
 }

@@ -84,9 +84,9 @@ export default function RootLayout({
     >
       <body>
         <AppProvider>
-          <NavBar />
+          {/* <NavBar /> */}
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </AppProvider>
       </body>
     </html>
