@@ -123,10 +123,38 @@ nature photography in the forest.`,
 Himalayan views — perfect for families or two
 couples travelling together.`,
         price: "From ₹20,000 / night",
-        primaryButton: {
+        secondaryButton: {
           label: "Book for Family",
           href: "/",
         },
+        image: "/family-stays/FamilyRoom2.png",
+      },
+      {
+        id: 2,
+        badge: "Flagship Villa",
+        title: "Andrew's Villa",
+        description: `Mussoorie's most exclusive private villa — a
+sanctuary of uncompromised luxury in the
+Himalayan forest.`,
+        price: "From ₹20,000 / night",
+        secondaryButton: {
+          label: "Book for Family",
+          href: "/",
+        },
+        image: "/family-stays/FamilyRoom2.png",
+      },
+      {
+        id: 3,
+        badge: "Signature Cottage",
+        title: "The Zenith",
+        description: `The signature luxury cottage in the forest —
+EBC's original icon of Himalayan glamping.`,
+        price: "From ₹18,000 / night",
+        secondaryButton: {
+          label: "Book for Family",
+          href: "/",
+        },
+        image: "/family-stays/FamilyRoom3.jpg",
       },
     ],
   },
