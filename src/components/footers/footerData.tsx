@@ -76,14 +76,14 @@ export const footerNavLinks = [
   { name: "Terms & Conditions", href: "/terms-and-conditions/" },
 ];
 export const roomFooterLinks = [
-  { name: "All Rooms", href: "/" },
-  { name: "Andrew's Villa", href: "/about-us/" },
-  { name: "Twin Cottages", href: "/rooms/" },
-  { name: "The Zenith", href: "/contact-us/" },
-  { name: "Surveyor Suite", href: "/activities/" },
-  { name: "The Surveyor", href: "/activities/" },
-  { name: "The Glamper", href: "/activities/" },
-  { name: "The Camper", href: "/activities/" },
+  { name: "All Rooms", href: "/rooms" },
+  { name: "Andrew's Villa", href: "/rooms/andrews-villa/" },
+  { name: "Twin Cottages", href: "/rooms/twin-luxury-cottages/" },
+  { name: "The Zenith", href: "/rooms/the-zenith/" },
+  { name: "Surveyor Suite", href: "/rooms/surveyor-suite/" },
+  { name: "The Surveyor", href: "/rooms/the-surveyor/" },
+  { name: "The Glamper", href: "/rooms/the-glamper/" },
+  { name: "The Camper", href: "/rooms/the-camper/" },
 ];
 export const exploreFooterLinks = [
   { name: "Experiences", href: "/" },

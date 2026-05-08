@@ -45,14 +45,14 @@ export default function NewFooter() {
                         <h3 className="mb-6 text-lg font-medium text-[#d2ab62]">
                             Rooms
                         </h3>
-                        <ul className="space-y-4 text-sm">
+                        <ul className="space-y-4 text-sm flex flex-col">
                             {rooms.map((room) => (
-                                <li
+                                <Link href={room.href}
                                     key={room.href}
                                     className="cursor-pointer transition hover:text-[#d2ab62]"
                                 >
                                     {room.label}
-                                </li>
+                                </Link>
                             ))}
                         </ul>
                     </div>
