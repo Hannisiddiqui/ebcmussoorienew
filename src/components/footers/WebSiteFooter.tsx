@@ -6,7 +6,7 @@ import { webSiteFooterData } from "./footerData";
 
 const WebSiteFooter = () => {
   return (
-    <footer className="max_screen_width bg-background-1 text-primary">
+    <footer className="max_screen_width bg-primary text-white border">
       <Container>
         <div className="flex max-md:flex-col gap-6 items-center justify-between py-6 md:py-10 border-b border-primary">
           {/* social media links */}
@@ -68,11 +68,10 @@ const WebSiteFooter = () => {
                   >
                     {item.icon && (
                       <span
-                        className={`mt-px ${
-                          index === 1
-                            ? "text-secondary flex items-center justify-center rounded-sm bg-white w-10 aspect-square"
-                            : "inline-block"
-                        }`}
+                        className={`mt-px ${index === 1
+                          ? "text-secondary flex items-center justify-center rounded-sm bg-white w-10 aspect-square"
+                          : "inline-block"
+                          }`}
                       >
                         {item.icon}
                         <span className="sr-only">{item.label}</span>
@@ -103,11 +102,10 @@ const WebSiteFooter = () => {
                         className="flex gap-2 max-md:ml-8"
                       >
                         <span
-                          className={`${
-                            index === 1
-                              ? "text-2xl my-auto"
-                              : "md:text-lg text-white"
-                          }`}
+                          className={`${index === 1
+                            ? "text-2xl my-auto"
+                            : "md:text-lg text-white"
+                            }`}
                         >
                           {item.label2}
                         </span>

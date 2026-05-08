@@ -49,8 +49,8 @@ export const contacts = {
   socialContacts: {
     facebook: "https://www.facebook.com/ebc.mussoorie/",
     instagram: "https://www.instagram.com/ebcmussoorie/",
-    linkedin: "https://www.linkedin.com",
-    twitter: "https://x.com/ebcmussoorie",
+    // linkedin: "https://www.linkedin.com",
+    // twitter: "https://x.com/ebcmussoorie",
     tripadvisor:
       "https://www.tripadvisor.in/Hotel_Review-g297689-d23292009-Reviews-Everest_Base_Camp_Mussoorie-Mussoorie_Dehradun_District_Uttarakhand.html",
     youtube: "https://www.youtube.com/@EverestBaseCampMussoorie",
