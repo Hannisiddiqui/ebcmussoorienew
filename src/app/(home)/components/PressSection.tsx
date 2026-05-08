@@ -5,7 +5,7 @@ import PressSectionSlider from "./slider/PressSectionSlider";
 
 const PressSection: React.FC<PressSectionProps> = ({ title, links }) => {
   return (
-    <SectionWithContainer sectionClassName="bg-background-1">
+    <SectionWithContainer sectionClassName="bg-ternary">
       <div className="flex flex-col gap-2">
         <SectionHeading title={title} textCenter />
         <div className="flex items-center justify-center gap-1">
