@@ -80,6 +80,7 @@ const ShowCaseCard = ({
             {secondaryButton && (
               <Link
                 href={secondaryButton.href || "#"}
+                target="_blank"
                 className="bg-[#C8A46B] px-5 py-3 text-sm font-medium uppercase tracking-[0.15em] text-black transition-all duration-300 hover:bg-[#d8b47b]"
               >
                 {secondaryButton.label}

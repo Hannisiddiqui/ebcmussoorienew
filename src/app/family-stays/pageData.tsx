@@ -1,3 +1,5 @@
+import { bookingLink } from "@/utils/constant";
+
 export const familyStayPageData = {
   bannerData: {
     title: "Family Stays",
@@ -125,7 +127,7 @@ couples travelling together.`,
         price: "From ₹20,000 / night",
         secondaryButton: {
           label: "Book for Family",
-          href: "/",
+          href: bookingLink,
         },
         image: "/family-stays/FamilyRoom2.png",
       },
@@ -139,7 +141,7 @@ Himalayan forest.`,
         price: "From ₹20,000 / night",
         secondaryButton: {
           label: "Book for Family",
-          href: "/",
+          href: bookingLink,
         },
         image: "/family-stays/FamilyRoom2.png",
       },
@@ -152,7 +154,7 @@ EBC's original icon of Himalayan glamping.`,
         price: "From ₹18,000 / night",
         secondaryButton: {
           label: "Book for Family",
-          href: "/",
+          href: bookingLink,
         },
         image: "/family-stays/FamilyRoom3.jpg",
       },

@@ -128,10 +128,10 @@ export const homePageData = {
       label: "DISCOVER OUR ROOMS",
       href: "/rooms/",
     },
-    image:{
-      src:"/home-about.png",
-      alt:"Est. 2019"
-    }
+    image: {
+      src: "/home-about.png",
+      alt: "Est. 2019",
+    },
   },
 
   aboutData: {
@@ -147,159 +147,127 @@ export const homePageData = {
     },
   },
   accommodationsData: {
-    title: "Premium <i>Accommodations!</i>",
+    title: "Our Accommodations",
     description: [
-      "Seven unique stays, each one a different way to experience the Himalayas!",
+      "Seven unique stays — each one a different way to experience the Himalayas",
     ],
     items: [
       {
-        category: "Flagship Villa",
+        badge: "Flagship Villa",
         title: "Andrew's Villa",
-        details: [
-          { text: "Forest View", icon: <ForestViewIcon /> },
-          { text: "1300 sq. ft", icon: <SqFtIcon /> },
-          { text: "1-4 people", icon: <PeopleIcon /> },
-        ],
-        description: [
-          "Mussoorie's most exclusive private villa, a sanctuary of uncompromised luxury in the Himalayan forest.",
-        ],
+        description: `Mussoorie's most exclusive private villa — a
+sanctuary of uncompromised luxury in the
+Himalayan forest.`,
         price: "From ₹20,000 / night",
-        images: [
-          "/andrew-villa/Suite-Bedroom-2.png",
-          "/andrew-villa/Suite-Bedroom-3.png",
-          "/andrew-villa/Suite-Bedroom-4.png",
-          "/andrew-villa/Suite-Bedroom-5.png",
-          "/andrew-villa/Suite-Bedroom-6.png",
-          "/andrew-villa/Suite-Bedroom-7.png",
-        ],
-        link: { label: "BOOK NOW", href: bookingEngining },
+        image: "/andrew-villa/Suite-Bedroom-2.png",
+        primaryButton: {
+          label: "View Room",
+          href: "/rooms/andrews-villa",
+        },
+        secondaryButton: {
+          label: "Book Now",
+          href: bookingLink,
+        },
       },
       {
-        category: "Luxury Cottages",
+        badge: "Luxury Cottages",
         title: "Twin Luxury Cottages",
-        details: [
-          { text: "Forest View", icon: <ForestViewIcon /> },
-          { text: "1250 sq. ft", icon: <SqFtIcon /> },
-          { text: "2-4 people", icon: <PeopleIcon /> },
-        ],
-        description: [
-          "Dual luxury cottages with panoramic Himalayan views, perfect for families or two couples together.",
-        ],
+        description: `Dual luxury cottages with panoramic
+Himalayan views — perfect for families or two
+couples travelling together.`,
         price: "From ₹20,000 / night",
-        images: [
-          "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
-          "/Twin-Luxury-Cottages/Suite-Bedroom-3.png",
-          "/Twin-Luxury-Cottages/Suite-Bedroom-4.png",
-          "/Twin-Luxury-Cottages/Suite-Bedroom-5.png",
-          "/Twin-Luxury-Cottages/Suite-Bedroom-6.png",
-          "/Twin-Luxury-Cottages/Suite-Bedroom-7.png",
-        ],
-        link: { label: "BOOK NOW", href: bookingEngining },
+        image: "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
+        primaryButton: {
+          label: "View Room",
+          href: "/rooms/twin-luxury-cottage",
+        },
+        secondaryButton: {
+          label: "Book Now",
+          href: bookingLink,
+        },
       },
       {
-        category: "Signature Cottage",
+        badge: "Signature Cottage",
         title: "The Zenith",
-        details: [
-          { text: "Forest View", icon: <ForestViewIcon /> },
-          { text: "510 sq. ft", icon: <SqFtIcon /> },
-          { text: "2+2 people", icon: <PeopleIcon /> },
-        ],
-        description: [
-          "The signature luxury cottage in the forest EBC's original icon of Himalayan glamping.",
-        ],
+        description: `The signature luxury cottage in the forest —
+EBC's original icon of Himalayan glamping.`,
         price: "From ₹18,000 / night",
-        images: [
-          landingpageImgSrc + "zenith/DSC04996-HDR-2.webp",
-          landingpageImgSrc + "zenith/DSC04953-HDR-2.webp",
-          landingpageImgSrc + "zenith/DJI_0763.webp",
-          landingpageImgSrc + "zenith/DSC05021.webp",
-          landingpageImgSrc + "zenith/DSC05055.webp",
-        ],
-        link: { label: "BOOK NOW", href: bookingEngining },
+        image: "/The Zenith/RoomImage1.jpg",
+        primaryButton: {
+          label: "View Room",
+          href: "/rooms/the-zenith",
+        },
+        secondaryButton: {
+          label: "Book Now",
+          href: bookingLink,
+        },
       },
       {
-        category: "SUITE",
+        badge: "Suite",
         title: "Surveyor Suite",
-        details: [
-          { text: "Forest View", icon: <ForestViewIcon /> },
-          { text: "600 sq. ft", icon: <SqFtIcon /> },
-          { text: "1-4 people", icon: <PeopleIcon /> },
-        ],
-        description: [
-          "Spacious suite with private sit-out — generous space for those who want room to breathe.",
-        ],
+        description: `Spacious suite with private sit-out —
+generous space for those who want room to
+breathe.`,
         price: "From ₹16,000 / night",
-        images: [
-          landingpageImgSrc + "surveyor-new/DSC_6442.webp",
-          landingpageImgSrc + "surveyor-new/DSC_6610.webp",
-          landingpageImgSrc + "surveyor-new/DSC_6458.webp",
-          landingpageImgSrc + "surveyor-new/IMG_4177.webp",
-          landingpageImgSrc + "surveyor-new/DSC05333.JPG.webp",
-        ],
-        link: { label: "BOOK NOW", href: bookingEngining },
+        image: "/Surveyor Suite/RoomImage1.jpg",
+        primaryButton: {
+          label: "View Room",
+          href: "/rooms/surveyor-suite",
+        },
+        secondaryButton: {
+          label: "Book Now",
+          href: bookingLink,
+        },
       },
       {
-        category: "Premium Glamping",
+        badge: "Premium Glamping",
         title: "The Surveyor",
-        details: [
-          { text: "Forest View", icon: <ForestViewIcon /> },
-          { text: "450 sq. ft", icon: <SqFtIcon /> },
-          { text: "1-3 people", icon: <PeopleIcon /> },
-        ],
-        description: [
-          "Premium glamping with forest canopy views, a step into the wild without leaving luxury behind.",
-        ],
+        description: `Premium glamping with forest canopy views
+— a step into the wild without leaving luxury
+behind.`,
         price: "From ₹14,000 / night",
-        images: [
-          landingpageImgSrc + "surveyor_suite/img2.webp",
-          imgSrc + "room/surveyor-suite/img3.webp",
-          landingpageImgSrc + "surveyor_suite/img1.webp",
-          landingpageImgSrc + "surveyor_suite/img3.webp",
-          imgSrc + "room/surveyor-suite/img4.webp",
-        ],
-        link: { label: "BOOK NOW", href: bookingEngining },
+        image: "/The Surveyor/RoomImage1.jpg",
+        primaryButton: {
+          label: "View Room",
+          href: "/rooms/the-surveyor",
+        },
+        secondaryButton: {
+          label: "Book Now",
+          href: bookingLink,
+        },
       },
       {
-        category: "Luxury Tent",
+        badge: "Luxury Tent",
         title: "The Glamper",
-        details: [
-          { text: "Forest View", icon: <ForestViewIcon /> },
-          { text: "375 sq. ft", icon: <SqFtIcon /> },
-          { text: "1-3 people", icon: <PeopleIcon /> },
-        ],
-        description: [
-          "Luxury tented glamping experience, the romance of a tent with every modern comfort within.",
-        ],
+        description: `Luxury tented glamping experience — the
+romance of a tent with every modern comfort
+within.`,
         price: "From ₹12,000 / night",
-        images: [
-          landingpageImgSrc + "glamper/img3.webp",
-          imgSrc + "room/glamper/img1.webp",
-          landingpageImgSrc + "glamper/img1.webp",
-          landingpageImgSrc + "glamper/img2.webp",
-          landingpageImgSrc + "glamper/img4.webp",
-        ],
-        link: { label: "BOOK NOW", href: bookingEngining },
+        image: "/The Glamper/RoomImage1.jpg",
+        primaryButton: {
+          label: "View Room",
+          href: "/rooms/the-glamper",
+        },
+        secondaryButton: {
+          label: "Book Now",
+          href: bookingLink,
+        },
       },
       {
-        category: "Forest Glamping",
+        badge: "Forest Glamping",
         title: "The Camper",
-        details: [
-          { text: "Forest View", icon: <ForestViewIcon /> },
-          { text: "280 sq. ft", icon: <SqFtIcon /> },
-          { text: "1-3 people", icon: <PeopleIcon /> },
-        ],
-        description: [
-          "The perfect forest glamping introduction, pure, elemental, and utterly memorable.",
-        ],
+        description: `The perfect forest glamping introduction —
+pure, elemental, and utterly memorable.`,
         price: "From ₹10,000 / night",
-        images: [
-          landingpageImgSrc + "camper/img3.webp",
-          imgSrc + "room/camper/img4.webp",
-          landingpageImgSrc + "camper/img1.webp",
-          landingpageImgSrc + "camper/img2.webp",
-          imgSrc + "room/camper/img3.webp",
-        ],
-        link: { label: "BOOK NOW", href: bookingEngining },
+        image: "/The Camper/RoomImage1.jpg",
+        primaryButton: {
+          label: "View Room",
+          href: "/rooms/the-camper",
+        },
+        secondaryButton: {
+          label: "Book Now",
+          href: bookingLink,
+        },
       },
     ],
 
@@ -359,37 +327,37 @@ export const homePageData = {
         title: "Bonfire Evenings",
         description:
           "Every night ends around a private bonfire under an open Himalayan sky. This is the signature EBC experience.",
-        icon: <BonfireIcon />,
+        icon: "✦",
       },
       {
         title: "Stargazing",
         description:
           "At 2,160m with minimal light pollution, the night sky at EBC is extraordinary. Spot constellations, satellites and shooting stars.",
-        icon: <StargazingIcon />,
+        icon: "✦",
       },
       {
         title: "Forest Walks",
         description:
           "Guided morning walks through the deodar forest. Spot Himalayan birds, wildflowers and  if lucky, pugmarks in the mud.",
-        icon: <ForestWalksIcon />,
+        icon: "✦",
       },
       {
         title: "Himalayan Views",
         description:
           "Wake up to panoramic mountain vistas. On clear mornings, Himalayan peaks emerge through the mist in shades of gold and rose.",
-        icon: <HimalayanViewsIcon />,
+        icon: "✦",
       },
       {
         title: "Bird Watching",
         description:
           "Observe diverse bird species in their natural habitat for a peaceful and immersive nature experience.",
-        icon: <BirdWatchingIcon />,
+        icon: "✦",
       },
       {
         title: "Chef Special Menu",
         description:
           "Signature dishes crafted by our chef to deliver a refined and unforgettable dining experience.",
-        icon: <ChefSpecialIcon />,
+        icon: "✦",
       },
     ],
     link: {

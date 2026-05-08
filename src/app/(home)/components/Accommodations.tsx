@@ -3,6 +3,7 @@ import RoomCardNew from "./cards/RoomCardNew";
 import LazyLoadedVideo from "@/components/Video/SEOVideo";
 import { AccommodationsTypes } from "@/@types/@homeType";
 import { SectionWithContainer } from "@/components/sectionComponants";
+import ShowCaseCard from "@/components/cards/ShowCaseCard";
 
 const Accommodations: React.FC<AccommodationsTypes> = ({
   title,
@@ -19,9 +20,10 @@ const Accommodations: React.FC<AccommodationsTypes> = ({
       <SectionHeading2 title={title} description={description[0]} textCenter />
       <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 ">
         {items.slice(0, items.length - 1).map((item, index) => (
-          <RoomCardNew key={index} {...item} />
+          <ShowCaseCard key={index} {...item} />
         ))}
-        <div className="relative w-full aspect-4/5.5 xl:block hidden">
+
+        {/* <div className="relative w-full aspect-4/5.5 xl:block hidden">
           <LazyLoadedVideo
             src={video[0].videoSrc}
             muted
@@ -29,11 +31,11 @@ const Accommodations: React.FC<AccommodationsTypes> = ({
             loop
             controls={false}
           />
-        </div>
-        {items.slice(items.length - 1).map((item, index) => (
+        </div> */}
+        {/* {items.slice(items.length - 1).map((item, index) => (
           <RoomCardNew key={index} {...item} />
-        ))}
-        <div className="relative w-full aspect-4/5.5">
+        ))} */}
+        {/* <div className="relative w-full aspect-4/5.5">
           <LazyLoadedVideo
             src={video[1].videoSrc}
             muted
@@ -41,7 +43,7 @@ const Accommodations: React.FC<AccommodationsTypes> = ({
             loop
             controls={false}
           />
-        </div>
+        </div> */}
       </div>
     </SectionWithContainer>
   );

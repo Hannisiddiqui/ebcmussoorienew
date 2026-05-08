@@ -25,29 +25,29 @@ const navLinks = [
   },
 
   {
-    label: "Experience",
-    href: "/experience",
+    label: "Family Stays",
+    href: "/family-stays",
   },
 
-  {
-    label: "For You",
-    href: "/for-you",
-    subLinks: [
-      {
-        label: "Couples",
-        // href: "/for-you/couples",
-        href: "#",
-      },
-      {
-        label: "Families",
-        href: "#",
-      },
-      {
-        label: "Corporate Retreats",
-        href: "#",
-      },
-    ],
-  },
+  // {
+  //   label: "For You",
+  //   href: "/for-you",
+  //   subLinks: [
+  //     {
+  //       label: "Couples",
+  //       // href: "/for-you/couples",
+  //       href: "#",
+  //     },
+  //     {
+  //       label: "Families",
+  //       href: "#",
+  //     },
+  //     {
+  //       label: "Corporate Retreats",
+  //       href: "#",
+  //     },
+  //   ],
+  // },
 
   {
     label: "Packages",
@@ -146,7 +146,7 @@ const Navbar2 = () => {
               /> */}
             </div>
 
-            <div className="text-white flex items-center gap-8">
+            <div className="text-white md:flex hidden items-center gap-8">
               {navLinks.map((link, index) => (
                 <div
                   key={index}
