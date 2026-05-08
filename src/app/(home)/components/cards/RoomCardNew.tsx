@@ -14,7 +14,7 @@ const RoomCardNew: React.FC<AccommodationsTypes["items"][0]> = ({
   details,
 }) => {
   const slugRoomUrl =
-    "/room/" +
+    "/rooms/" +
     title
       .toLowerCase()
       .trim()
@@ -45,8 +45,6 @@ const RoomCardNew: React.FC<AccommodationsTypes["items"][0]> = ({
             label={"view room"}
             href={slugRoomUrl}
             className="bg-secondary border-none rounded-sm text-primary uppercase"
-            target="_blank"
-            rel="noopener noreferrer"
           />
 
           <LinkButton

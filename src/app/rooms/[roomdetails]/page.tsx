@@ -1,4 +1,8 @@
+import HeroBanner from "@/components/banner/HeroBanner";
 import { roomDetailsPageData } from "./components/pageData";
+import AboutUs from "./components/AboutUs";
+import RoomsFeatures from "./components/RoomsFeatures";
+import PerfectForData from "./components/PerfectForData";
 
 interface Params {
   params: {
@@ -58,16 +62,28 @@ export async function generateMetadata({ params }: Params) {
 }
 
 export default async function RoomDetailsPage({ params }: Params) {
+  const path = await params;
+  const pageData = roomDetailsPageData.find(
+    (post) => post.slug === path.roomdetails
+  );
 
-    const path = await params;
-    const pageData = roomDetailsPageData.find((post) => post.slug === path.roomdetails);
-
-    if (!pageData) {
-      return (
-        <main>
-          <h1>404</h1>
-        </main>
-      );
-    }
-  return <div>Room Details Page</div>;
+  if (!pageData) {
+    return (
+      <main>
+        <h1>404</h1>
+      </main>
+    );
+  }
+  return (
+    <main>
+      {pageData?.banner && <HeroBanner {...pageData.banner} />}
+      {pageData?.aboutUsData && <AboutUs {...pageData?.aboutUsData} />}
+      {pageData?.roomsFeatures && (
+        <RoomsFeatures {...pageData?.roomsFeatures} />
+      )}
+      {pageData?.perfectForData && (
+        <PerfectForData {...pageData?.perfectForData} />
+      )}
+    </main>
+  );
 }
