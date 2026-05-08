@@ -1,6 +1,7 @@
 "use client";
 import { usePathname } from "next/navigation";
 import WebSiteFooter from "./WebSiteFooter";
+import NewFooter from "./NewFooter";
 const Footer = () => {
   const pathName = usePathname();
   const RenderFooter = WebSiteFooter;
@@ -9,7 +10,7 @@ const Footer = () => {
       return null;
 
     default:
-      return <RenderFooter />;
+      return <NewFooter />;
   }
 };
 

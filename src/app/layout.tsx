@@ -92,7 +92,7 @@ export default function RootLayout({
         <AppProvider>
           <NavBar />
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </AppProvider>
       </body>
     </html>
