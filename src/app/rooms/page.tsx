@@ -1,13 +1,12 @@
-import IntroSection from "@/components/CommonSections/IntroSection";
-import { roomPageData } from "./components/pageData";
-import ThreeGridTextBanner from "@/components/banner/ThreeGridTextBanner";
-import CommonCardSection from "@/components/CommonSections/CommonCardSection";
-import StayWith from "@/components/CommonSections/StayWith";
+import HeroHeaderSection from "@/components/CommonSections/HeroHeaderSection";
+import { roomPageDataNew } from "./components/roomPageDataNew";
+import { SectionWithContainer } from "@/components/sectionComponants";
+import RoomPageCard from "./components/RoomPageCard";
 
 export default function RoomsPage() {
   return (
     <main>
-      <ThreeGridTextBanner {...roomPageData.banner} />
+      {/* <ThreeGridTextBanner {...roomPageData.banner} />
       <IntroSection {...roomPageData.introData} />
       {roomPageData.rooms.map((room, index) => (
         <CommonCardSection
@@ -25,7 +24,13 @@ export default function RoomsPage() {
           }
         />
       ))}
-      <StayWith {...roomPageData.ctaData} />
+      <StayWith {...roomPageData.ctaData} /> */}
+      <HeroHeaderSection {...roomPageDataNew.banner} />
+      <SectionWithContainer sectionClassName="bg-[#070C08]" containerClassName="md:space-y-16 space-y-10" >
+        {roomPageDataNew.rooms.map((card, index) => (
+          <RoomPageCard key={index} {...card} />
+        ))}
+      </SectionWithContainer>
     </main>
   );
 }

@@ -1,7 +1,6 @@
 // components/blog/BlogSection.tsx
 
 import { SectionWithContainer } from "@/components/sectionComponants";
-import SectionHeading from "@/components/typography/SectionHeading";
 import BlogCard, { BlogCardType } from "./cards/BlogCard";
 
 type BlogSectionProps = {
