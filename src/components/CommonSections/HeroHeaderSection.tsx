@@ -15,7 +15,7 @@ export default function HeroHeaderSection({
   description,
 }: HeroHeaderSectionProps) {
   return (
-    <Section className="bg-primary">
+    <Section className="bg-[#162218]">
       <Container className="">
         <div className="flex flex-col gap-6 w-full">
           <span className="uppercase text-secondary text-sm">{title}</span>

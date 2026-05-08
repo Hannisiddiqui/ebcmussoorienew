@@ -19,12 +19,12 @@ const cormorant = Cormorant_Garamond({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const fontNeutraText = localFont({
-  src: "./font/fonnts.com-NeutraTextTF-Book.ttf",
-  weight: "400",
-  style: "normal",
-  variable: "--font-neutra-text",
-});
+// const fontNeutraText = localFont({
+//   src: "./font/fonnts.com-NeutraTextTF-Book.ttf",
+//   weight: "400",
+//   style: "normal",
+//   variable: "--font-neutra-text",
+// });
 
 // const neutraFont = localFont ({
 //   src: [

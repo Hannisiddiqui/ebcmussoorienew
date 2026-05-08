@@ -12,6 +12,7 @@ export const landingpageImgSrc =
 
 export const nearby =
   "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Ebc-New-Ui-Image/nearby/";
+export const bookingEngining = "https://live.ipms247.com/booking/book-rooms-everestbasecamp";
 
 export const desktopNavLinks = [
   { name: "Home", href: "/" },

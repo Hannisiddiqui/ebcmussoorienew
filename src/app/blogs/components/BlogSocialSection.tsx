@@ -9,7 +9,8 @@ type TSocialSectionProps = {
   buttons: {
     label: string;
     href: string;
-    variant: "primary" | "outline";
+    variant: string;
+    // variant: "primary" | "outline";
   }[];
 };
 
