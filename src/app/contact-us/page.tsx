@@ -1,5 +1,6 @@
 import ContactCardsSection from "./components/ContactCardSection";
 import ContactHeroSection from "./components/ContactHeroSection";
+import EnquirySection from "./components/EnquirySection";
 import InfoCardsSection from "./components/InforCardSection";
 import { contactUsPageData } from "./components/pageData";
 
@@ -8,6 +9,10 @@ export default function ContactUsPage() {
     <main className="bg-black">
       <ContactHeroSection {...contactUsPageData?.bannerDta} />
       <ContactCardsSection {...contactUsPageData?.contactCards} />
+      <EnquirySection
+        title="Group Enquiry"
+        subTitle="Tell us about your group and we'll get back to you within 2 hours"
+      />
       <InfoCardsSection cards={contactUsPageData.infoCards.cards} />;
       {/* <SectionWithContainer sectionClassName="relative">
         <div className="absolute lg:right-1/2 left-0 bg-background-1 lg:w-1/2 w-full z-[-2] inset-y-0 transform  border-r border-primary" />

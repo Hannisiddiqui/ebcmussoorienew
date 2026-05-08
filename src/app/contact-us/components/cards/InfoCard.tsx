@@ -30,7 +30,7 @@ export default function InfoCard({
       <SectionHeading
         level={2}
         title={title}
-        titleClassName="text-white text-[2rem] leading-tight mb-8"
+        titleClassName="text-white text-[2rem] leading-tight mb-8 font-primary"
       />
 
       {/* Address Content */}
@@ -51,7 +51,7 @@ export default function InfoCard({
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors duration-300"
+              className="transition-colors duration-300"
             >
               {item.label}
             </Link>
