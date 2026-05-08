@@ -115,13 +115,7 @@ export const roomPageDataNew = {
 
       price: "From ₹18,000 / night",
 
-      images: [
-        landingpageImgSrc + "zenith/DSC04996-HDR-2.webp",
-        landingpageImgSrc + "zenith/DSC04953-HDR-2.webp",
-        landingpageImgSrc + "zenith/DJI_0763.webp",
-        landingpageImgSrc + "zenith/DSC05021.webp",
-        landingpageImgSrc + "zenith/DSC05055.webp",
-      ],
+      images: ["/The Zenith/RoomImage1.jpg"],
 
       buttons: [
         {
@@ -156,17 +150,7 @@ export const roomPageDataNew = {
 
       price: "From ₹16,000 / night",
 
-      images: [
-        // imgSrc + "room/surveyor-suite/img1.webp",
-        // imgSrc + "room/surveyor-suite/img2.webp",
-        // imgSrc + "room/surveyor-suite/img3.webp",
-        // imgSrc + "room/surveyor-suite/img4.webp",
-        landingpageImgSrc + "surveyor_suite/img2.webp",
-        imgSrc + "room/surveyor-suite/img3.webp",
-        landingpageImgSrc + "surveyor_suite/img1.webp",
-        landingpageImgSrc + "surveyor_suite/img3.webp",
-        imgSrc + "room/surveyor-suite/img4.webp",
-      ],
+      images: ["/Surveyor Suite/RoomImage1.jpg"],
 
       buttons: [
         {
@@ -201,17 +185,7 @@ export const roomPageDataNew = {
 
       price: "From ₹14,000 / night",
 
-      images: [
-        // imgSrc + "room/surveyor/img1.webp",
-        // imgSrc + "room/surveyor/img2.webp",
-        // imgSrc + "room/surveyor/img3.webp",
-        // imgSrc + "room/surveyor/img4.webp",
-        landingpageImgSrc + "surveyor-new/DSC_6442.webp",
-        landingpageImgSrc + "surveyor-new/DSC_6610.webp",
-        landingpageImgSrc + "surveyor-new/DSC_6458.webp",
-        landingpageImgSrc + "surveyor-new/IMG_4177.webp",
-        landingpageImgSrc + "surveyor-new/DSC05333.JPG.webp",
-      ],
+      images: ["/The Surveyor/RoomImage1.jpg"],
 
       buttons: [
         {
@@ -246,17 +220,7 @@ export const roomPageDataNew = {
 
       price: "From ₹12,000 / night",
 
-      images: [
-        // imgSrc + "room/glamper/img1.webp",
-        // imgSrc + "room/glamper/img2.webp",
-        // imgSrc + "room/glamper/img3.webp",
-        // imgSrc + "room/glamper/img4.webp",
-        landingpageImgSrc + "glamper/img3.webp",
-        imgSrc + "room/glamper/img1.webp",
-        landingpageImgSrc + "glamper/img1.webp",
-        landingpageImgSrc + "glamper/img2.webp",
-        landingpageImgSrc + "glamper/img4.webp",
-      ],
+      images: ["/The Glamper/RoomImage1.jpg"],
 
       buttons: [
         {
@@ -291,17 +255,7 @@ export const roomPageDataNew = {
 
       price: "From ₹10,000 / night",
 
-      images: [
-        // imgSrc + "room/camper/img1.webp",
-        // imgSrc + "room/camper/img2.webp",
-        // imgSrc + "room/camper/img3.webp",
-        // imgSrc + "room/camper/img4.webp",
-        landingpageImgSrc + "camper/img3.webp",
-        imgSrc + "room/camper/img4.webp",
-        landingpageImgSrc + "camper/img1.webp",
-        landingpageImgSrc + "camper/img2.webp",
-        imgSrc + "room/camper/img3.webp",
-      ],
+      images: ["/The Camper/RoomImage1.jpg"],
 
       buttons: [
         {

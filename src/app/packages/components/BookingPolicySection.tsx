@@ -1,4 +1,6 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
+import { contacts } from "@/utils/constant";
+import Link from "next/link";
 import React from "react";
 import { FaCheck } from "react-icons/fa";
 
@@ -70,9 +72,13 @@ const BookingPolicySection = ({
 
         {/* Button */}
         <div className="flex justify-center mt-12">
-          <button className="bg-[#c9a56b] hover:bg-[#d6b67a] text-black uppercase tracking-widest text-sm px-10 py-4 rounded-md transition duration-300">
+          <Link
+            href={contacts?.WhatsAppCta}
+            target="_blank"
+            className="bg-[#c9a56b] hover:bg-[#d6b67a] text-black uppercase tracking-widest text-sm px-10 py-4 rounded-md transition duration-300"
+          >
             Book Via WhatsApp
-          </button>
+          </Link>
         </div>
       </div>
     </SectionWithContainer>

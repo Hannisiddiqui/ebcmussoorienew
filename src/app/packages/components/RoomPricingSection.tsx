@@ -1,4 +1,5 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
+import Link from "next/link";
 import React from "react";
 
 type RoomPricingSectionProps = {
@@ -72,9 +73,13 @@ const RoomPricingSection = ({
                 {/* Button */}
                 <td className="px-6 py-5">
                   <div className="flex justify-center">
-                    <button className="bg-[#c9a56b] hover:bg-[#d7b67f] text-black uppercase tracking-wider text-xs px-5 py-3 rounded-md transition duration-300">
+                    <Link
+                      href={room?.button?.href}
+                      target="_blank"
+                      className="bg-[#c9a56b] hover:bg-[#d7b67f] text-black uppercase tracking-wider text-xs px-5 py-3 rounded-md transition duration-300"
+                    >
                       {room.button.label}
-                    </button>
+                    </Link>
                   </div>
                 </td>
               </tr>

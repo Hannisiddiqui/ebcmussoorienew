@@ -18,6 +18,9 @@ const navLinks = [
       { label: "Twin Luxury Cottages", href: "/rooms/twin-luxury-cottages" },
       { label: "The Zenith", href: "/rooms/the-zenith" },
       { label: "Surveyor Suite", href: "/rooms/surveyor-suite" },
+      { label: "The Surveyor", href: "/rooms/the-surveyor" },
+      { label: "The Glamper", href: "/rooms/the-glamper" },
+      { label: "The Clamper", href: "/rooms/the-clamper" },
     ],
   },
 
@@ -32,15 +35,16 @@ const navLinks = [
     subLinks: [
       {
         label: "Couples",
-        href: "/for-you/couples",
+        // href: "/for-you/couples",
+        href: "#",
       },
       {
         label: "Families",
-        href: "/for-you/families",
+        href: "#",
       },
       {
         label: "Corporate Retreats",
-        href: "/for-you/corporate-retreats",
+        href: "#",
       },
     ],
   },
@@ -62,7 +66,7 @@ const navLinks = [
 ];
 
 const Navbar2 = () => {
-  const [openDropdown, setOpenDropdown] = useState(null);
+  const [openDropdown, setOpenDropdown] = useState<number | null>(null);
   const pathName = usePathname();
   const isCorporate = pathName === "/corporate/";
 
@@ -128,12 +132,12 @@ const Navbar2 = () => {
         <div className="px-6">
           <div className="flex justify-between py-4">
             <div className="relative max-w-40 w-full aspect-[4/2.25]">
-              <div>
+              <Link href="/">
                 <h2 className="font-primary text-4xl text-secondary">EBC</h2>
                 <p className="text-white/60 text-no tracking-widest">
                   Mussoorie
                 </p>
-              </div>
+              </Link>
               {/* <Image
                 src="/logo-new.png"
                 fill

@@ -1,3 +1,5 @@
+import { bookingLink } from "@/utils/constant";
+
 export const packagesPageData = {
   hero: {
     subtitle: "Transparent Pricing",
@@ -16,7 +18,7 @@ export const packagesPageData = {
         included: "Breakfast, bonfire, nature walk, 24hr support",
         button: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
       },
       {
@@ -26,7 +28,7 @@ export const packagesPageData = {
         included: "Breakfast, bonfire, nature walk, 24hr support",
         button: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
       },
       {
@@ -36,7 +38,7 @@ export const packagesPageData = {
         included: "Breakfast, bonfire, nature walk, 24hr support",
         button: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
       },
       {
@@ -46,7 +48,7 @@ export const packagesPageData = {
         included: "Breakfast, bonfire, nature walk, 24hr support",
         button: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
       },
       {
@@ -56,7 +58,7 @@ export const packagesPageData = {
         included: "Breakfast, bonfire, nature walk, 24hr support",
         button: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
       },
       {
@@ -66,7 +68,7 @@ export const packagesPageData = {
         included: "Breakfast, bonfire, nature walk, 24hr support",
         button: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
       },
       {
@@ -76,7 +78,7 @@ export const packagesPageData = {
         included: "Breakfast, bonfire, nature walk, 24hr support",
         button: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
       },
     ],

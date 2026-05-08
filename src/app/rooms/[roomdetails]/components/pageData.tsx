@@ -9,13 +9,13 @@ export const roomDetailsPageData = [
     },
 
     banner: {
-      title: "Andrew's Villa",
-      subTitle: "Flagship Villa",
+      title: "Flagship Villa",
+      subTitle: "Andrew's Villa",
       price: "From ₹20,000 per night · Breakfast included",
       description:
         "Mussoorie's most exclusive private villa — a sanctuary of uncompromised luxury in the Himalayan forest.",
 
-      image: "/images/rooms/andrews-villa/banner.webp",
+      image: "/andrew-villa/Suite-Bedroom-2.png",
     },
 
     aboutUsData: {
@@ -23,7 +23,7 @@ export const roomDetailsPageData = [
         "Mussoorie's most exclusive private villa — a sanctuary of uncompromised luxury in the Himalayan forest.",
       description:
         "Andrew's Villa is EBC Mussoorie's most exclusive accommodation — a fully private villa experience at the edge of the deodar forest. With its own entrance, private bonfire terrace, and panoramic Himalayan views, the Villa is designed for those who want the mountain entirely to themselves.",
-      image: "/images/rooms/andrews-villa/about.webp",
+      image: "/andrew-villa/Suite-Bedroom-2.png",
 
       links: [
         {
@@ -109,9 +109,9 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/images/rooms/andrews-villa/1.webp",
-        "/images/rooms/andrews-villa/2.webp",
-        "/images/rooms/andrews-villa/3.webp",
+        "/andrew-villa/Suite-Bedroom-2.png",
+        "/andrew-villa/Suite-Bedroom-2.png",
+        "/andrew-villa/Suite-Bedroom-6.png",
       ],
     },
   },
@@ -131,14 +131,14 @@ export const roomDetailsPageData = [
       description:
         "Dual luxury cottages with panoramic Himalayan views — perfect for families or two couples travelling together.",
 
-      image: "/images/rooms/twin-luxury-cottages/banner.webp",
+      image: "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
     },
 
     aboutUsData: {
       title: "Twin Luxury Cottages",
       description:
         "The Twin Luxury Cottages are EBC Mussoorie's newest addition — two beautifully appointed cottages that can be booked individually or together. With matching premium interiors and a shared garden terrace, they are ideal for larger families or two couples who want the intimacy of a cottage without sacrificing space.",
-      image: "/images/rooms/twin-luxury-cottages/about.webp",
+      image: "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
 
       links: [
         {
@@ -224,9 +224,9 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/images/rooms/twin-luxury-cottages/1.webp",
-        "/images/rooms/twin-luxury-cottages/2.webp",
-        "/images/rooms/twin-luxury-cottages/3.webp",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
       ],
     },
   },
@@ -246,14 +246,14 @@ export const roomDetailsPageData = [
       description:
         "The signature luxury cottage in the forest — EBC's original icon of Himalayan glamping.",
 
-      image: "/images/rooms/the-zenith/banner.webp",
+      image: "/family-stays/FamilyStayImage.jpg",
     },
 
     aboutUsData: {
       title: "The Zenith",
       description:
         "The Zenith is the accommodation that put EBC Mussoorie on the map. A freestanding luxury cottage nestled within the deodar forest, it combines premium interiors with an immersive forest setting. Wake up to birdsong, step onto the veranda to morning mist over the mountains, and end the day by a bonfire under the stars.",
-      image: "/images/rooms/the-zenith/about.webp",
+      image: "/The Zenith/RoomImage1.jpg",
 
       links: [
         {
@@ -339,9 +339,8 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/images/rooms/the-zenith/1.webp",
-        "/images/rooms/the-zenith/2.webp",
-        "/images/rooms/the-zenith/3.webp",
+        "/The Zenith/RoomImage1.jpg",
+        "/family-stays/FamilyStayImage.jpg",
       ],
     },
   },
@@ -355,20 +354,20 @@ export const roomDetailsPageData = [
     },
 
     banner: {
-      title: "The Surveyor",
-      subTitle: "Premium Glamping",
+      title: "Premium Glamping",
+      subTitle: "The Surveyor",
       price: "From ₹14,000 per night · Breakfast included",
       description:
         "Premium glamping with forest canopy views — a step into the wild without leaving luxury behind.",
 
-      image: "/images/rooms/the-surveyor/banner.webp",
+      image: "/The Surveyor/RoomImage1.jpg",
     },
 
     aboutUsData: {
       title: "The Surveyor",
       description:
         "The Surveyor is a premium glamping unit positioned deep in the forest canopy. Designed for guests who want to feel truly immersed in the Himalayan forest while maintaining every modern comfort. The Surveyor strikes the perfect balance between adventure and luxury.",
-      image: "/images/rooms/the-surveyor/about.webp",
+      image: "/The Surveyor/RoomImage1.jpg",
 
       links: [
         {
@@ -454,9 +453,9 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/images/rooms/the-surveyor/1.webp",
-        "/images/rooms/the-surveyor/2.webp",
-        "/images/rooms/the-surveyor/3.webp",
+        "/The Surveyor/RoomImage1.jpg",
+        "/The Surveyor/RoomImage1.jpg",
+        "/The Surveyor/RoomImage1.jpg",
       ],
     },
   },
@@ -476,14 +475,14 @@ export const roomDetailsPageData = [
       description:
         "Spacious suite with private sit-out — generous space for those who want room to breathe.",
 
-      image: "/images/rooms/surveyor-suite/banner.webp",
+      image: "/Surveyor Suite/RoomImage1.jpg",
     },
 
     aboutUsData: {
       title: "Surveyor Suite",
       description:
         "The Surveyor Suite is EBC's most generous in terms of living space. A premium suite with a large private sit-out terrace, it combines the comfort of a luxury hotel suite with the intimacy of a forest retreat. Ideal for guests who value space as much as setting.",
-      image: "/images/rooms/surveyor-suite/about.webp",
+      image: "/Surveyor Suite/RoomImage1.jpg",
 
       links: [
         {
@@ -569,9 +568,9 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/images/rooms/surveyor-suite/1.webp",
-        "/images/rooms/surveyor-suite/2.webp",
-        "/images/rooms/surveyor-suite/3.webp",
+        "/Surveyor Suite/RoomImage1.jpg",
+        "/Surveyor Suite/RoomImage1.jpg",
+        "/Surveyor Suite/RoomImage1.jpg",
       ],
     },
   },
@@ -591,14 +590,14 @@ export const roomDetailsPageData = [
       description:
         "The perfect forest glamping introduction — pure, elemental, and utterly memorable.",
 
-      image: "/images/rooms/the-camper/banner.webp",
+      image: "/The Camper/RoomImage1.jpg",
     },
 
     aboutUsData: {
       title: "The Camper",
       description:
         "The Camper is the entry point into the EBC Mussoorie experience — and it is anything but ordinary. A compact, beautifully designed glamping unit that puts you directly in the forest, The Camper is perfect for those discovering glamping for the first time or travelling on a more considered budget without compromising on the EBC experience.",
-      image: "/images/rooms/the-camper/about.webp",
+      image: "/The Camper/RoomImage1.jpg",
 
       links: [
         {
@@ -680,9 +679,9 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/images/rooms/the-camper/1.webp",
-        "/images/rooms/the-camper/2.webp",
-        "/images/rooms/the-camper/3.webp",
+        "/The Camper/RoomImage1.jpg",
+        "/The Camper/RoomImage1.jpg",
+        "/The Camper/RoomImage1.jpg",
       ],
     },
   },
@@ -702,14 +701,14 @@ export const roomDetailsPageData = [
       description:
         "Luxury tented glamping experience — the romance of a tent with every modern comfort within.",
 
-      image: "/images/rooms/the-glamper/banner.webp",
+      image: "/The Glamper/RoomImage1.jpg",
     },
 
     aboutUsData: {
       title: "The Glamper",
       description:
         "The Glamper is the quintessential glamping experience — a luxury tent that combines the magical feeling of sleeping in canvas under the stars with a fully appointed interior. Plush beds, proper bathrooms, and thoughtful details make this the tent that converts even the most dedicated hotel-goer.",
-      image: "/images/rooms/the-glamper/about.webp",
+      image: "/The Glamper/RoomImage1.jpg",
 
       links: [
         {
@@ -795,9 +794,9 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/images/rooms/the-glamper/1.webp",
-        "/images/rooms/the-glamper/2.webp",
-        "/images/rooms/the-glamper/3.webp",
+        "/The Glamper/RoomImage1.jpg",
+        "/The Glamper/RoomImage1.jpg",
+        "/The Glamper/RoomImage1.jpg",
       ],
     },
   },
