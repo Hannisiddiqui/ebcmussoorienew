@@ -1,11 +1,9 @@
 import HeroBanner from "@/components/banner/HeroBanner";
-import React from "react";
-import { couplesAndHoneymoonPageData } from "./pageData";
 import FamilyStaySection from "../family-stays/components/FamilyStaySection";
 import CoupleRoomSection from "./components/CoupleRoomSection";
 import RomanticInclusionSection from "./components/RomanticInclusionSection";
-import Testimonial from "./components/TestimonialSection";
 import TestimonialSection from "./components/TestimonialSection";
+import { couplesAndHoneymoonPageData } from "./pageData";
 
 const page = () => {
   return (
@@ -17,7 +15,7 @@ const page = () => {
       />
       <CoupleRoomSection {...couplesAndHoneymoonPageData?.coupleRoomSection} />
       <TestimonialSection
-        testimonials={couplesAndHoneymoonPageData?.testimonials}
+        testimonials={couplesAndHoneymoonPageData?.testimonialSection}
       />
     </main>
   );

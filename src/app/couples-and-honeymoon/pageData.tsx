@@ -124,7 +124,7 @@ EBC's original icon of Himalayan glamping.`,
     ],
   },
 
-  testimonials: [
+  testimonialSection: [
     {
       name: "— Meera S., Gurgaon",
       message: `Organised a 15-person corporate offsite here. The team loved it — bonfire, forest
