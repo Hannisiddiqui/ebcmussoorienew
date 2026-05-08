@@ -37,7 +37,7 @@ const ShowCaseCard = ({
       className={`group overflow-hidden bg-primary border border-secondary/30 transition-all duration-500 hover:-translate-y-2`}
     >
       {/* IMAGE */}
-      <div className="relative w-full aspect-4/2">
+      <div className="relative w-full aspect-4/2.5">
         <Image src={image} alt={title} fill className="object-cover" />
       </div>
 
