@@ -3,6 +3,7 @@ import { Container, Section } from "../sectionComponants";
 import { LazyLoadedVideo } from "../Video";
 import LinkButton from "../buttons/LinkButton";
 import { JSX } from "react";
+import { contacts } from "@/utils/constant";
 
 interface VideoBannerProps {
   title: string;
@@ -61,12 +62,20 @@ const VideoBanner: React.FC<VideoBannerProps> = ({
             <p className="text-white mb-2 text-base text-body lg:px-4">
               {description}
             </p>
-            <LinkButton
-              label={actions.label}
-              href={actions.href}
-              nextTab={false}
-              className="text-secondary px-6 py-3 rounded-sm border border-secondary flex justify-center items-center hover:bg-white hover:text-new-dark "
-            />
+            <div className="flex flex-wrap gap-4">
+              <LinkButton
+                label={actions.label}
+                href={actions.href}
+                nextTab={false}
+                className="text-white bg-secondary px-6 py-3 rounded-sm border border-secondary flex justify-center items-center  hover:text-new-dark "
+              />
+              <LinkButton
+                label="Book via WhatsApp"
+                href={contacts.WhatsAppCta}
+                nextTab={false}
+                className="text-secondary px-6 py-3 rounded-sm border border-secondary flex justify-center items-center hover:bg-white hover:text-new-dark "
+              />
+            </div>
           </div>
         </Container>
       </div>
