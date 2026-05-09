@@ -48,7 +48,7 @@ export default function NewFooter() {
                   key={room.href}
                   className="cursor-pointer transition hover:text-[#d2ab62]"
                 >
-                  {room.label}
+                  <Link href={room.href}>{room.label}</Link>
                 </li>
               ))}
             </ul>
@@ -63,7 +63,7 @@ export default function NewFooter() {
                   key={item.href}
                   className="cursor-pointer transition hover:text-[#d2ab62]"
                 >
-                  {item.label}
+                  <Link href={item.href}>{item.label}</Link>
                 </li>
               ))}
             </ul>
@@ -78,7 +78,7 @@ export default function NewFooter() {
                   key={item.href}
                   className="cursor-pointer transition hover:text-[#d2ab62]"
                 >
-                  {item.label}
+                  <Link href={item.href}>{item.label}</Link>
                 </li>
               ))}
             </ul>

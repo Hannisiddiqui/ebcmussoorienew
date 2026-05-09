@@ -42,7 +42,7 @@ const OurStory: React.FC<OurStoryProps> = ({
             className="text-secondary w-fit rounded-sm"
           />
         </div>
-        <div className="relative w-full aspect-4/3 lg:block hidden">
+        <div className="relative w-full aspect-4/3 ">
           <Image
             src={image.src}
             alt={image.alt}

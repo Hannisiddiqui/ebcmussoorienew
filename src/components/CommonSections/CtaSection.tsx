@@ -34,7 +34,7 @@ const CtaSection: React.FC<Props> = ({
               label={action.label}
               href={action.href}
               key={index}
-              className={`mt-4 rounded-sm ${
+              className={`mt-4 rounded-sm uppercase ${
                 index === 0
                   ? "bg-secondary text-primary border-none"
                   : "bg-transparent text-secondary"

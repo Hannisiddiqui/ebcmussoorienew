@@ -1,24 +1,18 @@
 import { ExperienceProps } from "@/@types/@homeType";
+import FeatureCard from "@/components/cards/FeatureCard";
 import {
   Container,
-  Section,
-  SectionWithContainer,
+  SectionWithContainer
 } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
-import Image from "next/image";
-import ExperienceNewCard from "./cards/ExperienceNewCard";
-import ExperienceNewSlider from "./sliders/ExperienceNewSlider";
-import FeatureCard from "@/components/cards/FeatureCard";
 
 const ExperienceNew: React.FC<ExperienceProps> = ({
   title,
   description,
-  image,
-  link,
   items,
 }) => {
   return (
-    <SectionWithContainer defaultPadding={false} sectionClassName="bg-ternary">
+    <SectionWithContainer sectionClassName="bg-[#162218]">
       {/* <Image
         src={image}
         alt={title}

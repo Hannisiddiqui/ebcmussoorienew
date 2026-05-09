@@ -1,3 +1,4 @@
+import blogData from "@/app/blogs/components/blogData";
 import {
   bookingEngining,
   bookingLink,
@@ -257,7 +258,7 @@ within.`,
         badge: "Forest Glamping",
         title: "The Camper",
         description: `The perfect forest glamping introduction —
-pure, elemental, and utterly memorable.`,
+pure, elemental, and utterly memorable..`,
         price: "From ₹10,000 / night",
         image: "/The Camper/RoomImage1.jpg",
         primaryButton: {
@@ -269,6 +270,7 @@ pure, elemental, and utterly memorable.`,
           href: bookingLink,
         },
       },
+      
     ],
 
     video: [
@@ -296,6 +298,7 @@ pure, elemental, and utterly memorable.`,
           "Safe, spacious and full of wonder, the family holiday that leaves screens behind.",
         ],
         image: "/landing/family.png",
+        link:"/family-stays"
       },
       {
         title: "Couples & <i>Honeymoon</i>",
@@ -303,6 +306,7 @@ pure, elemental, and utterly memorable.`,
           "Private bonfires, starlit skies and Himalayan mornings made for two.",
         ],
         image: "/landing/couples.png",
+        link:"/couples-and-honeymoon"
       },
       {
         title: "Corporate & <i>MICE</i>",
@@ -310,6 +314,7 @@ pure, elemental, and utterly memorable.`,
           "Safe, spacious and full of wonder, the family holiday that leaves screens behind.",
         ],
         image: "/landing/corporate.png",
+        link:"/corporate-and-mice"
       },
     ],
     link: {
@@ -317,7 +322,21 @@ pure, elemental, and utterly memorable.`,
       href: bookingLink,
     },
   },
-
+  journalData:{
+    title:"From Our Journal",
+    description:"Stories, guides and updates from EBC Mussoorie",
+    blogData
+  },
+  homeGalleryData: {
+    images:[
+      "/DSC04996-HDR-2.webp",
+      "/DSC05021.webp",
+      "/img1.webp",
+      "/DSC_6458.webp",
+      "/img1 (2).webp",
+      "/img1 (1).webp",
+    ]
+  },
   experienceData: {
     title: "Experiences at EBC <i>Mussoorie!</i>",
     description: ["The memories that guests carry home long after checkout"],
@@ -575,22 +594,11 @@ pure, elemental, and utterly memorable.`,
       },
     ],
   },
+
   testimonialData: {
     title: "What Our Guests Say",
     description: "Trusted by couples, families and corporate teams since 2019",
     testimonials: [
-      {
-        title: "Tina Thilyani",
-        subtle: `I highly commend Park Cafe in Mussoorie for it's exceptional food and delightful ambiance.The culinary experience was superb, and the inviting atmosphere added to the overall enjoyment. A most-visit for those seeking both quality cuisine and pleasant during environment`,
-      },
-      {
-        title: "Kshitij Mishra",
-        subtle: `Recently visited the Park Cafe and was impressed by the ambiance and lush outdoor seating. The cafe's location within the park  added to its appeal, providing a serene setting for enjoying a meal. Overall,I highly recommended.`,
-      },
-      {
-        title: "Shweta Gyanchandani",
-        subtle: `Park Cafe in Mussoorie is a cozy spot with delicious food and friendly service. It's near beautiful picnic spot, making it great peace and relax and enjoy a meal with stunning views.`,
-      },
       {
         title: "Tina Thilyani",
         subtle: `I highly commend Park Cafe in Mussoorie for it's exceptional food and delightful ambiance.The culinary experience was superb, and the inviting atmosphere added to the overall enjoyment. A most-visit for those seeking both quality cuisine and pleasant during environment`,
@@ -645,8 +653,8 @@ pure, elemental, and utterly memorable.`,
     actions: [
       { label: "Check Availability via WhatsApp", href: contacts.WhatsAppCta },
       {
-        label: "BOOK NOW",
-        href: bookingEngining,
+        label: "View Packages",
+        href: "/packages",
       },
     ],
   },

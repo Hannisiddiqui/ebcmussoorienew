@@ -9,12 +9,12 @@ export type TFeatureCard = {
 
 const FeatureCard = ({ id, title, description, icon }: TFeatureCard) => {
   return (
-    <div className="group flex flex-col items-center bg-primary rounded-sm relative overflow-hidden border border-secondary/30 p-12 transition-all duration-500 hover:-translate-y-2">
+    <div className="group flex flex-col items-center bg-[#1E2E21] rounded-sm relative overflow-hidden border border-secondary/30 p-12 transition-all duration-500 hover:-translate-y-2">
       {/* GLOW EFFECT */}
       <div className="absolute inset-0 bg-linear-to-br from-yellow-400/5 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
       {/* ICON */}
-      <div className="relative z-10 mb-6 flex h-14 w-14 items-center justify-center rounded-full border border-[#314336] bg-[#1B2B21] text-2xl">
+      <div className=" text-5xl mb-6 text-white">
         {icon}
       </div>
 

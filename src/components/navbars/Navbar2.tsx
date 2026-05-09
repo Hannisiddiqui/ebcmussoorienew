@@ -1,15 +1,16 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-import { Container } from "../sectionComponants";
 import { bookingLink, contacts } from "@/utils/constant";
 import { BiChevronDown } from "react-icons/bi";
+import MobileNav from "./MobileNav";
+import { useAppContext } from "@/contextApi/AppContext";
+import { MenuIcon } from "./Header";
 
-const navLinks = [
+export const navLinks = [
   {
     label: "Rooms",
     href: "/rooms",
@@ -76,6 +77,7 @@ const Navbar2 = () => {
   // ✅ useRef instead of state (prevents re-renders)
   const lastScrollY = useRef(0);
   const ticking = useRef(false);
+  const { setIsMobileNavOpen, isMobileNavOpen } = useAppContext();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -122,7 +124,7 @@ const Navbar2 = () => {
             isCorporate
               ? "bg-primary shadow-xl"
               : scrolled
-                ? "bg-new-dark backdrop-blur-md shadow-xl"
+                ? "bg-ternary backdrop-blur-md shadow-xl"
                 : "bg-transparent"
           }
         `}
@@ -167,12 +169,12 @@ const Navbar2 = () => {
                   {/* Dropdown */}
                   {link.subLinks && openDropdown === index && (
                     <div className="absolute left-0 top-full pt-5 min-w-[250px] z-50">
-                      <div className="bg-secondary border border-secondary/20 rounded-md overflow-hidden shadow-2xl">
+                      <div className="bg-ternary border border-secondary/20 rounded-md overflow-hidden shadow-2xl">
                         {link.subLinks.map((subLink, i) => (
                           <Link
                             key={i}
                             href={subLink.href}
-                            className="block px-5 py-4 text-sm text-ternary hover:bg-secondary hover:text-black transition-all duration-300 border-b border-white/5 last:border-none"
+                            className="block px-5 py-4 text-sm text-white hover:bg-secondary hover:text-black transition-all duration-300 border-b border-white/5 last:border-none"
                           >
                             {subLink.label}
                           </Link>
@@ -185,41 +187,30 @@ const Navbar2 = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              {pathName === "/" && (
+              {/* {pathName === "/" && (
                 <Link
                   href={"tel:" + contacts.phone}
                   className="md:flex hidden items-center gap-2 bg-transparent  px-6 py-2 rounded-sm md:text-lg text-white border transition-colors duration-300"
                 >
                   CALL NOW
                 </Link>
-              )}
+              )} */}
+              <button onClick={() => setIsMobileNavOpen(!isMobileNavOpen)} className="text-white lg:hidden block">
+                <MenuIcon />
+              </button>
 
               <Link
-                href={pathName === "/" ? bookingLink : "tel:" + contacts?.phone}
-                className="flex items-center gap-2 bg-secondary px-6 py-2 rounded-sm md:text-lg text-new-dark hover:text-white transition-colors duration-300"
+                href={bookingLink}
+                target="_blank"
+                className="lg:flex hidden items-center gap-2 bg-secondary px-6 py-2 rounded-sm md:text-lg text-new-dark hover:text-white transition-colors duration-300"
               >
-                {isCorporate ? (
-                  <>
-                    <span className="hidden md:flex items-center gap-2">
-                      <CallIcon />
-                      INQUIRE GROUP RATES
-                    </span>
-                    <span className="md:hidden">
-                      <CallIcon />
-                    </span>
-                  </>
-                ) : (
-                  <>
-                    <span className="hidden md:block">BOOK NOW</span>
-                    <span className="md:hidden">BOOK</span>
-                  </>
-                )}
+                <span>BOOK NOW</span>
               </Link>
             </div>
           </div>
         </div>
       </nav>
-
+      <MobileNav />
       {/* Spacer */}
       {/* <div className="h-13" /> */}
     </>

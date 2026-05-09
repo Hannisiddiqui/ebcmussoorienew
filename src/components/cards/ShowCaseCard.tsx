@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export type TShowcaseCard = {
-  id?: string;
+  id?: string | number;
   image: string;
   badge?: string;
 

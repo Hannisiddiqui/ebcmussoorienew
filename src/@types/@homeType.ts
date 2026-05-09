@@ -29,7 +29,6 @@ export interface PressSectionProps {
   }[];
 }
 
-
 export interface OurStoryProps {
   title: string;
   subtitle: string;
@@ -49,16 +48,16 @@ export interface AccommodationsTypes {
     videoSrc: string;
   }[];
   items: {
-    category: string;
+    badge: string;
     title: string;
-    details: {
-      text: string;
-      icon: JSX.Element;
-    }[];
-    description: string[];
+    description: string;
     price: string;
-    images: string[];
-    link: {
+    image: string;
+    primaryButton: {
+      label: string;
+      href: string;
+    };
+    secondaryButton: {
       label: string;
       href: string;
     };
@@ -72,6 +71,7 @@ export interface JourneyProps {
     title: string;
     description: string[];
     image: string;
+    link: string;
   }[];
   link: {
     label: string;
@@ -86,7 +86,7 @@ export interface ExperienceProps {
   items: {
     title: string;
     description: string;
-    icon: JSX.Element;
+    icon: string;
   }[];
   link: {
     label: string;

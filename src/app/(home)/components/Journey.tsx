@@ -1,9 +1,7 @@
+import { JourneyProps } from "@/@types/@homeType";
+import { SectionWithContainer } from "@/components/sectionComponants";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
 import JourneyCard from "./cards/JourneyCard";
-import { SectionWithContainer } from "@/components/sectionComponants";
-import LinkButton from "@/components/buttons/LinkButton";
-import { contacts } from "@/utils/constant";
-import { JourneyProps } from "@/@types/@homeType";
 
 const Journey: React.FC<JourneyProps> = ({
   title,

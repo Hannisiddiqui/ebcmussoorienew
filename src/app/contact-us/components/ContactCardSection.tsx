@@ -11,7 +11,8 @@ export type ContactCardType = {
   contact?: string;
   availability?: string;
   button: {
-    type: "button" | "link";
+    type: string;
+    // type: "button" | "link";
     label: string;
     href: string;
   };
