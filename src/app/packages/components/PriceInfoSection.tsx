@@ -22,7 +22,7 @@ const PricingInfoSection = ({
 }: PricingInfoSectionProps) => {
   return (
     <SectionWithContainer sectionClassName="bg-primary">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-14">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 overflow-hidden">
         {/* Always Included */}
         <div>
           <h2 className="text-3xl font-primary text-white">Always Included</h2>
@@ -63,28 +63,48 @@ const PricingInfoSection = ({
         </div>
 
         {/* Add Ons */}
-        <div>
+        {/* Add Ons */}
+        <div className="mt-10 lg:mt-0 lg:col-span-2 overflow-x-auto">
           <h2 className="text-3xl font-primary text-white">Add-Ons</h2>
 
-          <div className="space-y-6 mt-6">
-            {addOns.map((item, index) => (
-              <div key={index} className="">
-                <div className="grid grid-cols-3 items-center gap-2">
-                  <h3 className="text-base text-white leading-6">
-                    {item.title}
-                  </h3>
+          {/* Table wrapper */}
+          <div className="mt-6 min-w-full">
+            <table className="w-full min-w-[640px] border-collapse">
+              <thead>
+                <tr className="border-b border-secondary/20">
+                  <th className="text-left py-3 pr-4 text-sm font-medium text-white">
+                    Add-On
+                  </th>
+                  {/* <th className="text-left py-3 pr-4 text-sm font-medium text-white whitespace-nowrap">
+                    Price
+                  </th> */}
+                  <th className="text-left py-3 text-sm font-medium text-white">
+                    Description
+                  </th>
+                </tr>
+              </thead>
 
-                  <span className="text-white text-sm whitespace-nowrap flex flex-col">
-                    <span>-</span>
-                    {item.price}
-                  </span>
+              <tbody>
+                {addOns.map((item, index) => (
+                  <tr
+                    key={index}
+                    className="border-b border-secondary/10 last:border-b-0"
+                  >
+                    <td className="py-4 pr-4 text-base text-white whitespace-nowrap">
+                      {item.title}
+                    </td>
 
-                  <p className="text-sm text-white/40 leading-6">
-                    {item.description}
-                  </p>
-                </div>
-              </div>
-            ))}
+                    {/* <td className="py-4 pr-4 text-sm text-white whitespace-nowrap">
+                      {item.price}
+                    </td> */}
+
+                    <td className="py-4 text-sm text-white/40 leading-6 min-w-[250px]">
+                      {item.description}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

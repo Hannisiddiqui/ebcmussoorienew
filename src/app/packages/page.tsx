@@ -14,7 +14,7 @@ const page = () => {
         addOns={packagesPageData.addOns}
       />
       <BookingPolicySection
-        {...packagesPageData?.bookingAndCancellationPolicy}
+        {...packagesPageData?.termsAndConditionsData}
       />
     </main>
   );

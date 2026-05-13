@@ -35,7 +35,7 @@ const RoomPricingSection = ({
             <tr className="text-lg text-secondary">
               <th className="p-6 text-left font-primary">Accommodation</th>
               <th className="p-6 text-left font-primary">Category</th>
-              <th className="p-6 text-left font-primary">Price / Night</th>
+              {/* <th className="p-6 text-left font-primary">Price / Night</th> */}
               <th className="p-6 text-left font-primary">Included</th>
               <th className="p-6 text-center font-primary">Book</th>
             </tr>
@@ -61,9 +61,9 @@ const RoomPricingSection = ({
                 </td>
 
                 {/* Price */}
-                <td className="px-6 py-5 text-[#d2b277] text-sm font-light">
+                {/* <td className="px-6 py-5 text-[#d2b277] text-sm font-light">
                   <span className="ml-6">{room.price}</span>
-                </td>
+                </td> */}
 
                 {/* Included */}
                 <td className="px-6 py-5 text-white text-sm leading-relaxed whitespace-nowrap">
