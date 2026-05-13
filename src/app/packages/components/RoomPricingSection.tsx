@@ -17,15 +17,15 @@ type RoomPricingSectionProps = {
 };
 
 const RoomPricingSection = ({
-  title,
+  // title,
   roomPricing,
 }: RoomPricingSectionProps) => {
   return (
     <SectionWithContainer sectionClassName="bg-ternary">
       {/* Title */}
-      <h1 className="text-center text-4xl md:text-5xl font-primary text-[#e2d2ae]">
+      {/* <h1 className="text-center text-4xl md:text-5xl font-primary text-[#e2d2ae]">
         {title}
-      </h1>
+      </h1> */}
 
       {/* Table */}
       <div className="overflow-x-auto mt-16">
