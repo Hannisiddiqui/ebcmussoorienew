@@ -112,11 +112,11 @@ and best value. Our most recommended period.`,
 and our quietest period. Special rates sometimes
 available on request.`,
     },
-    {
-      title: "Weekend surcharge",
-      description: `Weekend surcharge: ₹1,000–₹2,000 may apply on
-Friday/Saturday nights. Confirm at time of booking.`,
-    },
+//     {
+//       title: "Weekend surcharge",
+//       description: `Weekend surcharge: ₹1,000–₹2,000 may apply on
+// Friday/Saturday nights. Confirm at time of booking.`,
+//     },
   ],
 
   addOns: [
@@ -140,18 +140,18 @@ Friday/Saturday nights. Confirm at time of booking.`,
       price: "₹1,500",
       description: "Set up exclusively for your accommodation",
     },
-    {
-      title: "Stargazing Session",
-      price: "₹1,000",
-      description: "Guided session with star charts, ~1 hour",
-    },
+    // {
+    //   title: "Stargazing Session",
+    //   price: "₹1,000",
+    //   description: "Guided session with star charts, ~1 hour",
+    // },
     {
       title: "Early Check-in (before 2pm)",
       price: "Subject to availability",
       description: "Request at time of booking",
     },
     {
-      title: "Late Check-out (after 11am)",
+      title: "Late Check-out (after 10:30 am)",
       price: "Subject to availability",
       description: "Request at time of booking",
     },
