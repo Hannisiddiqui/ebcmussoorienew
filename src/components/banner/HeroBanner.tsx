@@ -17,7 +17,7 @@ const HeroBanner = ({
 }: BannerSectionProps) => {
   return (
     <SectionWithContainer
-      sectionClassName="relative overflow-hidden w-full lg:aspect-16/6 md:aspect-4/2.5 aspect-square"
+      sectionClassName="relative overflow-hidden w-full lg:aspect-16/6 md:aspect-4/2.5 aspect-4/5"
       defaultPadding={false}
     >
       {/* BACKGROUND IMAGE */}

@@ -1,3 +1,5 @@
+import { contacts } from "@/utils/constant";
+
 export const roomDetailsPageData = [
   {
     slug: "andrews-villa",
@@ -28,7 +30,7 @@ export const roomDetailsPageData = [
       links: [
         {
           label: "Book via WhatsApp",
-          href: "/contact",
+          href: contacts.WhatsAppCta,
         },
         {
           label: "View Pricing",
@@ -65,10 +67,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "In-room Breakfast Service",
         },
-        {
-          icon: "✦",
-          title: "Air Conditioning & Heating",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "Air Conditioning & Heating",
+        // },
         {
           icon: "✦",
           title: "24hr Concierge Support",
@@ -143,7 +145,7 @@ export const roomDetailsPageData = [
       links: [
         {
           label: "Book via WhatsApp",
-          href: "/contact",
+          href: contacts.WhatsAppCta,
         },
         {
           label: "View Pricing",
@@ -180,10 +182,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "In-room Breakfast Service",
         },
-        {
-          icon: "✦",
-          title: "Air Conditioning & Heating",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "Air Conditioning & Heating",
+        // },
         {
           icon: "✦",
           title: "24hr Concierge Support",
@@ -258,7 +260,7 @@ export const roomDetailsPageData = [
       links: [
         {
           label: "Book via WhatsApp",
-          href: "/contact",
+          href: contacts.WhatsAppCta,
         },
         {
           label: "View Pricing",
@@ -295,10 +297,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "Breakfast on the Veranda",
         },
-        {
-          icon: "✦",
-          title: "Air Conditioning & Heating",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "Air Conditioning & Heating",
+        // },
         {
           icon: "✦",
           title: "24hr Concierge Support",
@@ -372,7 +374,7 @@ export const roomDetailsPageData = [
       links: [
         {
           label: "Book via WhatsApp",
-          href: "/contact",
+          href: contacts.WhatsAppCta,
         },
         {
           label: "View Pricing",
@@ -487,7 +489,7 @@ export const roomDetailsPageData = [
       links: [
         {
           label: "Book via WhatsApp",
-          href: "/contact",
+          href: contacts.WhatsAppCta,
         },
         {
           label: "View Pricing",
@@ -524,10 +526,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "In-room Breakfast Service",
         },
-        {
-          icon: "✦",
-          title: "Air Conditioning & Heating",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "Air Conditioning & Heating",
+        // },
         {
           icon: "✦",
           title: "24hr Concierge Support",
@@ -602,7 +604,7 @@ export const roomDetailsPageData = [
       links: [
         {
           label: "Book via WhatsApp",
-          href: "/contact",
+          href: contacts.WhatsAppCta,
         },
         {
           label: "View Pricing",
@@ -713,7 +715,7 @@ export const roomDetailsPageData = [
       links: [
         {
           label: "Book via WhatsApp",
-          href: "/contact",
+          href: contacts.WhatsAppCta,
         },
         {
           label: "View Pricing",

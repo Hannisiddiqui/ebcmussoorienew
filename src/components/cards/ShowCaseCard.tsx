@@ -60,9 +60,9 @@ const ShowCaseCard = ({
 
           <p className="leading-8 text-neutral-400">{description}</p>
 
-          {price && (
+          {/* {price && (
             <p className="font-primary text-lg text-[#C8A46B]">{price}</p>
-          )}
+          )} */}
         </div>
 
         {/* BUTTONS */}

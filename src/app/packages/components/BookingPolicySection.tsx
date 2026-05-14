@@ -1,7 +1,6 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
 import { contacts } from "@/utils/constant";
 import Link from "next/link";
-import React from "react";
 import { FaCheck } from "react-icons/fa";
 
 type PolicySection = {

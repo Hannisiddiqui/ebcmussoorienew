@@ -5,7 +5,7 @@ export const roomPageDataNew = {
     subTitle: "Our Rooms & Accommodations | EBC Mussoorie",
     title: "Accommodations",
     description:
-      "Seven unique stays across the spectrum of luxury — each one a different relationship with the Himalayan forest. Prices from ₹10,000 to ₹20,000 per night, all inclusive of breakfast, bonfire and nature walk.",
+      "Seven unique stays across the spectrum of luxury — each one a different relationship with the Himalayan forest.",
     images: ["/rooms/room1.png", "/rooms/room2.png"],
   },
 
@@ -150,7 +150,13 @@ export const roomPageDataNew = {
 
       price: "From ₹16,000 / night",
 
-      images: ["/Surveyor Suite/RoomImage1.jpg"],
+      images: [
+        landingpageImgSrc + "surveyor_suite/img2.webp",
+        imgSrc + "room/surveyor-suite/img3.webp",
+        landingpageImgSrc + "surveyor_suite/img1.webp",
+        landingpageImgSrc + "surveyor_suite/img3.webp",
+        imgSrc + "room/surveyor-suite/img4.webp",
+      ],
 
       buttons: [
         {
@@ -185,7 +191,13 @@ export const roomPageDataNew = {
 
       price: "From ₹14,000 / night",
 
-      images: ["/The Surveyor/RoomImage1.jpg"],
+      images: [
+        landingpageImgSrc + "surveyor-new/DSC_6442.webp",
+        landingpageImgSrc + "surveyor-new/DSC_6610.webp",
+        landingpageImgSrc + "surveyor-new/DSC_6458.webp",
+        landingpageImgSrc + "surveyor-new/IMG_4177.webp",
+        landingpageImgSrc + "surveyor-new/DSC05333.JPG.webp",
+      ],
 
       buttons: [
         {
@@ -220,7 +232,13 @@ export const roomPageDataNew = {
 
       price: "From ₹12,000 / night",
 
-      images: ["/The Glamper/RoomImage1.jpg"],
+      images: [
+        landingpageImgSrc + "glamper/img1.webp",
+        landingpageImgSrc + "glamper/img3.webp",
+        imgSrc + "room/glamper/img1.webp",
+        landingpageImgSrc + "glamper/img2.webp",
+        landingpageImgSrc + "glamper/img4.webp",
+      ],
 
       buttons: [
         {
@@ -255,7 +273,13 @@ export const roomPageDataNew = {
 
       price: "From ₹10,000 / night",
 
-      images: ["/The Camper/RoomImage1.jpg"],
+      images: [
+        landingpageImgSrc + "camper/img1.webp",
+        landingpageImgSrc + "camper/img3.webp",
+        imgSrc + "room/camper/img4.webp",
+        landingpageImgSrc + "camper/img2.webp",
+        imgSrc + "room/camper/img3.webp",
+      ],
 
       buttons: [
         {

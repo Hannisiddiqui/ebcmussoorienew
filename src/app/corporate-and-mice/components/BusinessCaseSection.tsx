@@ -31,7 +31,7 @@ export const BusinessCaseSection = ({
 }: BusinessCaseSectionProps) => {
   return (
     <SectionWithContainer sectionClassName="bg-ternary">
-      <div className="grid grid-cols-2 items-center gap-8">
+      <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-8">
         <div className="space-y-6">
           <h2 className="text-base uppercase text-secondary tracking-widest">
             {title}
