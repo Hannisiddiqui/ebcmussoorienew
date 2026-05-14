@@ -619,7 +619,7 @@ pure, elemental, and utterly memorable..`,
     faq: [
       {
         q: "What is included in the room price?",
-        a: "Breakfast for two, evening bonfire access, a guided morning nature walk, 24hr concierge support, complimentary Wi-Fi and free parking are included with every room.",
+        a: "Breakfast for two, evening bonfire access, a guided morning nature walk, complimentary Wi-Fi and free parking are included with every room.",
       },
       {
         q: "How far is EBC Mussoorie from Delhi?",

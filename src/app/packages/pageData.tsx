@@ -90,7 +90,7 @@ export const packagesPageData = {
     "Morning guided nature walk",
     "Free Wi-Fi throughout the property",
     "Free secure parking",
-    "24hr concierge & guest support",
+    // "24hr concierge & guest support",
     "Welcome refreshments on arrival",
   ],
 

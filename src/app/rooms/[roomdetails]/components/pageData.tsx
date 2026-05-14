@@ -2,7 +2,7 @@ import { contacts } from "@/utils/constant";
 
 export const roomDetailsPageData = [
   {
-    slug: "andrews-villa",
+    slug: "the-andrews-villa",
 
     metaData: {
       title: "Andrew's Villa | EBC Mussoorie",
@@ -71,10 +71,10 @@ export const roomDetailsPageData = [
         //   icon: "✦",
         //   title: "Air Conditioning & Heating",
         // },
-        {
-          icon: "✦",
-          title: "24hr Concierge Support",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "24hr Concierge Support",
+        // },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -186,10 +186,10 @@ export const roomDetailsPageData = [
         //   icon: "✦",
         //   title: "Air Conditioning & Heating",
         // },
-        {
-          icon: "✦",
-          title: "24hr Concierge Support",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "24hr Concierge Support",
+        // },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -233,7 +233,7 @@ export const roomDetailsPageData = [
     },
   },
   {
-    slug: "the-zenith",
+    slug: "zenith-luxury-cottage",
 
     metaData: {
       title: "The Zenith | EBC Mussoorie",
@@ -301,10 +301,10 @@ export const roomDetailsPageData = [
         //   icon: "✦",
         //   title: "Air Conditioning & Heating",
         // },
-        {
-          icon: "✦",
-          title: "24hr Concierge Support",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "24hr Concierge Support",
+        // },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -347,7 +347,7 @@ export const roomDetailsPageData = [
     },
   },
   {
-    slug: "the-surveyor",
+    slug: "the-surveyor-suite",
 
     metaData: {
       title: "The Surveyor | EBC Mussoorie",
@@ -415,10 +415,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "Heating & Cooling",
         },
-        {
-          icon: "✦",
-          title: "24hr Concierge",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "24hr Concierge",
+        // },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -530,10 +530,10 @@ export const roomDetailsPageData = [
         //   icon: "✦",
         //   title: "Air Conditioning & Heating",
         // },
-        {
-          icon: "✦",
-          title: "24hr Concierge Support",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "24hr Concierge Support",
+        // },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -641,10 +641,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "Heating",
         },
-        {
-          icon: "✦",
-          title: "24hr Concierge",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "24hr Concierge",
+        // },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -756,10 +756,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "Heating",
         },
-        {
-          icon: "✦",
-          title: "24hr Concierge",
-        },
+        // {
+        //   icon: "✦",
+        //   title: "24hr Concierge",
+        // },
         {
           icon: "✦",
           title: "Free Wi-Fi",
