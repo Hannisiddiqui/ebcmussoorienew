@@ -96,6 +96,8 @@ export default function NewFooter() {
                   <Link
                     href={social.href}
                     key={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 cursor-pointer transition hover:text-[#d2ab62]"
                   >
                     <span>{social.icon}</span>
@@ -117,7 +119,7 @@ export default function NewFooter() {
         {/* Bottom Bar */}
         <div className="mt-14 flex flex-col gap-4 border-t border-[#1b2a25] pt-6 text-xs text-[#6f6f6f] md:flex-row md:items-center md:justify-between">
           <p>
-            © 2025 EBC Mussoorie — Everest Base Camp Mussoorie. All rights
+            © {new Date().getFullYear()} EBC Mussoorie — Everest Base Camp Mussoorie. All rights
             reserved.
           </p>
 

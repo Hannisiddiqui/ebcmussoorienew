@@ -21,7 +21,7 @@ export const navLinks = [
       { label: "Surveyor Suite", href: "/rooms/surveyor-suite" },
       { label: "The Surveyor suite", href: "/rooms/the-surveyor-suite" },
       { label: "The Glamper", href: "/rooms/the-glamper" },
-      { label: "The Camper", href: "/rooms/the-clamper" },
+      { label: "The Camper", href: "/rooms/the-camper" },
     ],
   },
 

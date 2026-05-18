@@ -86,22 +86,22 @@ export const contactUsPageData = {
         socialLinks: [
           {
             label: "📸 Instagram — @ebcmussoorie",
-            href: "https://instagram.com/ebcmussoorie",
+            href: contacts.socialContacts.instagram,
           },
 
           {
             label: "📘 Facebook — EBC Mussoorie",
-            href: "https://facebook.com",
+            href: contacts.socialContacts.facebook,
           },
 
           {
             label: "▶ YouTube — @ebcmussoorie",
-            href: "https://youtube.com",
+            href: contacts.socialContacts.youtube,
           },
 
           {
             label: "🦉 TripAdvisor — 4.8★ Reviews",
-            href: "https://tripadvisor.com",
+            href: contacts.socialContacts.tripadvisor,
           },
         ],
       },
