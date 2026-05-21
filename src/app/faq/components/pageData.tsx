@@ -26,7 +26,7 @@ export const pageData = {
     },
     {
       q: "Are pets allowed at EBC Mussoorie?",
-      a: "Unfortunately we do not currently allow pets on the property. We hope to offer pet-friendly options in future — please check back.",
+      a: "Pets are welcome at EBC Mussoorie. Please inform us in advance so we can help make your stay comfortable for both you and your pet.",
     },
     {
       q: "What are check-in and check-out times?",

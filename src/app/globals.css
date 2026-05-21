@@ -10,6 +10,11 @@
   src: url("/public/font/PPPangaia-Ultralight-BF654c530cd00f1.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Neutra Text";
+  src: url("/font/NeutraText-Book.woff2") format("woff2");
+}
+
 :root {
   --primary: #0C150D;
   --secondary: #B89258;

@@ -38,11 +38,11 @@ export const homePageData = {
     title: "Wake up in the Himalayas.",
     subtitle: "Sleep under the Stars.",
     description: [
-      "An intimate luxury escape at 2,000m, where the forest meets the stars and every night ends by a private bonfire.",
+      "An intimate luxury escape at 2,160m, where the forest meets the stars and every night ends by a private bonfire.",
     ],
     actions: { label: "EXPLORE ROOMS", href: "#rooms" },
     location: {
-      label: "Hathipaon Road · Mussoorie · 2,000m",
+      label: "Hathipaon Road · Mussoorie · 2,160m",
       href: contacts.addresses[0].mapUrl,
       icon: <FillLocationIcon />,
     },
@@ -52,8 +52,8 @@ export const homePageData = {
     items: [
       "Private Bonfire Every Evening",
       "500+ Happy Stays",
-      "2,000m Altitude",
-      "7 Unique Accommodations",
+      "2,160m Altitude",
+      "14 Unique Accommodations",
       "Hathipaon Road, Mussoorie",
       "4.9/5★ TripAdvisor",
       "9.2/10★ Booking.com",
@@ -123,7 +123,7 @@ export const homePageData = {
     description: [
       "EBC Mussoorie was born out of a singular desire: to create a space where the Himalayan forest does the healing, and the luxury takes care of the rest. Nestled on Hathipaon Road at 2,000 metres, we sit within a pristine deodar forest where leopards tread at dawn and the night sky blazes with a thousand stars.",
       "We opened our doors in 2019 with a simple conviction — that the finest luxury is not found in city towers but in the hush of a forest morning, the warmth of a bonfire under open skies, and a bed that faces the mountains.",
-      "Today, with seven distinct accommodations ranging from the tented Camper to the exclusive Andrew's Villa, EBC Mussoorie has become Mussoorie's most celebrated glamping destination.",
+      "Today, with fourteen distinct accommodations ranging from the tented Camper to the exclusive Andrew's Villa, EBC Mussoorie has become Mussoorie's most celebrated glamping destination.",
     ],
     link: {
       label: "DISCOVER OUR ROOMS",
@@ -139,7 +139,7 @@ export const homePageData = {
     title: "About Everest Base Camp <i>Mussoorie!</i>",
     description: [
       '"We are a pet-friendly escape where your furry companions are always welcome."',
-      "Discover Your Mountain Oasis. Experience Luxury Camping at Everest Base Camp Mussoorie! Our seven spacious rooms, each uniquely inspired by nature, offer top-notch bed and bath fittings with stunning views of the hills and forests. Enjoy the relaxing corridor and cozy patio overlooking the jungle. Experience nature's tranquility and wake up to the sweet songs of songbirds at our resort!",
+      "Discover Your Mountain Oasis. Experience Luxury Camping at Everest Base Camp Mussoorie! Our fourteen spacious rooms, each uniquely inspired by nature, offer top-notch bed and bath fittings with stunning views of the hills and forests. Enjoy the relaxing corridor and cozy patio overlooking the jungle. Experience nature's tranquility and wake up to the sweet songs of songbirds at our resort!",
     ],
     images: ["/home/about-1.png", "/home/about-2.png", "/home/about-3.png"],
     link: {
@@ -150,7 +150,7 @@ export const homePageData = {
   accommodationsData: {
     title: "Our Accommodations",
     description: [
-      "Seven unique stays — each one a different way to experience the Himalayas",
+      "Fourteen unique stays — each one a different way to experience the Himalayas",
     ],
     items: [
       {
@@ -163,7 +163,7 @@ Himalayan forest.`,
         image: "/andrew-villa/Suite-Bedroom-2.png",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/andrews-villa",
+          href: "/rooms/the-andrews-villa",
         },
         secondaryButton: {
           label: "Book Now",
@@ -180,7 +180,7 @@ couples travelling together.`,
         image: "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/twin-luxury-cottage",
+          href: "/rooms/twin-luxury-cottages",
         },
         secondaryButton: {
           label: "Book Now",
@@ -196,7 +196,7 @@ EBC's original icon of Himalayan glamping.`,
         image: "/The Zenith/RoomImage1.jpg",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/the-zenith",
+          href: "/rooms/zenith-luxury-cottage",
         },
         secondaryButton: {
           label: "Book Now",
@@ -230,7 +230,7 @@ behind.`,
         image: "/The Surveyor/RoomImage1.jpg",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/the-surveyor",
+          href: "/rooms/the-surveyor-suite",
         },
         secondaryButton: {
           label: "Book Now",
@@ -270,7 +270,6 @@ pure, elemental, and utterly memorable..`,
           href: bookingLink,
         },
       },
-      
     ],
 
     video: [
@@ -298,7 +297,7 @@ pure, elemental, and utterly memorable..`,
           "Safe, spacious and full of wonder, the family holiday that leaves screens behind.",
         ],
         image: "/landing/family.png",
-        link:"/family-stays"
+        link: "/family-stays",
       },
       {
         title: "Couples & <i>Honeymoon</i>",
@@ -306,15 +305,15 @@ pure, elemental, and utterly memorable..`,
           "Private bonfires, starlit skies and Himalayan mornings made for two.",
         ],
         image: "/landing/couples.png",
-        link:"/couples-and-honeymoon"
+        link: "/couples-and-honeymoon",
       },
       {
         title: "Corporate & <i>MICE</i>",
         description: [
-          "Safe, spacious and full of wonder, the family holiday that leaves screens behind.",
+          "Ideal for corporate retreats, team offsites, executive stays, and business gatherings in a peaceful mountain setting.",
         ],
         image: "/landing/corporate.png",
-        link:"/corporate-and-mice"
+        link: "/corporate-and-mice",
       },
     ],
     link: {
@@ -322,20 +321,20 @@ pure, elemental, and utterly memorable..`,
       href: bookingLink,
     },
   },
-  journalData:{
-    title:"From Our Journal",
-    description:"Stories, guides and updates from EBC Mussoorie",
-    blogData
+  journalData: {
+    title: "From Our Journal",
+    description: "Stories, guides and updates from EBC Mussoorie",
+    blogData,
   },
   homeGalleryData: {
-    images:[
+    images: [
       "/DSC04996-HDR-2.webp",
       "/DSC05021.webp",
       "/img1.webp",
       "/DSC_6458.webp",
       "/img1 (2).webp",
       "/img1 (1).webp",
-    ]
+    ],
   },
   experienceData: {
     title: "Experiences at EBC <i>Mussoorie!</i>",
@@ -601,11 +600,11 @@ pure, elemental, and utterly memorable..`,
     testimonials: [
       {
         title: "Tina Thilyani",
-        subtle: `I highly commend Park Cafe in Mussoorie for it's exceptional food and delightful ambiance.The culinary experience was superb, and the inviting atmosphere added to the overall enjoyment. A most-visit for those seeking both quality cuisine and pleasant during environment`,
+        subtle: `I highly commend Park Cafe in Mussoorie for it's exceptional food and delightful ambiance.The culinary experience was superb, and the inviting atmosphere added to the overall enjoyment. A most-visit for those seeking both quality cuisine and pleasant peaceful environment`,
       },
       {
         title: "Kshitij Mishra",
-        subtle: `Recently visited the Park Cafe and was impressed by the ambiance and lush outdoor seating. The cafe's location within the park  added to its appeal, providing a serene setting for enjoying a meal. Overall,I highly recommended.`,
+        subtle: `Recently visited the Park Cafe and was impressed by the ambiance and lush outdoor seating. The cafe's location within the park  added to it's appeal, providing a serene setting for enjoying a meal. Overall,I highly recommended.`,
       },
       {
         title: "Shweta Gyanchandani",

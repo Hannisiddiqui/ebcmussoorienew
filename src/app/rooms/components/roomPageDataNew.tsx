@@ -5,7 +5,7 @@ export const roomPageDataNew = {
     subTitle: "Our Rooms & Accommodations | EBC Mussoorie",
     title: "Accommodations",
     description:
-      "Seven unique stays across the spectrum of luxury — each one a different relationship with the Himalayan forest.",
+      "Fourteen unique stays across the spectrum of luxury — each one a different relationship with the Himalayan forest.",
     images: ["/rooms/room1.png", "/rooms/room2.png"],
   },
 

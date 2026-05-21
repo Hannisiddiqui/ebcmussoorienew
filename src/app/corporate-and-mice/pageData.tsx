@@ -1,8 +1,8 @@
 export const corporateAndMicePageData = {
   bannerData: {
-    title: "CORPORATE & MICE",
+    title: "Corporate & MICE",
     subTitle: "Corporate Retreats & MICE Events in Mussoorie | EBC Mussoorie",
-    description: "Intimate luxury settings for corporate groups of 8–25 guests",
+    description: "Intimate luxury settings for corporate groups of 8–48 guests",
     image: "/corporate-and-mice/BannerImage.jpg",
   },
 
@@ -42,7 +42,7 @@ more connected than any team-building workshop had ever achieved`,
       title: "Group Capacity",
       highlights: [
         "Minimum group: 8 guests",
-        "Maximum group: 25 guests (full property block)",
+        "Maximum group: 48 guests (full property block)",
         "Full property buyout available",
         "Flexible room configurations",
       ],
@@ -55,7 +55,7 @@ more connected than any team-building workshop had ever achieved`,
       {
         id: 1,
         title: "Full Property Block",
-        description: `Book all 7 accommodations for your group — privacy guaranteed, no other guests on site.`,
+        description: `Book all 14 accommodations for your group — privacy guaranteed, no other guests on site.`,
         icon: "🏡",
       },
 
