@@ -121,7 +121,7 @@ export const homePageData = {
     title: "A Resort Born from the Mountain",
     subTitle: "Our Story",
     description: [
-      "EBC Mussoorie was born out of a singular desire: to create a space where the Himalayan forest does the healing, and the luxury takes care of the rest. Nestled on Hathipaon Road at 2,000 metres, we sit within a pristine deodar forest where leopards tread at dawn and the night sky blazes with a thousand stars.",
+      "EBC Mussoorie was born out of a singular desire: to create a space where the Himalayan forest does the healing, and the luxury takes care of the rest. Nestled on Hathipaon Road at 2,160 metres, we sit within a pristine deodar forest where leopards tread at dawn and the night sky blazes with a thousand stars.",
       "We opened our doors in 2019 with a simple conviction — that the finest luxury is not found in city towers but in the hush of a forest morning, the warmth of a bonfire under open skies, and a bed that faces the mountains.",
       "Today, with fourteen distinct accommodations ranging from the tented Camper to the exclusive Andrew's Villa, EBC Mussoorie has become Mussoorie's most celebrated glamping destination.",
     ],
