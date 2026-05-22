@@ -2,13 +2,17 @@ import HeroHeaderSection from "@/components/CommonSections/HeroHeaderSection";
 import BlogSection from "./components/BlogSection";
 import BlogSocialSection from "./components/BlogSocialSection";
 import { blogPagedata } from "./components/pageData";
+import { SectionWithContainer } from "@/components/sectionComponants";
 
 export default function BlogPage() {
   return (
-    <main className="pb-6">
+    <main className="">
       <HeroHeaderSection {...blogPagedata?.banner} />
-      <BlogSection cards={blogPagedata?.cards} />
-      <BlogSocialSection {...blogPagedata.socialSection} />
+
+      <SectionWithContainer sectionClassName="bg-primary">
+        <BlogSection cards={blogPagedata?.cards} />
+        <BlogSocialSection {...blogPagedata.socialSection} />
+      </SectionWithContainer>
       {/* <SectionWithContainer>
         <SectionHeading
           title={blogPagedata.banner.title}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Container } from "../sectionComponants";
 import { webSiteFooterData } from "./footerData";
+import Image from "next/image";
 
 export default function NewFooter() {
   const rooms = webSiteFooterData.lists[0].links;
@@ -17,12 +18,21 @@ export default function NewFooter() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-5">
           {/* Brand Section */}
           <div className="space-y-5">
-            <div>
-              <h2 className="text-4xl text-[#d2ab62]">EBC</h2>
-              <p className="mt-2 text-xs uppercase tracking-[0.35em] text-[#b8a06b]">
-                Mussoorie
-              </p>
+            <div className="relative max-w-40 w-full aspect-[4/2.25]">
+              {/* <Link href="/">
+                              <h2 className="font-primary text-4xl text-secondary">EBC</h2>
+                              <p className="text-white/60 text-no tracking-widest">
+                                Mussoorie
+                              </p>
+                            </Link> */}
+              <Image
+                src="/LogoEBC.png"
+                fill
+                className="object-contain"
+                alt="logo"
+              />
             </div>
+
 
             <p className="leading-7 text-sm text-[#7f7f7f]">
               {webSiteFooterData.description}
@@ -41,7 +51,7 @@ export default function NewFooter() {
 
           {/* Rooms */}
           <div>
-            <h3 className="mb-6 text-lg font-medium text-[#d2ab62]">Rooms</h3>
+            <h3 className="mb-6 text-xl font-primary text-[#d2ab62]">Rooms</h3>
             <ul className="space-y-4 text-sm">
               {rooms.map((room) => (
                 <li
@@ -56,7 +66,7 @@ export default function NewFooter() {
 
           {/* Explore */}
           <div>
-            <h3 className="mb-6 text-lg font-medium text-[#d2ab62]">Explore</h3>
+            <h3 className="mb-6 text-xl font-primary text-[#d2ab62]">Explore</h3>
             <ul className="space-y-4 text-sm">
               {explore.map((item) => (
                 <li
@@ -71,7 +81,7 @@ export default function NewFooter() {
 
           {/* For You */}
           <div>
-            <h3 className="mb-6 text-lg font-medium text-[#d2ab62]">For You</h3>
+            <h3 className="mb-6 text-xl font-primary text-[#d2ab62]">For You</h3>
             <ul className="space-y-4 text-sm">
               {forYou.map((item) => (
                 <li
@@ -87,7 +97,7 @@ export default function NewFooter() {
           {/* Social + CTA */}
           <div className="flex flex-col justify-between">
             <div>
-              <h3 className="mb-6 text-lg font-medium text-[#d2ab62]">
+              <h3 className="mb-6 text-xl font-primary text-[#d2ab62]">
                 Social
               </h3>
 

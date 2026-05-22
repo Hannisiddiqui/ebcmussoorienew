@@ -1,4 +1,4 @@
-import { bookingLink } from "@/utils/constant";
+import { bookingLink, contacts } from "@/utils/constant";
 
 export const familyStayPageData = {
   bannerData: {
@@ -59,7 +59,7 @@ before your working sessions begin.`,
   },
 
   activitiesSection: {
-    title: "Activities",
+    title: "Activities for Kids",
     cards: [
       {
         id: 1,
@@ -157,6 +157,21 @@ EBC's original icon of Himalayan glamping.`,
           href: bookingLink,
         },
         image: "/family-stays/FamilyRoom3.jpg",
+      },
+    ],
+  },
+
+  ctaData: {
+    title: "",
+    subtitle: "Plan Your Family Stay",
+    description: [
+      "WhatsApp us to discuss room configurations and the best setup for your family group.",
+    ],
+    actions: [
+      { label: "Book Family Stay via WhatsApp", href: contacts.WhatsAppCta },
+      {
+        label: "Book Now",
+        href: bookingLink,
       },
     ],
   },

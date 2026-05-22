@@ -9,6 +9,7 @@ import { BiChevronDown } from "react-icons/bi";
 import MobileNav from "./MobileNav";
 import { useAppContext } from "@/contextApi/AppContext";
 import { MenuIcon } from "./Header";
+import Image from "next/image";
 
 export const navLinks = [
   {
@@ -118,14 +119,13 @@ const Navbar2 = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] will-change-transform
+        className={`fixed  top-0 left-0 w-full z-50 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] will-change-transform
           ${visible ? "translate-y-0" : "-translate-y-full"}
-          ${
-            isCorporate
-              ? "bg-primary shadow-xl"
-              : scrolled
-                ? "bg-ternary backdrop-blur-md shadow-xl"
-                : "bg-transparent"
+          ${isCorporate
+            ? "bg-primary shadow-xl"
+            : scrolled
+              ? "bg-ternary backdrop-blur-md shadow-xl"
+              : "bg-transparent"
           }
         `}
       >
@@ -134,18 +134,18 @@ const Navbar2 = () => {
         <div className="px-6">
           <div className="flex justify-between py-4">
             <div className="relative max-w-40 w-full aspect-[4/2.25]">
-              <Link href="/">
-                <h2 className="font-primary text-4xl text-secondary">EBC</h2>
-                <p className="text-white/60 text-no tracking-widest">
-                  Mussoorie
-                </p>
-              </Link>
-              {/* <Image
-                src="/logo-new.png"
+              {/* <Link href="/">
+                  <h2 className="font-primary text-4xl text-secondary">EBC</h2>
+                  <p className="text-white/60 text-no tracking-widest">
+                    Mussoorie
+                  </p>
+                </Link> */}
+              <Image
+                src="/LogoEBC.png"
                 fill
                 className="object-contain"
                 alt="logo"
-              /> */}
+              />
             </div>
 
             <div className="text-white md:flex hidden items-center gap-8">

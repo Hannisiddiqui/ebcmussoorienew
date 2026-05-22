@@ -2,8 +2,8 @@ import { bookingLink } from "@/utils/constant";
 
 export const packagesPageData = {
   hero: {
-    subtitle: "Transparent Pricing",
-    title: "Packages & Pricing | EBC Mussoorie",
+    subTitle: "Packages & Pricing | EBC Mussoorie",
+    title: "Transparent Pricing",
     description:
       "Full pricing for all seven EBC Mussoorie accommodations. No hidden fees — what you see is what you pay.",
   },
@@ -112,11 +112,11 @@ and best value. Our most recommended period.`,
 and our quietest period. Special rates sometimes
 available on request.`,
     },
-//     {
-//       title: "Weekend surcharge",
-//       description: `Weekend surcharge: ₹1,000–₹2,000 may apply on
-// Friday/Saturday nights. Confirm at time of booking.`,
-//     },
+    //     {
+    //       title: "Weekend surcharge",
+    //       description: `Weekend surcharge: ₹1,000–₹2,000 may apply on
+    // Friday/Saturday nights. Confirm at time of booking.`,
+    //     },
   ],
 
   addOns: [

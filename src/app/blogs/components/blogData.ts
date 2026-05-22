@@ -196,6 +196,7 @@ const blogData = [
     lastupdate: "Last updated 3 mins ago",
     image: "/blog/Mussoorievisit.webp",
     imageTitle: "Sir George Everest House Mussoorie",
+    date: `Sep 26  2 min`,
     // imgItems: [
     //   {
     //     title:

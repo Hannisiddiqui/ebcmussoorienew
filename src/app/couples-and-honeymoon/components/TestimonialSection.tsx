@@ -31,7 +31,7 @@ const TestimonialSection = ({ testimonials }: TestimonialProps) => {
           )}
         />
 
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-5">
           <button className="bg-secondary text-ternary text-lg px-8 py-3 rounded-sm">
             Plan Your Romantic Escape
           </button>

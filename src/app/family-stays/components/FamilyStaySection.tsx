@@ -27,7 +27,7 @@ const FamilyStaySection = ({
             {subTitle}
           </h3>
 
-          <p className="text-lg leading-10 text-neutral-400">{description}</p>
+          <p className="text-lg text-neutral-400">{description}</p>
         </div>
 
         <div className="relative w-full md:aspect-4/3 aspect-square">

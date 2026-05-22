@@ -12,10 +12,19 @@ interface DenHeroProps {
 const DenHero: React.FC<DenHeroProps> = ({ images }) => {
   return (
     <Section
-      className=" py-1 relative overflow bg-white"
+      className=" py-1 relative overflow"
       defaultPadding={false}
     >
-      <SwiperCarousel
+      <div className="w-full md:aspect-4/2 aspect-4/3 relative overflow-hidden">
+        <Image
+          src={images[0]}
+          alt="The Den hero"
+          fill
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
+      {/* <SwiperCarousel
         data={images}
         slidesPerView={1}
         spaceBetween={0}
@@ -35,7 +44,7 @@ const DenHero: React.FC<DenHeroProps> = ({ images }) => {
             />
           </div>
         )}
-      />
+      /> */}
     </Section>
   );
 };

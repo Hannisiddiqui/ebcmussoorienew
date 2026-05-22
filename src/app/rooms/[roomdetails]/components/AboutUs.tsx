@@ -2,6 +2,7 @@ import { SectionWithContainer } from "@/components/sectionComponants";
 import Image from "next/image";
 import { SectionHeading2 } from "../../../../components/typography/SectionHeading2";
 import Link from "next/link";
+import { HomeIcon } from "@/utils/icons";
 
 interface AboutUsProps {
   title: string;
@@ -22,11 +23,14 @@ const AboutUs: React.FC<AboutUsProps> = ({
   return (
     <SectionWithContainer
       sectionClassName="bg-[#070C08]"
-      containerClassName="grid md:grid-cols-2 grid-cols-1 gap-6 items-center"
+      containerClassName=""
     >
-      <div className="flex flex-col gap-4">
-        <SectionHeading2 title={title} description={description} />
-        <div className="flex flex-wrap gap-3 pt-2">
+      <div className="flex flex-col items-center gap-10">
+        <SectionHeading2 title={title} titleClassName="text-center" />
+        <HomeIcon />
+        <SectionHeading2 description={description} descriptionClassName="text-center" />
+
+        <div className="flex flex-wrap justify-center gap-3 pt-2">
           <Link
             href={links[0].href || "#"}
             target="_blank"
@@ -42,9 +46,9 @@ const AboutUs: React.FC<AboutUsProps> = ({
           </Link>
         </div>
       </div>
-      <div className="w-full relative aspect-4/2.75 ">
+      {/* <div className="w-full relative aspect-4/2.75 ">
         <Image src={image} alt={title} fill className="object-cover" />
-      </div>
+      </div> */}
     </SectionWithContainer>
   );
 };

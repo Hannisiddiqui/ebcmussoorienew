@@ -4,6 +4,7 @@ import CoupleRoomSection from "./components/CoupleRoomSection";
 import RomanticInclusionSection from "./components/RomanticInclusionSection";
 import TestimonialSection from "./components/TestimonialSection";
 import { couplesAndHoneymoonPageData } from "./pageData";
+import CtaSection from "@/components/CommonSections/CtaSection";
 
 const page = () => {
   return (

@@ -2,12 +2,27 @@ import { contacts, imgSrc } from "@/utils/constant";
 
 export const parkCafePageData = {
   banner: {
-    images: ["/park-cafe/banner-1.png"],
+    title: "Park Cafe",
+    subTitle: "Park Cafe, Mussoorie’s finest Cafe!",
+    description: "",
+    image: "/park-cafe/banner-1.png",
   },
+
   about: {
-    title: "Park Café, Mussoorie’s finest <i>Café!</i>",
-    image: "/park-cafe/cafe-table.png",
+    title: "",
+    subTitle: `Dining Beyond the Ordinary`,
+    description: `Our culinary gem seamlessly combines nature's beauty with exquisite flavors, offering a unique dining experience against the backdrop of breathtaking natural wonders.
+To create a dining oasis in the middle of the wilderness, we at Park Café are all about fusing innovation and simplicity. Our menu offers a fusion of inventive twists and regional flavors, guaranteeing a delectable experience that ideally accentuates the soothing settings. Everything about this place is meant to evoke memories, from carefree picnic brunches with a variety of BBQ dishes to special dinners served with hot cocoa.
+We're proud to serve a variety of delicious dishes that celebrate Mussoorie's culinary heritage. Our cafe is situated where Sir George Everest once had his stables and rode around, along with the George Everest Museum just a few minutes walk away.`,
+    image: "/park-cafe/banner-1.png",
   },
+  // banner: {
+  //   images: ["/park-cafe/banner-1.png"],
+  // },
+  // about: {
+  //   title: "Park Café, Mussoorie’s finest <i>Café!</i>",
+  //   image: "/park-cafe/cafe-table.png",
+  // },
 
   introData: {
     description: [
@@ -34,6 +49,31 @@ export const parkCafePageData = {
       label: "Get Direction",
       href: contacts.addresses[0].addressUrl,
     },
+  },
+
+
+  experience: {
+    title: "Add-on Experiences!",
+    description: "",
+    card: [
+      {
+        title: "Barbeque in the <i>Shadows!</i>",
+        description: [
+          "Join us for Barbeque in the Shadows, a cozy fireside evening filled with delicious bite-sized treats and treasured memories. Our serene property, acclaimed as the finest eatery in Mussoorie, sets the perfect stage for intimate celebrations and relaxation, enhancing the pleasure of unwinding together.",
+          "Enjoy a private bonfire, a beautifully decorated candlelight table, and personalized butler service, all while selecting from a rich and varied menu under the flicker of Mashal torches.",
+        ],
+        image: "/park-cafe/dine.png"
+      },
+      {
+        title: "Picnic in the <i>Meadows!</i>",
+        description: [
+          "Experience an enchanting outdoor gathering surrounded by the wonders of nature, complemented by an Instagram-worthy picnic in the meadows. With vibrant pop color cutlery and chinaware, luxurious cushioned seating on carpets, and the option of tables and chairs under a picnic umbrella, every moment becomes a picture perfect celebration.",
+          "Savor in our multi-cuisine menu, offering a range of delectable options, perfect for a unique day dining experience in the mountains with your loved ones.",
+        ],
+        image: "/park-cafe/dine.png"
+      },
+
+    ]
   },
 
   uniqueData: {

@@ -17,9 +17,9 @@ export default function SlidingTitle({ items, wrapperClassName = "" }: Props) {
         <div className="marquee-track">
           {titles.map((t, i) => (
             <span key={i} className="marquee-item">
-              <span>{t}</span>
+              <span className="text-light">{t}</span>
               <span className="separator">
-                <ICon />
+                <span className="h-[3px] w-[3px] rounded-full bg-secondary" />
               </span>
             </span>
           ))}

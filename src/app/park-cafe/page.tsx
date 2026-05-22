@@ -8,24 +8,29 @@ import AdventuresSection from "@/components/CommonSections/AdventuresSection";
 import MilestoneSection from "./components/MilestoneSection";
 import AboutParkCafe from "./components/AboutParkCafe";
 import Banner from "@/components/banner/Banner";
+import HeroBanner from "@/components/banner/HeroBanner";
+import FamilyStaySection from "../family-stays/components/FamilyStaySection";
 
 export default function ParkCafePage() {
   return (
     <main>
-      <Banner {...parkCafePageData.banner} />
-      <AboutParkCafe {...parkCafePageData.about} />
-      <CommonCardSection
+      <HeroBanner {...parkCafePageData.banner} />
+      <FamilyStaySection {...parkCafePageData?.about} />
+      {/* <Banner {...parkCafePageData.banner} /> */}
+      {/* <AboutParkCafe {...parkCafePageData.about} /> */}
+      {/* <CommonCardSection
         {...parkCafePageData.introData}
         sectionColor="text-[#686868]"
-      />
+      /> */}
       <DineSection {...parkCafePageData.dineData} />
-      <CommonCardSection
+      {/* <CommonCardSection
         {...parkCafePageData.uniqueData}
         wrapperClassName="max-w-3xl mx-auto"
         sectionColor="text-[#686868]"
       />
-      <Cuisine {...parkCafePageData.cuisineData} />
-      <CommonCard2 {...parkCafePageData.addOnsData} />
+      <Cuisine {...parkCafePageData.cuisineData} /> */}
+      <Experience data={parkCafePageData.experienceData} />
+      {/* <CommonCard2 {...parkCafePageData.addOnsData} /> */}
       <MilestoneSection {...parkCafePageData.milestoneData} />
       <AdventuresSection {...parkCafePageData.testimonialData} />
       <StayWith

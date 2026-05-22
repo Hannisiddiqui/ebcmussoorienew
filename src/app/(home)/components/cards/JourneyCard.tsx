@@ -14,7 +14,7 @@ const JourneyCard: React.FC<JourneyProps["items"][0]> = ({
       <div className="absolute z-10 inset-x-0 bottom-0 h-30 bg-linear-to-b from-black/0 to-37% to-black/85" />
       <div className="heading2 text-white p-4 space-y-4 absolute bottom-0 inset-x-0 z-20">
         <h3
-          className="text-3xl font-primary"
+          className="text-3xl font-primary tracking-wider!"
           dangerouslySetInnerHTML={{ __html: title }}
         />
         <p>{description}</p>

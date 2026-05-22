@@ -14,7 +14,7 @@ const Accommodations: React.FC<AccommodationsTypes> = ({
       containerClassName="md:space-y-12 space-y-10"
       sectionId="rooms"
     >
-      <SectionHeading2 title={title} description={description[0]} textCenter />
+      <SectionHeading2 title={title} description={description[0]} textCenter descriptionColor="light" />
       <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 ">
         {items.map((item, index) => (
           <ShowCaseCard

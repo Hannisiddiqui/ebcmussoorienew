@@ -21,7 +21,7 @@ export default function BlogSocialSection({
 }: TSocialSectionProps) {
   return (
     <Container>
-      <div className="max-w-6xl mx-auto rounded-md border border-secondary/20 bg-primary  px-6 py-14 md:px-10">
+      <div className="rounded-md border border-secondary/20 bg-[#162218]  px-6 py-14 md:px-10">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-white text-2xl md:text-4xl font-serif">
             {title}
@@ -37,11 +37,10 @@ export default function BlogSocialSection({
                 key={index}
                 href={button.href}
                 target="_blank"
-                className={`flex items-center justify-center px-8 py-3 rounded-xs text-base font-medium uppercase transition-all duration-300 border ${
-                  button.variant === "primary"
-                    ? "bg-secondary border-secondary text-black"
-                    : "border-secondary hover:bg-secondary text-secondary hover:text-black"
-                }`}
+                className={`flex items-center justify-center px-8 py-3 rounded-xs text-base font-medium uppercase transition-all duration-300 border ${button.variant === "primary"
+                  ? "bg-secondary border-secondary text-black"
+                  : "border-secondary hover:bg-secondary text-secondary hover:text-black"
+                  }`}
               >
                 {button.label}
               </Link>

@@ -1,7 +1,7 @@
 export const experiencesPageData = {
   banner: {
-    subTitle:"Activities & Experiences",
-    title: "Resort Experiences & Activities at EBC Mussoorie",
+    subTitle: "Resort Experiences & Activities at EBC Mussoorie",
+    title: "Activities & Experiences",
     description:
       "At EBC Mussoorie, the experience extends well beyond your accommodation. Surrounded by pristine Himalayan forest at 2,000 metres, every day offers something new — from guided nature walks at dawn to stargazing sessions that last until midnight."
   },

@@ -23,10 +23,10 @@ const RoomsFeatures: React.FC<RoomsFeaturesProps> = ({
         {featuresCards.map((feature, index) => (
           <div
             key={index}
-            className="flex flex-col items-center gap-6 border border-[#C8A46B] rounded-md text-sm font-medium uppercase tracking-[0.15em] text-[#C8A46B] text-center py-12 px-4 bg-[#1E2E21]"
+            className="flex flex-col items-center gap-6 border-[1px] border-[#C8A46B]/20 rounded-md text-lg font-medium tracking-[0.15em] text-[#C8A46B] text-center py-6 px-4 bg-[#1E2E21]"
           >
             <span className="text-5xl text-white">{feature.icon}</span>
-            <span>{feature.title}</span>
+            <span className="font-primary">{feature.title}</span>
           </div>
         ))}
       </div>

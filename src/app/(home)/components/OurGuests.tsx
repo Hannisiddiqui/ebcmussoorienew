@@ -26,9 +26,9 @@ const OurGuests: React.FC<OurGuestsProps> = ({
             key={index}
             className="flex flex-col gap-4 text-white bg-[#162218] p-6 rounded-md"
           >
-            <div>★★★★★</div>
-            <p className="text-white text-base">{item.subtle}</p>
-            <p className="font-primary text-lg text-white font-semibold">
+            <div className="text-secondary">★★★★★</div>
+            <p className="text-white italic font-primary text-lg! tracking-wide">{item.subtle}</p>
+            <p className="font-primary text-lg text-white font-semibold ">
               {item.title}
             </p>
           </div>

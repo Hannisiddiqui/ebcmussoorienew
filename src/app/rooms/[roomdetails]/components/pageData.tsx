@@ -1,4 +1,4 @@
-import { contacts } from "@/utils/constant";
+import { bookingLink, contacts } from "@/utils/constant";
 
 export const roomDetailsPageData = [
   {
@@ -33,8 +33,8 @@ export const roomDetailsPageData = [
           href: contacts.WhatsAppCta,
         },
         {
-          label: "View Pricing",
-          href: "/packages",
+          label: "Book Now",
+          href: bookingLink,
         },
       ],
     },
@@ -67,14 +67,14 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "In-room Breakfast Service",
         },
-        // {
-        //   icon: "✦",
-        //   title: "Air Conditioning & Heating",
-        // },
-        // {
-        //   icon: "✦",
-        //   title: "24hr Concierge Support",
-        // },
+        {
+          icon: "✦",
+          title: "Air Conditioning & Heating",
+        },
+        {
+          icon: "✦",
+          title: "24hr Concierge Support",
+        },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -114,6 +114,9 @@ export const roomDetailsPageData = [
         "/andrew-villa/Suite-Bedroom-2.png",
         "/andrew-villa/Suite-Bedroom-2.png",
         "/andrew-villa/Suite-Bedroom-6.png",
+        "/andrew-villa/Suite-Bedroom-2.png",
+        "/andrew-villa/Suite-Bedroom-2.png",
+        "/andrew-villa/Suite-Bedroom-6.png",
       ],
     },
   },
@@ -148,8 +151,8 @@ export const roomDetailsPageData = [
           href: contacts.WhatsAppCta,
         },
         {
-          label: "View Pricing",
-          href: "/packages",
+          label: "Book Now",
+          href: bookingLink,
         },
       ],
     },
@@ -182,14 +185,14 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "In-room Breakfast Service",
         },
-        // {
-        //   icon: "✦",
-        //   title: "Air Conditioning & Heating",
-        // },
-        // {
-        //   icon: "✦",
-        //   title: "24hr Concierge Support",
-        // },
+        {
+          icon: "✦",
+          title: "Air Conditioning & Heating",
+        },
+        {
+          icon: "✦",
+          title: "24hr Concierge Support",
+        },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -229,6 +232,9 @@ export const roomDetailsPageData = [
         "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
         "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
         "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
       ],
     },
   },
@@ -263,8 +269,8 @@ export const roomDetailsPageData = [
           href: contacts.WhatsAppCta,
         },
         {
-          label: "View Pricing",
-          href: "/packages",
+          label: "Book Now",
+          href: bookingLink,
         },
       ],
     },
@@ -297,14 +303,14 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "Breakfast on the Veranda",
         },
-        // {
-        //   icon: "✦",
-        //   title: "Air Conditioning & Heating",
-        // },
-        // {
-        //   icon: "✦",
-        //   title: "24hr Concierge Support",
-        // },
+        {
+          icon: "✦",
+          title: "Air Conditioning & Heating",
+        },
+        {
+          icon: "✦",
+          title: "24hr Concierge Support",
+        },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -343,6 +349,10 @@ export const roomDetailsPageData = [
       images: [
         "/The Zenith/RoomImage1.jpg",
         "/family-stays/FamilyStayImage.jpg",
+        "/The Zenith/RoomImage1.jpg",
+        "/family-stays/FamilyStayImage.jpg",
+        "/The Zenith/RoomImage1.jpg",
+        "/family-stays/FamilyStayImage.jpg",
       ],
     },
   },
@@ -377,8 +387,8 @@ export const roomDetailsPageData = [
           href: contacts.WhatsAppCta,
         },
         {
-          label: "View Pricing",
-          href: "/packages",
+          label: "Book Now",
+          href: bookingLink,
         },
       ],
     },
@@ -415,10 +425,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "Heating & Cooling",
         },
-        // {
-        //   icon: "✦",
-        //   title: "24hr Concierge",
-        // },
+        {
+          icon: "✦",
+          title: "24hr Concierge",
+        },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -458,6 +468,9 @@ export const roomDetailsPageData = [
         "/The Surveyor/RoomImage1.jpg",
         "/The Surveyor/RoomImage1.jpg",
         "/The Surveyor/RoomImage1.jpg",
+        "/The Surveyor/RoomImage1.jpg",
+        "/The Surveyor/RoomImage1.jpg",
+        "/The Surveyor/RoomImage1.jpg",
       ],
     },
   },
@@ -492,8 +505,8 @@ export const roomDetailsPageData = [
           href: contacts.WhatsAppCta,
         },
         {
-          label: "View Pricing",
-          href: "/packages",
+          label: "Book Now",
+          href: bookingLink,
         },
       ],
     },
@@ -526,14 +539,14 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "In-room Breakfast Service",
         },
-        // {
-        //   icon: "✦",
-        //   title: "Air Conditioning & Heating",
-        // },
-        // {
-        //   icon: "✦",
-        //   title: "24hr Concierge Support",
-        // },
+        {
+          icon: "✦",
+          title: "Air Conditioning & Heating",
+        },
+        {
+          icon: "✦",
+          title: "24hr Concierge Support",
+        },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -573,6 +586,9 @@ export const roomDetailsPageData = [
         "/Surveyor Suite/RoomImage1.jpg",
         "/Surveyor Suite/RoomImage1.jpg",
         "/Surveyor Suite/RoomImage1.jpg",
+        "/Surveyor Suite/RoomImage1.jpg",
+        "/Surveyor Suite/RoomImage1.jpg",
+        "/Surveyor Suite/RoomImage1.jpg",
       ],
     },
   },
@@ -607,8 +623,8 @@ export const roomDetailsPageData = [
           href: contacts.WhatsAppCta,
         },
         {
-          label: "View Pricing",
-          href: "/packages",
+          label: "Book Now",
+          href: bookingLink,
         },
       ],
     },
@@ -641,10 +657,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "Heating",
         },
-        // {
-        //   icon: "✦",
-        //   title: "24hr Concierge",
-        // },
+        {
+          icon: "✦",
+          title: "24hr Concierge",
+        },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -684,6 +700,9 @@ export const roomDetailsPageData = [
         "/The Camper/RoomImage1.jpg",
         "/The Camper/RoomImage1.jpg",
         "/The Camper/RoomImage1.jpg",
+        "/The Camper/RoomImage1.jpg",
+        "/The Camper/RoomImage1.jpg",
+        "/The Camper/RoomImage1.jpg",
       ],
     },
   },
@@ -718,8 +737,8 @@ export const roomDetailsPageData = [
           href: contacts.WhatsAppCta,
         },
         {
-          label: "View Pricing",
-          href: "/packages",
+          label: "Book Now",
+          href: bookingLink,
         },
       ],
     },
@@ -756,10 +775,10 @@ export const roomDetailsPageData = [
           icon: "✦",
           title: "Heating",
         },
-        // {
-        //   icon: "✦",
-        //   title: "24hr Concierge",
-        // },
+        {
+          icon: "✦",
+          title: "24hr Concierge",
+        },
         {
           icon: "✦",
           title: "Free Wi-Fi",
@@ -796,6 +815,9 @@ export const roomDetailsPageData = [
       ],
 
       images: [
+        "/The Glamper/RoomImage1.jpg",
+        "/The Glamper/RoomImage1.jpg",
+        "/The Glamper/RoomImage1.jpg",
         "/The Glamper/RoomImage1.jpg",
         "/The Glamper/RoomImage1.jpg",
         "/The Glamper/RoomImage1.jpg",

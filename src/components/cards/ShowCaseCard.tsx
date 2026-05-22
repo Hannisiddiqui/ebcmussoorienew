@@ -34,7 +34,7 @@ const ShowCaseCard = ({
 }: TShowcaseCard) => {
   return (
     <div
-      className={`group overflow-hidden bg-primary border border-secondary/30 transition-all duration-500 hover:-translate-y-2`}
+      className={`group overflow-hidden bg-primary rounded-md border border-secondary/20 transition-all duration-500 hover:-translate-y-2`}
     >
       {/* IMAGE */}
       <div className="relative w-full aspect-4/2.5">

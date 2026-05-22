@@ -120,7 +120,7 @@ export const navData: NavData = {
     ],
   },
   bottomNav: {
-    logo: "/logo.png",
+    logo: "/LogoEBC.png",
     navLink: desktopNavLinks,
     cta: {
       name: "Book Now",

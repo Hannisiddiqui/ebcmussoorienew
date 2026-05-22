@@ -33,7 +33,7 @@ const DineSection: React.FC<DineSectionProps> = ({
           {description.map((item, index) => (
             <p
               key={index}
-              className="text-white max-lg:text-center font-medium md:text-[1.375rem]"
+              className="text-light max-lg:text-center font- text-lg "
             >
               {item}
             </p>

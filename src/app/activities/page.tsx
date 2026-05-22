@@ -29,7 +29,7 @@ export default function ActivitiesPage() {
       <CommonCard2 {...activitiesPageData.paidAddonsData} />
       <StayWith {...activitiesPageData.ctaData} /> */}
       <HeroHeaderSection {...experiencesPageData.banner} />
-      <SectionWithContainer sectionClassName="bg-[#070C08]" containerClassName="space-y-16 divide-y divide-white/50">
+      <SectionWithContainer sectionClassName="bg-[#070C08]" containerClassName="space-y-16 divide-y divide-secondary/20">
         {experiencesPageData.cards.map((card, index) => (
           <ActivitiesCards key={index} {...card} index={index} />
         ))}

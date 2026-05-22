@@ -1,4 +1,4 @@
-import { bookingLink } from "@/utils/constant";
+import { bookingLink, contacts } from "@/utils/constant";
 
 export const couplesAndHoneymoonPageData = {
   bannerData: {
@@ -9,13 +9,14 @@ export const couplesAndHoneymoonPageData = {
   },
 
   familyStaySection: {
-    title: "For Families",
-    subTitle: `A Holiday That Stays With Them`,
-    description: `Children who have grown up visiting EBC Mussoorie remember it as the
-place where they first saw the Milky Way, found a leopard pugmark, and
-sat around a real fire telling stories. These are not small memories. EBC
-is a safe, enclosed, family-friendly property where children can roam
-freely within the grounds while parents actually relax.`,
+    title: "Romance at Altitude",
+    subTitle: `Romance at Altitude`,
+    description: `There is something about a Himalayan night that makes everything
+more vivid — the stars brighter, the silence deeper, the warmth of a
+bonfire more meaningful. EBC Mussoorie has been the setting for
+hundreds of romantic firsts: first mornings after engagement,
+honeymoon nights, anniversary surprises, and simple escapes that
+remind couples why they chose each other.`,
     image: "/family-stays/FamilyStayImage.jpg",
   },
 
@@ -78,7 +79,7 @@ Himalayan forest.`,
         price: "From ₹20,000 / night",
         primaryButton: {
           label: "View Details",
-          href: "/rooms/twin-luxury-cottages",
+          href: "/rooms/the-andrews-villa",
         },
 
         secondaryButton: {
@@ -97,7 +98,7 @@ EBC's original icon of Himalayan glamping.`,
         price: "From ₹18,000 / night",
         primaryButton: {
           label: "View Details",
-          href: "/rooms/andrews-villa",
+          href: "/rooms/zenith-luxury-cottage/",
         },
 
         secondaryButton: {
@@ -116,7 +117,7 @@ breathe.`,
         price: "From ₹16,000 / night",
         primaryButton: {
           label: "View Details",
-          href: "/rooms/the-zenith",
+          href: "/rooms/surveyor-suite",
         },
 
         secondaryButton: {
@@ -150,4 +151,6 @@ more connected than any team-building workshop had ever achieved`,
       },
     },
   ],
+
 };
+

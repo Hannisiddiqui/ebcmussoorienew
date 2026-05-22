@@ -28,10 +28,11 @@ const OurStory: React.FC<OurStoryProps> = ({
     <SectionWithContainer sectionClassName="bg-ternary">
       <div className="grid lg:grid-cols-2 items-center gap-8">
         <div className="flex flex-col gap-6">
+          <p className="text-secondary font tracking-wider uppercase">{subTitle} </p>
           <SectionHeading2 title={title} />
           <div className="space-y-3">
             {description.map((item, index) => (
-              <p key={index} className="text-white/90">
+              <p key={index} className="text-light">
                 {item}
               </p>
             ))}

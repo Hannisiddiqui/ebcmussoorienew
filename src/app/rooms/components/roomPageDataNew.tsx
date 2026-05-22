@@ -43,7 +43,7 @@ export const roomPageDataNew = {
       buttons: [
         {
           label: "Full Details",
-          href: "/rooms/andrews-villa",
+          href: "/rooms/the-andrews-villa/",
         },
         {
           label: "Book via WhatsApp",
@@ -120,7 +120,7 @@ export const roomPageDataNew = {
       buttons: [
         {
           label: "Full Details",
-          href: "/rooms/the-zenith",
+          href: "/rooms/zenith-luxury-cottage/",
         },
         {
           label: "Book via WhatsApp",
@@ -202,7 +202,7 @@ export const roomPageDataNew = {
       buttons: [
         {
           label: "Full Details",
-          href: "/rooms/the-surveyor",
+          href: "/rooms/the-surveyor-suite/",
         },
         {
           label: "Book via WhatsApp",

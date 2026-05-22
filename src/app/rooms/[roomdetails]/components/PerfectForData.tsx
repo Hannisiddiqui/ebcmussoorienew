@@ -1,6 +1,8 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { contacts } from "@/utils/constant";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Props {
   title: string;
@@ -31,7 +33,7 @@ const PerfectForData: React.FC<Props> = ({
               {points.map((point, index) => (
                 <li
                   key={index}
-                  className="text-white pb-3 border-b border-white/30"
+                  className="text-white/70 pb-3 border-b border-secondary/20"
                 >
                   <span className="text-secondary mr-1">✓</span> {point}
                 </li>
@@ -41,20 +43,27 @@ const PerfectForData: React.FC<Props> = ({
 
           <div className="flex flex-col gap-6">
             <SectionHeading2 title={pricingTitle} />
-            <div className="p-6 flex flex-col gap-6 rounded-md  bg-[#162218] border border-secondary/30">
-              {/* <p className="text-secondary font-primary text-2xl">{pricing}</p> */}
+            <div className="p-6 flex flex-col gap-6 rounded-md  bg-[#162218] border border-secondary/20">
+              <p className="text-secondary font-primary text-2xl">{pricing}</p>
               <p className="text-white/60">{pricingSubTitle}</p>
               <ul className="flex flex-col gap-3 mt-4">
                 {pricingPoints.map((point, index) => (
                   <li
                     key={index}
-                    className="text-white pb-3 border-b border-white/30"
+                    className="text-white/80 pb-3 border-b border-secondary/20"
                   >
                     <span className="text-secondary mr-1">✓</span> {point}
                   </li>
                 ))}
               </ul>
+              <Link
+                href={contacts.WhatsAppCta || ""}
+                className="border border-[#C8A46B] w-fit rounded-md px-5 py-3 text-sm font-medium uppercase tracking-[0.15em] text-[] transition-all duration-300 bg-[#C8A46B] hover:bg-transparent hover:text-[#C8A46B]"
+              >
+                Book via WhatsApp {/* {links[1].label} */}
+              </Link>
             </div>
+
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
