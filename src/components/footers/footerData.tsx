@@ -76,26 +76,26 @@ export const footerNavLinks = [
   { name: "Terms & Conditions", href: "/terms-and-conditions/" },
 ];
 export const roomFooterLinks = [
-  { name: "All Rooms", href: "/rooms" },
-  { name: "Andrew's Villa", href: "/rooms/andrews-villa/" },
-  { name: "Twin Cottages", href: "/rooms/twin-luxury-cottages/" },
-  { name: "The Zenith", href: "/rooms/the-zenith/" },
-  { name: "Surveyor Suite", href: "/rooms/surveyor-suite/" },
-  { name: "The Surveyor", href: "/rooms/the-surveyor/" },
-  { name: "The Glamper", href: "/rooms/the-glamper/" },
+  { name: "All Rooms", href: "/rooms/" },
+  { name: "The Andrew's Villa", href: "/rooms/the-andrews-villa" },
+  { name: "Twin Luxury Cottages", href: "/rooms/twin-luxury-cottages" },
+  { name: "Zenith Luxury Cottage", href: "/rooms/zenith-luxury-cottage" },
+  { name: "Surveyor Suite", href: "/rooms/surveyor-suite" },
+  { name: "The Surveyor suite", href: "/rooms/the-surveyor-suite" },
+  { name: "The Glamper", href: "/rooms/the-glamper" },
   { name: "The Camper", href: "/rooms/the-camper/" },
 ];
 export const exploreFooterLinks = [
-  { name: "Experiences", href: "/" },
-  { name: "Packages & Pricing", href: "/about-us/" },
-  { name: "Blog & Guides", href: "/rooms/" },
-  { name: "FAQ", href: "/contact-us/" },
-  { name: "Location & Directions", href: "/activities/" },
+  { name: "Experiences", href: "/activities" },
+  { name: "Packages & Pricing", href: "/packages" },
+  { name: "Blog & Guides", href: "/blogs/" },
+  { name: "FAQ", href: "/faq" },
+  { name: "Location & Directions", href: contacts.addresses[0].addressUrl },
 ];
 export const forYouFooterLinks = [
-  { name: "Couples & Honeymoon", href: "/" },
-  { name: "Family Stays", href: "/about-us/" },
-  { name: "Corporate & MICE", href: "/rooms/" },
+  { name: "Couples & Honeymoon", href: "/couples-and-honeymoon/" },
+  { name: "Family Stays", href: "/family-stays/" },
+  { name: "Corporate & MICE", href: "/corporate-and-mice/" },
 ];
 
 export const webSiteFooterData: WebSiteFooterData = {
@@ -103,7 +103,7 @@ export const webSiteFooterData: WebSiteFooterData = {
   description: "Luxury glamping on Hathipaon Road, Mussoorie — where the Himalayas meet the stars",
   link: {
     label: "Book Via Whatsapp",
-    href: bookingLink,
+    href: contacts.WhatsAppCta,
   },
   lists: [
     {

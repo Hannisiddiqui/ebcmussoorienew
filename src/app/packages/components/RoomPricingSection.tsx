@@ -1,4 +1,5 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
+import Link from "next/link";
 import React from "react";
 
 type RoomPricingSectionProps = {
@@ -16,15 +17,15 @@ type RoomPricingSectionProps = {
 };
 
 const RoomPricingSection = ({
-  title,
+  // title,
   roomPricing,
 }: RoomPricingSectionProps) => {
   return (
     <SectionWithContainer sectionClassName="bg-ternary">
       {/* Title */}
-      <h1 className="text-center text-4xl md:text-5xl font-primary text-[#e2d2ae]">
+      {/* <h1 className="text-center text-4xl md:text-5xl font-primary text-[#e2d2ae]">
         {title}
-      </h1>
+      </h1> */}
 
       {/* Table */}
       <div className="overflow-x-auto mt-16">
@@ -34,7 +35,7 @@ const RoomPricingSection = ({
             <tr className="text-lg text-secondary">
               <th className="p-6 text-left font-primary">Accommodation</th>
               <th className="p-6 text-left font-primary">Category</th>
-              <th className="p-6 text-left font-primary">Price / Night</th>
+              {/* <th className="p-6 text-left font-primary">Price / Night</th> */}
               <th className="p-6 text-left font-primary">Included</th>
               <th className="p-6 text-center font-primary">Book</th>
             </tr>
@@ -60,9 +61,9 @@ const RoomPricingSection = ({
                 </td>
 
                 {/* Price */}
-                <td className="px-6 py-5 text-[#d2b277] text-sm font-light">
+                {/* <td className="px-6 py-5 text-[#d2b277] text-sm font-light">
                   <span className="ml-6">{room.price}</span>
-                </td>
+                </td> */}
 
                 {/* Included */}
                 <td className="px-6 py-5 text-white text-sm leading-relaxed whitespace-nowrap">
@@ -72,9 +73,13 @@ const RoomPricingSection = ({
                 {/* Button */}
                 <td className="px-6 py-5">
                   <div className="flex justify-center">
-                    <button className="bg-[#c9a56b] hover:bg-[#d7b67f] text-black uppercase tracking-wider text-xs px-5 py-3 rounded-md transition duration-300">
+                    <Link
+                      href={room?.button?.href}
+                      target="_blank"
+                      className="bg-[#c9a56b] hover:bg-[#d7b67f] text-black uppercase tracking-wider text-xs px-5 py-3 rounded-md transition duration-300"
+                    >
                       {room.button.label}
-                    </button>
+                    </Link>
                   </div>
                 </td>
               </tr>

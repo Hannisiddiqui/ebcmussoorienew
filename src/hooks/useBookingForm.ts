@@ -5,9 +5,13 @@ import { contacts } from "@/utils/constant";
 
 interface BookingFormData {
   name: string;
+  company?: string;
   countryCode: string;
   phone: string;
   email: string;
+  guests?: string;
+  dates?: string;
+  roomType?: string;
   checkIn?: string;
   checkOut?: string;
   message?: string;
@@ -32,9 +36,13 @@ interface UseBookingFormProps {
 
 const initialFormData: BookingFormData = {
   name: "",
+  company: "",
   countryCode: "+91",
   phone: "",
   email: "",
+  guests: "",
+  dates: "",
+  roomType: "",
   checkIn: "",
   checkOut: "",
   message: "",
@@ -144,13 +152,17 @@ const useBookingForm = ({
 
   // handle form submission
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
   ) => {
     const { name, value } = e.target;
+
     setFormData((prevFormData) => ({
       ...prevFormData,
       [name]: value,
     }));
+
     // Clear error for this field
     if (errors[name as keyof FormErrors]) {
       setErrors((prevErrors) => ({
@@ -189,15 +201,35 @@ const useBookingForm = ({
     setIsSubmitting(true);
     try {
       const descriptionPart = [];
+
       if (includeCheckIn) {
         descriptionPart.push(`Check-in: ${formData.checkIn}`);
       }
+
       if (includeCheckOut) {
         descriptionPart.push(`Check-out: ${formData.checkOut}`);
       }
+
       if (includeMessage) {
         descriptionPart.push(`Message: ${formData.message}`);
       }
+
+      if (formData.company) {
+        descriptionPart.push(`Company: ${formData.company}`);
+      }
+
+      if (formData.guests) {
+        descriptionPart.push(`Guests: ${formData.guests}`);
+      }
+
+      if (formData.dates) {
+        descriptionPart.push(`Preferred Dates: ${formData.dates}`);
+      }
+
+      if (formData.roomType) {
+        descriptionPart.push(`Room Type: ${formData.roomType}`);
+      }
+
       const description = descriptionPart.join("\n");
 
       const { data } = await axios.post(

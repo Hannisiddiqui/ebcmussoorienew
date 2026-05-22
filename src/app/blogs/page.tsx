@@ -1,15 +1,11 @@
-import { SectionWithContainer } from "@/components/sectionComponants";
-import SectionHeading from "@/components/typography/SectionHeading";
-import { blogPagedata } from "./components/pageData";
-import Image from "next/image";
-import Link from "next/link";
-import BlogSection from "./components/BlogSection";
 import HeroHeaderSection from "@/components/CommonSections/HeroHeaderSection";
+import BlogSection from "./components/BlogSection";
 import BlogSocialSection from "./components/BlogSocialSection";
+import { blogPagedata } from "./components/pageData";
 
 export default function BlogPage() {
   return (
-    <main className="bg-black py-12">
+    <main className="pb-6">
       <HeroHeaderSection {...blogPagedata?.banner} />
       <BlogSection cards={blogPagedata?.cards} />
       <BlogSocialSection {...blogPagedata.socialSection} />

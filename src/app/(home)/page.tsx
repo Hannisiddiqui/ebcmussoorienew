@@ -1,13 +1,17 @@
 import VideoBanner from "@/components/banner/VideoBanner";
-import AboutSection from "@/components/CommonSections/AboutSection";
 import CtaSection from "@/components/CommonSections/CtaSection";
+import SlidingTitle from "@/components/slider/SlidingTitle";
+import Accommodations from "./components/Accommodations";
 import ExperienceNew from "./components/ExperienceNew";
 import { homePageData } from "./components/homePageData";
-import PressSection from "./components/PressSection";
 import Journey from "./components/Journey";
-import Accommodations from "./components/Accommodations";
-import SlidingTitle from "@/components/slider/SlidingTitle";
 import OurStory from "./components/OurStory";
+import FaqSection from "./components/FaqSection";
+import Journal from "./components/Journal";
+import { blogPagedata } from "../blogs/components/pageData";
+import { Section } from "@/components/sectionComponants";
+import Image from "next/image";
+import OurGuests from "./components/OurGuests";
 
 export default function Home() {
   return (
@@ -31,6 +35,28 @@ export default function Home() {
       <AdventuresSection {...homePageData.activitiesData} />
       <ExploreNearbySection {...homePageData.exploreNearbyData} /> */}
       {/* <PressSection {...homePageData.pressData} /> */}
+      <OurGuests {...homePageData.testimonialData} />
+      <Section defaultPadding={false} className="bg-primary">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 w-full">
+          {homePageData.homeGalleryData.images.map((image, index) => (
+            <div className="relative w-full aspect-4/3.5" key={index}>
+              <Image
+                src={image}
+                alt={`Image ${index + 1}`}
+                fill
+                className="object-cover"
+              />
+            </div>
+          ))}
+        </div>
+      </Section>
+      <Journal
+        title={homePageData.journalData.title}
+        description={homePageData.journalData.description}
+        blogs={blogPagedata?.cards.slice(0, 3)}
+      />
+
+      <FaqSection {...homePageData.faqData} />
       <CtaSection {...homePageData.ctaData} />
     </main>
   );

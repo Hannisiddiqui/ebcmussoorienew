@@ -71,8 +71,8 @@ const list = [
 
 function page() {
   return (
-    <SectionWithContainer>
-      <div className=" text-primary space-y-8">
+    <SectionWithContainer sectionClassName="bg-primary text-white ">
+      <div className=" space-y-8 pt-18">
         <h1 className="text-center font-primary font-medium text-3xl">
           Terms & <i>Conditions</i>
         </h1>
@@ -100,13 +100,13 @@ const Accordin = ({
       className="border-b border-b-gray-600 cursor-pointer"
       onClick={() => setOpen(!open)}
     >
-      <h2 className="text-xl font-primary font-light">{questoin}</h2>
+      <h2 className="text-lg font-primary font-light">{questoin}</h2>
 
       <div
         className={`mt-4 flex flex-col overflow-hidden transition-all ease-in-out duration-1000 ${open ? "max-h-[1200px]" : " max-h-0"}`}
       >
         {answer.map((item, index) => (
-          <p className="pb-4 text-[1.375rem] text-light" key={index}>
+          <p className="pb-4  text-light" key={index}>
             {item}
           </p>
         ))}

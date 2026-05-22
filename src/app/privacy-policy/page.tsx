@@ -35,9 +35,9 @@ const list3 = [
 
 function page() {
   return (
-    <SectionWithContainer sectionClassName="bg-background-1 ">
-      <div className="text-primary content-class">
-        <h2 className="text-center font-primary font-medium text-3xl">
+    <SectionWithContainer sectionClassName="bg-primary">
+      <div className=" text-white content-class">
+        <h2 className="text-center font-primary font-medium text-2xl">
           Privacy <i>Policy</i>
         </h2>
 
@@ -64,14 +64,14 @@ function page() {
 
           <div className="mt-8 space-y-5">
             <div>
-              <h2 className="text-xl">Consent</h2>
+              <h2 className="text-lg">Consent</h2>
               <p>
                 By using our website, you hereby consent to our Privacy Policy
                 and agree to its terms.
               </p>
             </div>
             <div>
-              <h2 className="text-xl">Information we collect</h2>
+              <h2 className="text-lg">Information we collect</h2>
               <p>
                 The personal information that you are asked to provide, and the
                 reasons why you are asked to provide it, will be made clear to
@@ -112,7 +112,7 @@ function page() {
               </p>
             </div>
             <div>
-              <h2 className="text-xl">​Cookies and Web Beacons</h2>
+              <h2 className="text-lg">​Cookies and Web Beacons</h2>
               <p>
                 Like any other website, EBC Mussoorie uses ‘cookies’. These
                 cookies are used to store information including visitors’
@@ -128,7 +128,7 @@ function page() {
               </p>
             </div>{" "}
             <div>
-              <h2 className="text-xl">Google DoubleClick DART Cookie</h2>
+              <h2 className="text-lg">Google DoubleClick DART Cookie</h2>
               <p>
                 Google is one of the third-party vendors on our site. It also
                 uses cookies, known as DART cookies, to serve ads to our site
@@ -140,7 +140,7 @@ function page() {
               </p>
             </div>{" "}
             <div>
-              <h2 className="text-xl">Advertising Partners Privacy Policies</h2>
+              <h2 className="text-lg">Advertising Partners Privacy Policies</h2>
               <p>
                 You may consult this list to find the Privacy Policy for each of
                 the advertising partners of EBC Mussoorie.
@@ -163,7 +163,7 @@ function page() {
               </p>
             </div>{" "}
             <div>
-              <h2 className="text-xl">Third-Party Privacy Policies</h2>
+              <h2 className="text-lg">Third-Party Privacy Policies</h2>
               <p>
                 EBC Mussoorie’s Privacy Policy does not apply to other
                 advertisers or websites. Thus, we are advising you to consult
@@ -199,7 +199,7 @@ function page() {
               </ul>
             </div>{" "}
             <div>
-              <h2 className="text-xl">Children’s Information</h2>
+              <h2 className="text-lg">Children’s Information</h2>
               <p>
                 Another part of our priority is adding protection for children
                 while using the internet. We encourage parents and guardians to

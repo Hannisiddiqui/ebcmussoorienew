@@ -6,16 +6,17 @@ import ContactCard from "./cards/ContactCard";
 
 export type ContactCardType = {
   title: string;
-  description: string;
+  description?: string;
   badge?: string;
   contact?: string;
   availability?: string;
   button: {
-    type: "button" | "link";
+    type: string;
+    // type: "button" | "link";
     label: string;
     href: string;
   };
-  icon?: React.ReactNode;
+  icon?: string | React.ReactNode;
 };
 
 type ContactCardSectionProps = {

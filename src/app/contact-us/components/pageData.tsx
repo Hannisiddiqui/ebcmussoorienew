@@ -26,7 +26,7 @@ export const contactUsPageData = {
   contactCards: {
     cards: [
       {
-        icon: "whatsapp",
+        icon: "💬",
         title: "WhatsApp",
         badge: "FASTEST RESPONSE",
         contact: "+91 91190 01126",
@@ -38,24 +38,24 @@ export const contactUsPageData = {
         },
       },
       {
-        icon: "phone",
+        icon: "📞",
         title: "Calls",
         contact: "+91 91190 01126",
         availability: "Available 9am – 9pm daily",
         button: {
           type: "link",
-          label: "Chat on WhatsApp",
+          label: "Call Now",
           href: `tel:${contacts.phone[0]}`,
         },
       },
       {
-        icon: "email",
+        icon: "✉️",
         title: "Email",
         contact: "info@ebcmussoorie.com",
         description: "For detailed enquiries",
         button: {
           type: "link",
-          label: "Chat on WhatsApp",
+          label: "Send Email",
           href: `mailto:${contacts.email[0]}`,
         },
       },
@@ -85,23 +85,23 @@ export const contactUsPageData = {
 
         socialLinks: [
           {
-            label: "Instagram — @ebcmussoorie",
-            href: "https://instagram.com/ebcmussoorie",
+            label: "📸 Instagram — @ebcmussoorie",
+            href: contacts.socialContacts.instagram,
           },
 
           {
-            label: "Facebook — EBC Mussoorie",
-            href: "https://facebook.com",
+            label: "📘 Facebook — EBC Mussoorie",
+            href: contacts.socialContacts.facebook,
           },
 
           {
-            label: "YouTube — @ebcmussoorie",
-            href: "https://youtube.com",
+            label: "▶ YouTube — @ebcmussoorie",
+            href: contacts.socialContacts.youtube,
           },
 
           {
-            label: "TripAdvisor — 4.8★ Reviews",
-            href: "https://tripadvisor.com",
+            label: "🦉 TripAdvisor — 4.8★ Reviews",
+            href: contacts.socialContacts.tripadvisor,
           },
         ],
       },

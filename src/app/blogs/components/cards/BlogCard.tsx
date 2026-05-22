@@ -25,7 +25,7 @@ export default function BlogCard({ card }: BlogCardProps) {
       className="group border border-secondary/30 bg-primary  overflow-hidden rounded-md transition-all duration-300"
     >
       {/* Image */}
-      <div className="relative aspect-4/1.5 overflow-hidden">
+      <div className="relative aspect-4/1.75 overflow-hidden">
         <Image
           src={card.image}
           alt={card.title}

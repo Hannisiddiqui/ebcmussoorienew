@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export type TShowcaseCard = {
-  id?: string;
+  id?: string | number;
   image: string;
   badge?: string;
 
@@ -60,9 +60,9 @@ const ShowCaseCard = ({
 
           <p className="leading-8 text-neutral-400">{description}</p>
 
-          {price && (
+          {/* {price && (
             <p className="font-primary text-lg text-[#C8A46B]">{price}</p>
-          )}
+          )} */}
         </div>
 
         {/* BUTTONS */}
@@ -80,6 +80,7 @@ const ShowCaseCard = ({
             {secondaryButton && (
               <Link
                 href={secondaryButton.href || "#"}
+                target="_blank"
                 className="bg-[#C8A46B] px-5 py-3 text-sm font-medium uppercase tracking-[0.15em] text-black transition-all duration-300 hover:bg-[#d8b47b]"
               >
                 {secondaryButton.label}

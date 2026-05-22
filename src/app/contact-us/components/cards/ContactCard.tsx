@@ -16,15 +16,16 @@ export default function ContactCard({
 
   return (
     <div className="bg-primary border border-secondary/30 rounded-sm p-4 flex flex-col items-center hover:border-primary transition-all duration-300 space-y-4">
-      <div className="rounded-full border border-primary/30 flex items-center justify-center">
+      <div className="rounded-full text-3xl border border-primary/30 flex items-center justify-center">
         {/* <Icon className="w-6 h-6 text-primary" /> */}
-        icon
+        {icon}
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-4">
         <h2 className="text-2xl text-center font-serif text-secondary">
           {title}
         </h2>
+
         {badge && (
           <p className="text-xs border border-secondary text-secondary px-2 py-0.5 rounded-xs">
             {badge}

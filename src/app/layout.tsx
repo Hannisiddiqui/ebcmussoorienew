@@ -5,6 +5,7 @@ import { AppProvider } from "@/contextApi/AppContext";
 import { NavBar } from "@/components/navbars";
 import "./style.scss";
 import { Footer } from "@/components/footers";
+import Navbar2 from "@/components/navbars/Navbar2";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -90,7 +91,7 @@ export default function RootLayout({
     >
       <body>
         <AppProvider>
-          <NavBar />
+          <Navbar2 />
           {children}
           <Footer />
         </AppProvider>

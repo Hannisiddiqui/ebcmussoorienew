@@ -1,3 +1,5 @@
+import { bookingLink } from "@/utils/constant";
+
 export const couplesAndHoneymoonPageData = {
   bannerData: {
     title: "Couples & Honeymoon",
@@ -68,24 +70,6 @@ freely within the grounds while parents actually relax.`,
     cards: [
       {
         id: 1,
-        badge: "Luxury Cottages",
-        title: "Twin Luxury Cottages",
-        description: `Dual luxury cottages with panoramic Himalayan views — perfect for families or two couples travelling together.`,
-        price: "From ₹20,000 / night",
-        primaryButton: {
-          label: "View Details",
-          href: "/",
-        },
-
-        secondaryButton: {
-          label: "Book Now",
-          href: "/",
-        },
-
-        image: "/family-stays/FamilyRoom2.png",
-      },
-      {
-        id: 2,
         badge: "Flagship Villa",
         title: "Andrew's Villa",
         description: `Mussoorie's most exclusive private villa — a
@@ -94,17 +78,18 @@ Himalayan forest.`,
         price: "From ₹20,000 / night",
         primaryButton: {
           label: "View Details",
-          href: "/",
+          href: "/rooms/twin-luxury-cottages",
         },
 
         secondaryButton: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
+
         image: "/family-stays/FamilyRoom2.png",
       },
       {
-        id: 3,
+        id: 2,
         badge: "Signature Cottage",
         title: "The Zenith",
         description: `The signature luxury cottage in the forest —
@@ -112,14 +97,33 @@ EBC's original icon of Himalayan glamping.`,
         price: "From ₹18,000 / night",
         primaryButton: {
           label: "View Details",
-          href: "/",
+          href: "/rooms/andrews-villa",
         },
 
         secondaryButton: {
           label: "Book Now",
-          href: "/",
+          href: bookingLink,
         },
-        image: "/family-stays/FamilyRoom3.jpg",
+        image: "/The Zenith/RoomImage1.jpg",
+      },
+      {
+        id: 3,
+        badge: "Suite",
+        title: "Surveyor Suite",
+        description: `Spacious suite with private sit-out —
+generous space for those who want room to
+breathe.`,
+        price: "From ₹16,000 / night",
+        primaryButton: {
+          label: "View Details",
+          href: "/rooms/the-zenith",
+        },
+
+        secondaryButton: {
+          label: "Book Now",
+          href: bookingLink,
+        },
+        image: "/Surveyor Suite/RoomImage1.jpg",
       },
     ],
   },
