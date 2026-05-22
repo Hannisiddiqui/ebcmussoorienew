@@ -33,7 +33,7 @@ const formFields = [
     label: "Number of Guests",
     name: "guests",
     type: "text",
-    placeholder: "8-25",
+    placeholder: "8-48",
   },
 
   {

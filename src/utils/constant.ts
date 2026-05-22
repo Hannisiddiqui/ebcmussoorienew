@@ -42,7 +42,7 @@ export const contacts = {
         "Everest Base Camp Mussoorie, Park Estate, Hathipaon Road, Mussoorie, Uttarakhand, 248179",
       addressUrl: "https://maps.app.goo.gl/kCcMwa4j1r1TMpn5A",
       mapUrl:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.013804707628!2d78.025305!3d30.4592927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d170d61d91cb%3A0x84607e0d71c4450f!2sEverest%20Base%20Camp%2C%20Near%20George%20Everest%20House!5e1!3m2!1sen!2sin!4v1774938649652!5m2!1sen!2sin",
+        "https://maps.app.goo.gl/hz7yUWMp6SgzgV7L6",
     },
   ],
 
