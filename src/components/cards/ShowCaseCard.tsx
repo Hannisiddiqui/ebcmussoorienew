@@ -71,7 +71,7 @@ const ShowCaseCard = ({
             {primaryButton && (
               <Link
                 href={primaryButton.href || "#"}
-                className="border border-[#C8A46B] px-5 py-3 text-sm font-medium uppercase tracking-[0.15em] text-[#C8A46B] transition-all duration-300 hover:bg-[#C8A46B] hover:text-black"
+                className="border border-[#C8A46B] rounded-md px-5 py-3 text-sm font-medium uppercase tracking-[0.15em] text-[#C8A46B] transition-all duration-300 hover:bg-[#C8A46B] hover:text-black"
               >
                 {primaryButton.label}
               </Link>
@@ -81,7 +81,7 @@ const ShowCaseCard = ({
               <Link
                 href={secondaryButton.href || "#"}
                 target="_blank"
-                className="bg-[#C8A46B] px-5 py-3 text-sm font-medium uppercase tracking-[0.15em] text-black transition-all duration-300 hover:bg-[#d8b47b]"
+                className="bg-[#C8A46B] rounded-md px-5 py-3 text-sm font-medium uppercase tracking-[0.15em] text-black transition-all duration-300 hover:bg-[#d8b47b]"
               >
                 {secondaryButton.label}
               </Link>

@@ -1,11 +1,8 @@
 import blogData from "@/app/blogs/components/blogData";
 import {
-  bookingEngining,
   bookingLink,
   contacts,
-  imgSrc,
-  landingpageImgSrc,
-  nearby,
+  nearby
 } from "@/utils/constant";
 import {
   CarDriveIcon,
@@ -17,19 +14,12 @@ import {
   ManWalkingIcon,
 } from "@/utils/homeIcons";
 import { FillLocationIcon } from "@/utils/icons";
-import {
-  BirdWatchingIcon,
-  BonfireIcon,
-  ChefSpecialIcon,
-  ForestViewIcon,
-  ForestWalksIcon,
-  HimalayanViewsIcon,
-  PeopleIcon,
-  SqFtIcon,
-  StargazingIcon,
-} from "@/utils/newIcon";
 
 export const homePageData = {
+   slidingTitle: [
+    "Just Launched: Andrew's Villa & Twin Luxury Cottages. “Our most exclusive stays yet”",
+  ],
+  
   bannerData: {
     video: {
       src: "https://eazotel-client-webp-images.s3.ap-south-1.amazonaws.com/Ebc-New-Ui-Image/0408-2.mp4",

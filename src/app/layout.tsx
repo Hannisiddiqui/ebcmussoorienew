@@ -1,11 +1,9 @@
-import "./globals.css";
-import localFont from "next/font/local";
-import { Inter, Cormorant_Garamond } from "next/font/google";
-import { AppProvider } from "@/contextApi/AppContext";
-import { NavBar } from "@/components/navbars";
-import "./style.scss";
 import { Footer } from "@/components/footers";
 import Navbar2 from "@/components/navbars/Navbar2";
+import { AppProvider } from "@/contextApi/AppContext";
+import { Cormorant_Garamond, Inter } from "next/font/google";
+import "./globals.css";
+import "./style.scss";
 
 const inter = Inter({
   subsets: ["latin"],

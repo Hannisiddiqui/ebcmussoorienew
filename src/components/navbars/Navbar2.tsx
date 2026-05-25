@@ -10,6 +10,8 @@ import MobileNav from "./MobileNav";
 import { useAppContext } from "@/contextApi/AppContext";
 import { MenuIcon } from "./Header";
 import Image from "next/image";
+import ShowSlidingTitle from "../slider/ShowSlidingTitle";
+import { homePageData } from "@/app/(home)/components/homePageData";
 
 export const navLinks = [
   {
@@ -129,7 +131,7 @@ const Navbar2 = () => {
           }
         `}
       >
-        {/* <ShowSlidingTitle title={landingPageData.slidingTitle} /> */}
+        <ShowSlidingTitle title={homePageData.slidingTitle} />
 
         <div className="px-6 max_screen_width">
           <div className="flex justify-between py-4">
