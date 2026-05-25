@@ -107,14 +107,14 @@ EBC's original icon of Himalayan glamping.`,
       {
         id: 3,
         badge: "Suite",
-        title: "Surveyor Suite",
+        title: "The Surveyor",
         description: `Spacious suite with private sit-out —
 generous space for those who want room to
 breathe.`,
         price: "From ₹16,000 / night",
         primaryButton: {
           label: "View Details",
-          href: "/rooms/surveyor-suite",
+          href: "/rooms/the-surveyor",
         },
 
         secondaryButton: {

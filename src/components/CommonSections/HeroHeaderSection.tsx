@@ -17,7 +17,7 @@ export default function HeroHeaderSection({
   return (
     <Section className="bg-[#162218]">
       <Container className="">
-        <div className="flex flex-col gap-6 w-full lg:pt-20 pt-18">
+        <div className="flex flex-col gap-6 w-full lg:pt-20 pt-28">
           <span className="uppercase text-secondary text-sm tracking-wider">{title}</span>
 
           <SectionHeading

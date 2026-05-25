@@ -34,8 +34,8 @@ export default function ContactCardsSection({
 }: ContactCardSectionProps) {
   return (
     <SectionWithContainer>
-      <div className="flex flex-col items-center text-center gap-4">
-        <span className="uppercase tracking-[0.2em] text-primary text-sm">
+      {/* <div className="flex flex-col items-center text-center gap-4">
+        <span className="uppercase tracking-[0.2em] text-white text-sm">
           {title}
         </span>
 
@@ -46,7 +46,7 @@ export default function ContactCardsSection({
         />
 
         <p className="text-[#B7B7B7] max-w-xl">{description}</p>
-      </div>
+      </div> */}
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-14">
         {cards?.length > 0 &&

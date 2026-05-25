@@ -317,7 +317,7 @@ const blogData = [
       },
 
       {
-        title: "Surveyor Suite",
+        title: "The Surveyor",
         subtitle: [
           "Perfect for families and a large group of friends, our surveyor suite is spread over 600 sq. ft. It comes with a king bed and a queen bed in the attached living area. Perfect for 4, it is a place to be.",
         ],
@@ -526,7 +526,7 @@ const blogData = [
       },
 
       {
-        title: "Surveyor Suite",
+        title: "The Surveyor",
         subtitle: [
           "Perfect for families and a large group of friends, our surveyor suite is spread over 600 sq. ft. It comes with a king bed and a queen bed in the attached living area. Perfect for 4, it is a place to be.",
         ],

@@ -42,7 +42,7 @@ export const packagesPageData = {
         },
       },
       {
-        accommodation: "Surveyor Suite",
+        accommodation: "The Surveyor",
         category: "Suite",
         price: "₹16,000",
         included: "Breakfast, bonfire, nature walk, 24hr support",
@@ -52,7 +52,7 @@ export const packagesPageData = {
         },
       },
       {
-        accommodation: "The Surveyor suite",
+        accommodation: "The Surveyor Suite",
         category: "Premium Glamping",
         price: "₹14,000",
         included: "Breakfast, bonfire, nature walk, 24hr support",

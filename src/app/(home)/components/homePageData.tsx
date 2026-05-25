@@ -2,6 +2,7 @@ import blogData from "@/app/blogs/components/blogData";
 import {
   bookingLink,
   contacts,
+  landingpageImgSrc,
   nearby
 } from "@/utils/constant";
 import {
@@ -195,15 +196,15 @@ EBC's original icon of Himalayan glamping.`,
       },
       {
         badge: "Suite",
-        title: "Surveyor Suite",
+        title: "The Surveyor",
         description: `Spacious suite with private sit-out —
 generous space for those who want room to
 breathe.`,
         price: "From ₹16,000 / night",
-        image: "/Surveyor Suite/RoomImage1.jpg",
+        image: landingpageImgSrc + "surveyor_suite/img2.webp",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/surveyor-suite",
+          href: "/rooms/the-surveyor",
         },
         secondaryButton: {
           label: "Book Now",
@@ -212,12 +213,12 @@ breathe.`,
       },
       {
         badge: "Premium Glamping",
-        title: "The Surveyor suite",
+        title: "The Surveyor Suite",
         description: `Premium glamping with forest canopy views
 — a step into the wild without leaving luxury
 behind.`,
         price: "From ₹14,000 / night",
-        image: "/The Surveyor/RoomImage1.jpg",
+        image: landingpageImgSrc + "surveyor-new/DSC_6610.webp",
         primaryButton: {
           label: "View Room",
           href: "/rooms/the-surveyor-suite",

@@ -15,7 +15,7 @@ export default function ContactHeroSection({
   description,
 }: ContactHeroSectionProps) {
   return (
-    <Section className="bg-primary max-md:pt-26 lg:pt-30!">
+    <Section className="bg-primary max-md:pt-36 lg:pt-36!">
       <Container className="">
         <div className="flex flex-col gap-6 w-full">
           <span className="uppercase text-secondary text-sm">{title}</span>

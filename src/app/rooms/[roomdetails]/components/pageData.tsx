@@ -371,7 +371,7 @@ export const roomDetailsPageData = [
 
     banner: {
       title: "Premium Glamping",
-      subTitle: "The Surveyor suite",
+      subTitle: "The Surveyor Suite",
       price: "From ₹14,000 per night · Breakfast included",
       description:
         "Premium glamping with forest canopy views — a step into the wild without leaving luxury behind.",
@@ -380,7 +380,7 @@ export const roomDetailsPageData = [
     },
 
     aboutUsData: {
-      title: "The Surveyor suite",
+      title: "The Surveyor Suite",
       description:
         "The Surveyor is a premium glamping unit positioned deep in the forest canopy. Designed for guests who want to feel truly immersed in the Himalayan forest while maintaining every modern comfort. The Surveyor strikes the perfect balance between adventure and luxury.",
       image: "/The Surveyor/RoomImage1.jpg",
@@ -478,7 +478,7 @@ export const roomDetailsPageData = [
     },
   },
   {
-    slug: "surveyor-suite",
+    slug: "the-surveyor",
 
     metaData: {
       title: "Surveyor Suite | EBC Mussoorie",
@@ -487,7 +487,7 @@ export const roomDetailsPageData = [
     },
 
     banner: {
-      title: "Surveyor Suite",
+      title: "The Surveyor",
       subTitle: "Suite",
       price: "From ₹16,000 per night · Breakfast included",
       description:
@@ -497,7 +497,7 @@ export const roomDetailsPageData = [
     },
 
     aboutUsData: {
-      title: "Surveyor Suite",
+      title: "The Surveyor",
       description:
         "The Surveyor Suite is EBC's most generous in terms of living space. A premium suite with a large private sit-out terrace, it combines the comfort of a luxury hotel suite with the intimacy of a forest retreat. Ideal for guests who value space as much as setting.",
       image: "/Surveyor Suite/RoomImage1.jpg",

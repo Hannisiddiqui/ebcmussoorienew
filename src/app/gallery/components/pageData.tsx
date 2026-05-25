@@ -32,12 +32,12 @@ export const galleryPageData = {
       { src: "/gallery/park-cafe/DSC04144-1-4.png", alt: "PARK CAFE" },
       { src: "/gallery/park-cafe/DSC04144-1-5.png", alt: "PARK CAFE" },
 
-      { src: "/gallery/den/DSC04144-1.png", alt: "DEN" },
-      { src: "/gallery/den/DSC04144-1-1.png", alt: "DEN" },
-      { src: "/gallery/den/DSC04144-1-2.png", alt: "DEN" },
-      { src: "/gallery/den/DSC04144-1-3.png", alt: "DEN" },
-      { src: "/gallery/den/DSC04144-1-4.png", alt: "DEN" },
-      { src: "/gallery/den/DSC04144-1-5.png", alt: "DEN" },
+      { src: "/gallery/den/DSC04144-1.png", alt: "the DEN" },
+      { src: "/gallery/den/DSC04144-1-1.png", alt: "the DEN" },
+      { src: "/gallery/den/DSC04144-1-2.png", alt: "the DEN" },
+      { src: "/gallery/den/DSC04144-1-3.png", alt: "the DEN" },
+      { src: "/gallery/den/DSC04144-1-4.png", alt: "the DEN" },
+      { src: "/gallery/den/DSC04144-1-5.png", alt: "the DEN" },
 
       { src: "/gallery/celebration/DSC04144-1.png", alt: "CELEBRATIONS" },
       { src: "/gallery/celebration/DSC04144-1-1.png", alt: "CELEBRATIONS" },

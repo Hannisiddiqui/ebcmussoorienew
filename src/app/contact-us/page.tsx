@@ -10,8 +10,8 @@ export default function ContactUsPage() {
       <ContactHeroSection {...contactUsPageData?.bannerDta} />
       <ContactCardsSection {...contactUsPageData?.contactCards} />
       <EnquirySection
-        title="Group Enquiry"
-        subTitle="Tell us about your group and we'll get back to you within 2 hours"
+        title="Send an Enquiry"
+        subTitle="Fill in the form and we'll get back to you via WhatsApp within 2 hours"
       />
       <InfoCardsSection cards={contactUsPageData.infoCards.cards} />;
       {/* <SectionWithContainer sectionClassName="relative">

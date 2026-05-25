@@ -21,8 +21,8 @@ export const navLinks = [
       { label: "The Andrew's Villa", href: "/rooms/the-andrews-villa" },
       { label: "Twin Luxury Cottages", href: "/rooms/twin-luxury-cottages" },
       { label: "Zenith Luxury Cottage", href: "/rooms/zenith-luxury-cottage" },
-      { label: "Surveyor Suite", href: "/rooms/surveyor-suite" },
-      { label: "The Surveyor suite", href: "/rooms/the-surveyor-suite" },
+      { label: "The Surveyor", href: "/rooms/the-surveyor" },
+      { label: "The Surveyor Suite", href: "/rooms/the-surveyor-suite" },
       { label: "The Glamper", href: "/rooms/the-glamper" },
       { label: "The Camper", href: "/rooms/the-camper" },
     ],
@@ -62,7 +62,10 @@ export const navLinks = [
     label: "Blog",
     href: "/blogs",
   },
-
+  {
+    label: "Park Cafe",
+    href: "/park-cafe/",
+  },
   {
     label: "Contact",
     href: "/contact-us",
@@ -123,11 +126,12 @@ const Navbar2 = () => {
       <nav
         className={`fixed  top-0 left-0 w-full z-50 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] will-change-transform
           ${visible ? "translate-y-0" : "-translate-y-full"}
-          ${isCorporate
-            ? "bg-primary shadow-xl"
-            : scrolled
-              ? "bg-ternary backdrop-blur-md shadow-xl"
-              : "bg-transparent"
+          ${
+            isCorporate
+              ? "bg-primary shadow-xl"
+              : scrolled
+                ? "bg-ternary backdrop-blur-md shadow-xl"
+                : "bg-transparent"
           }
         `}
       >
@@ -135,7 +139,10 @@ const Navbar2 = () => {
 
         <div className="px-6 max_screen_width">
           <div className="flex justify-between py-4">
-            <Link href="/" className="relative max-w-40 w-full block aspect-4/2.25">
+            <Link
+              href="/"
+              className="relative max-w-40 w-full block aspect-4/2.25"
+            >
               {/* <Link href="/">
                   <h2 className="font-primary text-4xl text-secondary">EBC</h2>
                   <p className="text-white/60 text-no tracking-widest">
@@ -197,7 +204,10 @@ const Navbar2 = () => {
                   CALL NOW
                 </Link>
               )} */}
-              <button onClick={() => setIsMobileNavOpen(!isMobileNavOpen)} className="text-white lg:hidden block">
+              <button
+                onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}
+                className="text-white lg:hidden block"
+              >
                 <MenuIcon />
               </button>
 

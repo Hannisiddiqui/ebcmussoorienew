@@ -132,7 +132,7 @@ export const roomPageDataNew = {
     {
       category: "Suite",
 
-      title: "Surveyor Suite",
+      title: "The Surveyor",
 
       description: [
         "The Surveyor Suite is EBC's most generous in terms of living space.",
@@ -161,7 +161,7 @@ export const roomPageDataNew = {
       buttons: [
         {
           label: "Full Details",
-          href: "/rooms/surveyor-suite",
+          href: "/rooms/the-surveyor",
         },
         {
           label: "Book via WhatsApp",
@@ -173,7 +173,7 @@ export const roomPageDataNew = {
     {
       category: "Premium Glamping",
 
-      title: "The Surveyor suite",
+      title: "The Surveyor Suite",
 
       description: [
         "The Surveyor is a premium glamping unit positioned deep in the forest canopy.",
@@ -192,8 +192,8 @@ export const roomPageDataNew = {
       price: "From ₹14,000 / night",
 
       images: [
-        landingpageImgSrc + "surveyor-new/DSC_6442.webp",
         landingpageImgSrc + "surveyor-new/DSC_6610.webp",
+        landingpageImgSrc + "surveyor-new/DSC_6442.webp",
         landingpageImgSrc + "surveyor-new/DSC_6458.webp",
         landingpageImgSrc + "surveyor-new/IMG_4177.webp",
         landingpageImgSrc + "surveyor-new/DSC05333.JPG.webp",

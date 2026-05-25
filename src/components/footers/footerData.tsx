@@ -80,8 +80,8 @@ export const roomFooterLinks = [
   { name: "The Andrew's Villa", href: "/rooms/the-andrews-villa" },
   { name: "Twin Luxury Cottages", href: "/rooms/twin-luxury-cottages" },
   { name: "Zenith Luxury Cottage", href: "/rooms/zenith-luxury-cottage" },
-  { name: "Surveyor Suite", href: "/rooms/surveyor-suite" },
-  { name: "The Surveyor suite", href: "/rooms/the-surveyor-suite" },
+  { name: "The Surveyor", href: "/rooms/the-surveyor" },
+  { name: "The Surveyor Suite", href: "/rooms/the-surveyor-suite" },
   { name: "The Glamper", href: "/rooms/the-glamper" },
   { name: "The Camper", href: "/rooms/the-camper/" },
 ];
