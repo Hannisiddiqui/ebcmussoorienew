@@ -5,7 +5,7 @@ import { galleryPageData } from "./components/pageData";
 export default function Page() {
   return (
     <main>
-      <GalleryBanner title={galleryPageData.bannerData.title} />
+      <GalleryBanner  />
 
       <Gallery galleryImages={galleryPageData.gallerySection.galleryImages} />
     </main>
