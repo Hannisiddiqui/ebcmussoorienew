@@ -7,11 +7,16 @@ export const AppContext = createContext<{
   setIsOpenPopupForm: React.Dispatch<React.SetStateAction<boolean>>;
   isMobileNavOpen: boolean;
   setIsMobileNavOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  selected: string;
+  setSelected: React.Dispatch<React.SetStateAction<string>>;
+
 }>({
   isOpenPopupForm: false,
   setIsOpenPopupForm: () => {},
   isMobileNavOpen: false,
   setIsMobileNavOpen: () => {},
+  selected: "All",
+  setSelected: () => {} ,
 });
 
 interface Props {
@@ -19,6 +24,7 @@ interface Props {
 }
 
 export const AppProvider = ({ children }: Props) => {
+  const [selected, setSelected] = useState<string>("All");
   const [isOpenPopupForm, setIsOpenPopupForm] = useState(false);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   return (
@@ -28,6 +34,8 @@ export const AppProvider = ({ children }: Props) => {
         setIsOpenPopupForm,
         isMobileNavOpen,
         setIsMobileNavOpen,
+        selected,
+        setSelected,
       }}
     >
       {children}

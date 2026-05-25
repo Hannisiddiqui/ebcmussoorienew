@@ -3,6 +3,7 @@ import FamilyStaySection from "../family-stays/components/FamilyStaySection";
 import DineSection from "./components/DineSection";
 import MilestoneSection from "./components/MilestoneSection";
 import { parkCafePageData } from "./components/pageData";
+import Experience from "./components/Experience";
 
 export default function ParkCafePage() {
   return (
@@ -24,6 +25,7 @@ export default function ParkCafePage() {
       <Cuisine {...parkCafePageData.cuisineData} /> */}
       {/* <Experience card={parkCafePageData.experienceData} /> */}
       {/* <CommonCard2 {...parkCafePageData.addOnsData} /> */}
+     
       <MilestoneSection {...parkCafePageData.milestoneData} />
     </main>
   );
