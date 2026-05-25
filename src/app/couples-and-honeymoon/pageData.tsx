@@ -1,4 +1,4 @@
-import { bookingLink, contacts } from "@/utils/constant";
+import { bookingLink } from "@/utils/constant";
 
 export const couplesAndHoneymoonPageData = {
   bannerData: {
@@ -11,12 +11,9 @@ export const couplesAndHoneymoonPageData = {
   familyStaySection: {
     title: "Romance at Altitude",
     subTitle: `Romance at Altitude`,
-    description: `There is something about a Himalayan night that makes everything
-more vivid — the stars brighter, the silence deeper, the warmth of a
-bonfire more meaningful. EBC Mussoorie has been the setting for
-hundreds of romantic firsts: first mornings after engagement,
-honeymoon nights, anniversary surprises, and simple escapes that
-remind couples why they chose each other.`,
+    description: [
+      "There is something about a Himalayan night that makes everything more vivid — the stars brighter, the silence deeper, the warmth of a bonfire more meaningful. EBC Mussoorie has been the setting for hundreds of romantic firsts: first mornings after engagement, honeymoon nights, anniversary surprises, and simple escapes that remind couples why they chose each other.",
+    ],
     image: "/family-stays/FamilyStayImage.jpg",
   },
 
@@ -151,6 +148,4 @@ more connected than any team-building workshop had ever achieved`,
       },
     },
   ],
-
 };
-

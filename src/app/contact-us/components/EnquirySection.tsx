@@ -1,6 +1,5 @@
-import Form2 from "@/components/forms/Form2";
+import Form3 from "@/components/forms/Form3";
 import { SectionWithContainer } from "@/components/sectionComponants";
-import React from "react";
 
 type EnquirySecionProps = {
   title: string;
@@ -16,7 +15,7 @@ const EnquirySection = ({ title, subTitle }: EnquirySecionProps) => {
       </div>
 
       <div className="mt-16 max-w-4xl mx-auto">
-        <Form2 />
+        <Form3 />
       </div>
     </SectionWithContainer>
   );

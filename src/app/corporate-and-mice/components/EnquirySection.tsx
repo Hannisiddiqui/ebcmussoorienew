@@ -1,7 +1,5 @@
-import Form2 from "@/components/forms/Form2";
 import Form3 from "@/components/forms/Form3";
 import { SectionWithContainer } from "@/components/sectionComponants";
-import React from "react";
 
 type EnquirySecionProps = {
   title: string;

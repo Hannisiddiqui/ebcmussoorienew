@@ -10,11 +10,9 @@ export const familyStayPageData = {
   familyStaySection: {
     title: "For Families",
     subTitle: `A Holiday That Stays With Them`,
-    description: `Children who have grown up visiting EBC Mussoorie remember it as the
-place where they first saw the Milky Way, found a leopard pugmark, and
-sat around a real fire telling stories. These are not small memories. EBC
-is a safe, enclosed, family-friendly property where children can roam
-freely within the grounds while parents actually relax.`,
+    description: [
+      "Children who have grown up visiting EBC Mussoorie remember it as the place where they first saw the Milky Way, found a leopard pugmark, and sat around a real fire telling stories. These are not small memories. EBC is a safe, enclosed, family-friendly property where children can roam freely within the grounds while parents actually relax.",
+    ],
     image: "/family-stays/FamilyStayImage.jpg",
   },
 

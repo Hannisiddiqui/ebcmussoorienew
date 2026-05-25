@@ -82,6 +82,10 @@ export const parkCafePageData = {
       "Our unwavering commitment to a memorable dining experience that transcends the ordinary. At EBC, indulge in more than just a meal; it's a taste of home amidst the breathtaking beauty of nature. Nestled beside a beautiful meadow, our cafe offers a diverse range of offerings, from delightful tea and snacks to exquisite dining experiences.",
       "Experience curated events and experiences that promise to elevate your visit. As a must-visit cafe in Mussoorie, EBC ensures an unforgettable culinary journey that celebrates nature and community.",
     ],
+    cta: {
+      label: "Chat on WhatsApp",
+      href: contacts.WhatsAppCta,
+    },
     images: [
       imgSrc + "park-cafe/Choose-Us/img1.webp",
       imgSrc + "park-cafe/Choose-Us/img2.webp",
@@ -141,9 +145,11 @@ export const parkCafePageData = {
       "Experience unforgettable celebrations at Everest Base Camp, Mussoorie. We customize every element to match your vision, from <b>Anniversaries</b> to <b>Birthdays</b>. With our attention to detail, your event will run seamlessly, letting you cherish every moment. Come celebrate with us and create memories to last a lifetime!",
     ],
     images: [
-      "/park-cafe/milestone-1.png",
-      "/park-cafe/milestone-2.png",
-      "/park-cafe/milestone-3.png",
+      // "/park-cafe/milestone-1.png",
+      // "/park-cafe/milestone-2.png",
+      // "/park-cafe/milestone-3.png",
+      imgSrc + "park-cafe/Choose-Us/img2.webp",
+      imgSrc + "park-cafe/park-cafe-slider1/img3.webp",
     ],
   },
 

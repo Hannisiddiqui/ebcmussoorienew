@@ -17,6 +17,18 @@ export const roomPageData = {
     ],
     image: "/home/mountain.png",
   },
+  video: [
+    {
+      src: "/videobnr.webp",
+      videoSrc:
+        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Ebc-New-Ui-Image/landingpage/EBC+24+.mp4",
+    },
+    {
+      src: "/videobnr.webp",
+      videoSrc:
+        "https://eazotel-client-webp-image.s3.ap-south-1.amazonaws.com/Ebc-New-Ui-Image/landingpage/EBC+25.mp4",
+    },
+  ],
   rooms: [
     {
       title: "The <i>Camper!</i>",

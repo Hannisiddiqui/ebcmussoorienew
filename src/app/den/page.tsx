@@ -1,13 +1,10 @@
 "use client";
 
-import AdventuresSection from "@/components/CommonSections/AdventuresSection";
-import DenGallery from "./components/DenGallery";
-import DenHero from "./components/DenHero";
-import PageData from "./components/pageData";
 import HeroBanner from "@/components/banner/HeroBanner";
-import FamilyStaySection from "../family-stays/components/FamilyStaySection";
-import PriavteBar from "./components/PriavteBar";
 import EnquirySection from "../contact-us/components/EnquirySection";
+import FamilyStaySection from "../family-stays/components/FamilyStaySection";
+import PageData from "./components/pageData";
+import PriavteBar from "./components/PriavteBar";
 
 export default function DenPage() {
   return (

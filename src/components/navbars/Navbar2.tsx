@@ -131,9 +131,9 @@ const Navbar2 = () => {
       >
         {/* <ShowSlidingTitle title={landingPageData.slidingTitle} /> */}
 
-        <div className="px-6">
+        <div className="px-6 max_screen_width">
           <div className="flex justify-between py-4">
-            <div className="relative max-w-40 w-full aspect-[4/2.25]">
+            <Link href="/" className="relative max-w-40 w-full block aspect-4/2.25">
               {/* <Link href="/">
                   <h2 className="font-primary text-4xl text-secondary">EBC</h2>
                   <p className="text-white/60 text-no tracking-widest">
@@ -146,7 +146,7 @@ const Navbar2 = () => {
                 className="object-contain"
                 alt="logo"
               />
-            </div>
+            </Link>
 
             <div className="text-white md:flex hidden items-center gap-8">
               {navLinks.map((link, index) => (

@@ -1,7 +1,8 @@
 const denPageData = {
   bannerData: {
     title: "THE DEN",
-    subTitle: "The most exclusive private space in Mussoorie, in the middle of a forest.",
+    subTitle:
+      "The most exclusive private space in Mussoorie, in the middle of a forest.",
     description: "",
     image: "/Den/DenBanner.png",
   },
@@ -15,8 +16,10 @@ const denPageData = {
   aboutDen: {
     title: "EXCLUSIVE PRIVATE VENUE",
     subTitle: `An exclusive, reservation-only venue designed for gatherings that require total privacy.`,
-    description: `George’s Den is our signature indoor lounge, strategically designed to deliver a seamless blend of relaxation, celebrations, and business in a premium, high-conversion setting. With elegant interiors, ambient lighting, and plush seating, it creates an instantly appealing environment for guests looking to unwind, host, or engage.
-The lounge features a curated menu of mocktails, cocktails, and speciality coffee, making it a high-demand space for everything from casual evenings to curated social experiences. Whether it’s a relaxed coffee meet, a lively celebration, or an exclusive cocktail evening, George’s Den enhances every occasion with a refined touch.`,
+    description: [
+      "George’s Den is our signature indoor lounge, strategically designed to deliver a seamless blend of relaxation, celebrations, and business in a premium, high-conversion setting. With elegant interiors, ambient lighting, and plush seating, it creates an instantly appealing environment for guests looking to unwind, host, or engage.",
+      "The lounge features a curated menu of mocktails, cocktails, and speciality coffee, making it a high-demand space for everything from casual evenings to curated social experiences. Whether it’s a relaxed coffee meet, a lively celebration, or an exclusive cocktail evening, George’s Den enhances every occasion with a refined touch.",
+    ],
     image: "/gallery/den/DSC04144-1-1.png",
   },
 
