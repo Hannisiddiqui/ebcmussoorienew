@@ -1,7 +1,8 @@
 export const galleryPageData = {
   bannerData: {
     title: "Our <i>Gallery!</i>",
-    description: "Immerse yourself in serene Himalayan landscapes with breathtaking views and guided adventures at every step. Experience the perfect harmony of luxury camping and nature’s tranquility in Mussoorie.",
+    description:
+      "Immerse yourself in serene Himalayan landscapes with breathtaking views and guided adventures at every step. Experience the perfect harmony of luxury camping and nature’s tranquility in Mussoorie.",
     images: ["/images/gallery/banner.jpg"],
   },
 
@@ -13,19 +14,23 @@ export const galleryPageData = {
     },
 
     galleryImages: [
+      { src: "/gallery/rooms/DSC04144-1.png", alt: "PROPERTY AMBIENCE" },
+      { src: "/gallery/rooms/DSC04144-1-1.png", alt: "PROPERTY AMBIENCE" },
+      { src: "/gallery/rooms/DSC04144-1-2.png", alt: "PROPERTY AMBIENCE" },
+      { src: "/gallery/rooms/DSC04144-1-3.png", alt: "PROPERTY AMBIENCE" },
+      { src: "/gallery/rooms/DSC04144-1-4.png", alt: "PROPERTY AMBIENCE" },
+      { src: "/gallery/rooms/DSC04144-1-5.png", alt: "PROPERTY AMBIENCE" },
+
+      { src: "/gallery/rooms/DSC04144-1.png", alt: "ACCOMMODATION" },
+      { src: "/gallery/rooms/DSC04144-1.png", alt: "ACCOMMODATION" },
+      { src: "/gallery/rooms/DSC04144-1.png", alt: "ACCOMMODATION" },
+
       { src: "/gallery/park-cafe/DSC04144-1.png", alt: "PARK CAFE" },
       { src: "/gallery/park-cafe/DSC04144-1-1.png", alt: "PARK CAFE" },
       { src: "/gallery/park-cafe/DSC04144-1-2.png", alt: "PARK CAFE" },
       { src: "/gallery/park-cafe/DSC04144-1-3.png", alt: "PARK CAFE" },
       { src: "/gallery/park-cafe/DSC04144-1-4.png", alt: "PARK CAFE" },
       { src: "/gallery/park-cafe/DSC04144-1-5.png", alt: "PARK CAFE" },
-
-      { src: "/gallery/rooms/DSC04144-1.png", alt: "ROOMS" },
-      { src: "/gallery/rooms/DSC04144-1-1.png", alt: "ROOMS" },
-      { src: "/gallery/rooms/DSC04144-1-2.png", alt: "ROOMS" },
-      { src: "/gallery/rooms/DSC04144-1-3.png", alt: "ROOMS" },
-      { src: "/gallery/rooms/DSC04144-1-4.png", alt: "ROOMS" },
-      { src: "/gallery/rooms/DSC04144-1-5.png", alt: "ROOMS" },
 
       { src: "/gallery/den/DSC04144-1.png", alt: "DEN" },
       { src: "/gallery/den/DSC04144-1-1.png", alt: "DEN" },
@@ -40,19 +45,16 @@ export const galleryPageData = {
       { src: "/gallery/celebration/DSC04144-1-3.png", alt: "CELEBRATIONS" },
       { src: "/gallery/celebration/DSC04144-1-4.png", alt: "CELEBRATIONS" },
       { src: "/gallery/celebration/DSC04144-1-5.png", alt: "CELEBRATIONS" },
-    ]
+    ],
   },
 };
-
-
-
 
 export const galleryOldPageData = {
   banner: {
     title: "Our <i>Gallery!</i>",
     description:
       "Immerse yourself in serene Himalayan landscapes with breathtaking views and guided adventures at every step. Experience the perfect harmony of luxury camping and nature’s tranquility in Mussoorie.",
-    images: ["/gallery/bnr-2.png", "/gallery/bnr-1.png"]
+    images: ["/gallery/bnr-2.png", "/gallery/bnr-1.png"],
   },
 
   cards: [
