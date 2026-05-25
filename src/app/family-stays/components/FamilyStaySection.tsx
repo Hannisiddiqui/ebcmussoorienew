@@ -1,4 +1,5 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
+import SectionHeading from "@/components/typography/SectionHeading";
 import Image from "next/image";
 import React from "react";
 
@@ -10,7 +11,6 @@ type FamilyStaySectionProps = {
 };
 
 const FamilyStaySection = ({
-  title,
   subTitle,
   description,
   image,
@@ -19,13 +19,11 @@ const FamilyStaySection = ({
     <SectionWithContainer sectionClassName="bg-ternary">
       <div className="grid lg:grid-cols-2 items-center gap-8">
         <div className="space-y-6">
-          <h2 className="text-base uppercase text-secondary tracking-widest">
-            {title}
-          </h2>
+          <SectionHeading title={subTitle} />
 
-          <h3 className="md:text-5xl  text-2xl text-white font-primary">
+          {/* <h3 className="md:text-5xl  text-2xl text-white font-primary">
             {subTitle}
-          </h3>
+          </h3> */}
 
           <p className="text-lg text-neutral-400">
             {description.map((para, index) => (
