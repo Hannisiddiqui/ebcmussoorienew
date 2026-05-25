@@ -1,4 +1,9 @@
-import { bookingLink, contacts } from "@/utils/constant";
+import {
+  bookingLink,
+  contacts,
+  imgSrc,
+  landingpageImgSrc,
+} from "@/utils/constant";
 
 export const roomDetailsPageData = [
   {
@@ -12,7 +17,7 @@ export const roomDetailsPageData = [
 
     banner: {
       title: "Flagship Villa",
-      subTitle: "Andrew's Villa",
+      subTitle: "The Andrew's Villa",
       price: "From ₹20,000 per night · Breakfast included",
       description:
         "Mussoorie's most exclusive private villa — a sanctuary of uncompromised luxury in the Himalayan forest.",
@@ -112,11 +117,11 @@ export const roomDetailsPageData = [
 
       images: [
         "/andrew-villa/Suite-Bedroom-2.png",
-        "/andrew-villa/Suite-Bedroom-2.png",
+        "/andrew-villa/Suite-Bedroom-3.png",
+        "/andrew-villa/Suite-Bedroom-4.png",
         "/andrew-villa/Suite-Bedroom-6.png",
-        "/andrew-villa/Suite-Bedroom-2.png",
-        "/andrew-villa/Suite-Bedroom-2.png",
-        "/andrew-villa/Suite-Bedroom-6.png",
+        "/andrew-villa/Suite-Bedroom-7.png",
+        "/andrew-villa/Suite-Bedroom-5.png",
       ],
     },
   },
@@ -230,11 +235,11 @@ export const roomDetailsPageData = [
 
       images: [
         "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
-        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
-        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
-        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
-        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
-        "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-3.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-4.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-6.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-7.png",
+        "/Twin-Luxury-Cottages/Suite-Bedroom-5.png",
       ],
     },
   },
@@ -248,7 +253,7 @@ export const roomDetailsPageData = [
     },
 
     banner: {
-      title: "The Zenith",
+      title: "Zenith Luxury Cottage",
       subTitle: "Signature Cottage",
       price: "From ₹18,000 per night · Breakfast included",
       description:
@@ -258,7 +263,7 @@ export const roomDetailsPageData = [
     },
 
     aboutUsData: {
-      title: "The Zenith",
+      title: "Zenith Luxury Cottage",
       description:
         "The Zenith is the accommodation that put EBC Mussoorie on the map. A freestanding luxury cottage nestled within the deodar forest, it combines premium interiors with an immersive forest setting. Wake up to birdsong, step onto the veranda to morning mist over the mountains, and end the day by a bonfire under the stars.",
       image: "/The Zenith/RoomImage1.jpg",
@@ -347,12 +352,11 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/The Zenith/RoomImage1.jpg",
-        "/family-stays/FamilyStayImage.jpg",
-        "/The Zenith/RoomImage1.jpg",
-        "/family-stays/FamilyStayImage.jpg",
-        "/The Zenith/RoomImage1.jpg",
-        "/family-stays/FamilyStayImage.jpg",
+        landingpageImgSrc + "zenith/DSC04996-HDR-2.webp",
+        landingpageImgSrc + "zenith/DSC04953-HDR-2.webp",
+        landingpageImgSrc + "zenith/DJI_0763.webp",
+        landingpageImgSrc + "zenith/DSC05021.webp",
+        landingpageImgSrc + "zenith/DSC05055.webp",
       ],
     },
   },
@@ -367,7 +371,7 @@ export const roomDetailsPageData = [
 
     banner: {
       title: "Premium Glamping",
-      subTitle: "The Surveyor",
+      subTitle: "The Surveyor suite",
       price: "From ₹14,000 per night · Breakfast included",
       description:
         "Premium glamping with forest canopy views — a step into the wild without leaving luxury behind.",
@@ -376,7 +380,7 @@ export const roomDetailsPageData = [
     },
 
     aboutUsData: {
-      title: "The Surveyor",
+      title: "The Surveyor suite",
       description:
         "The Surveyor is a premium glamping unit positioned deep in the forest canopy. Designed for guests who want to feel truly immersed in the Himalayan forest while maintaining every modern comfort. The Surveyor strikes the perfect balance between adventure and luxury.",
       image: "/The Surveyor/RoomImage1.jpg",
@@ -465,12 +469,11 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/The Surveyor/RoomImage1.jpg",
-        "/The Surveyor/RoomImage1.jpg",
-        "/The Surveyor/RoomImage1.jpg",
-        "/The Surveyor/RoomImage1.jpg",
-        "/The Surveyor/RoomImage1.jpg",
-        "/The Surveyor/RoomImage1.jpg",
+        landingpageImgSrc + "surveyor-new/DSC_6442.webp",
+        landingpageImgSrc + "surveyor-new/DSC_6610.webp",
+        landingpageImgSrc + "surveyor-new/DSC_6458.webp",
+        landingpageImgSrc + "surveyor-new/IMG_4177.webp",
+        landingpageImgSrc + "surveyor-new/DSC05333.JPG.webp",
       ],
     },
   },
@@ -583,12 +586,11 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/Surveyor Suite/RoomImage1.jpg",
-        "/Surveyor Suite/RoomImage1.jpg",
-        "/Surveyor Suite/RoomImage1.jpg",
-        "/Surveyor Suite/RoomImage1.jpg",
-        "/Surveyor Suite/RoomImage1.jpg",
-        "/Surveyor Suite/RoomImage1.jpg",
+        landingpageImgSrc + "surveyor_suite/img2.webp",
+        imgSrc + "room/surveyor-suite/img3.webp",
+        landingpageImgSrc + "surveyor_suite/img1.webp",
+        landingpageImgSrc + "surveyor_suite/img3.webp",
+        imgSrc + "room/surveyor-suite/img4.webp",
       ],
     },
   },
@@ -697,12 +699,11 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/The Camper/RoomImage1.jpg",
-        "/The Camper/RoomImage1.jpg",
-        "/The Camper/RoomImage1.jpg",
-        "/The Camper/RoomImage1.jpg",
-        "/The Camper/RoomImage1.jpg",
-        "/The Camper/RoomImage1.jpg",
+        landingpageImgSrc + "camper/img1.webp",
+        landingpageImgSrc + "camper/img3.webp",
+        imgSrc + "room/camper/img4.webp",
+        landingpageImgSrc + "camper/img2.webp",
+        imgSrc + "room/camper/img3.webp",
       ],
     },
   },
@@ -815,12 +816,11 @@ export const roomDetailsPageData = [
       ],
 
       images: [
-        "/The Glamper/RoomImage1.jpg",
-        "/The Glamper/RoomImage1.jpg",
-        "/The Glamper/RoomImage1.jpg",
-        "/The Glamper/RoomImage1.jpg",
-        "/The Glamper/RoomImage1.jpg",
-        "/The Glamper/RoomImage1.jpg",
+        landingpageImgSrc + "glamper/img1.webp",
+        landingpageImgSrc + "glamper/img3.webp",
+        imgSrc + "room/glamper/img1.webp",
+        landingpageImgSrc + "glamper/img2.webp",
+        landingpageImgSrc + "glamper/img4.webp",
       ],
     },
   },

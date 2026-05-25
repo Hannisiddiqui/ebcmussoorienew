@@ -72,7 +72,7 @@ remind couples why they chose each other.`,
       {
         id: 1,
         badge: "Flagship Villa",
-        title: "Andrew's Villa",
+        title: "The Andrew's Villa",
         description: `Mussoorie's most exclusive private villa — a
 sanctuary of uncompromised luxury in the
 Himalayan forest.`,
@@ -92,7 +92,7 @@ Himalayan forest.`,
       {
         id: 2,
         badge: "Signature Cottage",
-        title: "The Zenith",
+        title: "Zenith Luxury Cottage",
         description: `The signature luxury cottage in the forest —
 EBC's original icon of Himalayan glamping.`,
         price: "From ₹18,000 / night",

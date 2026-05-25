@@ -13,7 +13,7 @@ export const roomPageDataNew = {
     {
       category: "Flagship Villa",
 
-      title: "Andrew's Villa",
+      title: "The Andrew's Villa",
 
       description: [
         "Andrew's Villa is EBC Mussoorie's most exclusive accommodation — a fully private villa experience at the edge of the deodar forest.",
@@ -97,7 +97,7 @@ export const roomPageDataNew = {
     {
       category: "Signature Cottage",
 
-      title: "The Zenith",
+      title: "Zenith Luxury Cottage",
 
       description: [
         "The Zenith is the accommodation that put EBC Mussoorie on the map. A freestanding luxury cottage nestled within the deodar forest, it combines premium interiors with an immersive forest setting.",
@@ -173,7 +173,7 @@ export const roomPageDataNew = {
     {
       category: "Premium Glamping",
 
-      title: "The Surveyor",
+      title: "The Surveyor suite",
 
       description: [
         "The Surveyor is a premium glamping unit positioned deep in the forest canopy.",

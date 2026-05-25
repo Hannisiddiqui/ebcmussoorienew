@@ -22,12 +22,12 @@ const DineSection: React.FC<DineSectionProps> = ({
   return (
     <SectionWithContainer sectionClassName="bg-primary text-white">
       <div className="grid lg:grid-cols-2 grid-cols-1 items-center md:gap-12 gap-8">
-        <div className="w-full lg:block hidden relative aspect-4/3.75 rounded-3xl overflow-hidden">
+        <div className="w-full lg:block hidden relative aspect-4/3.75 overflow-hidden">
           <Image src={image} alt={title} fill className="object-cover" />
         </div>
         <div className="flex flex-col gap-6">
           <SectionHeading title={title} titleColor="white" smTextCenter />
-          <div className="w-full lg:hidden relative aspect-4/3.75 rounded-3xl overflow-hidden">
+          <div className="w-full lg:hidden relative aspect-4/3.75 overflow-hidden">
             <Image src={image} alt={title} fill className="object-cover" />
           </div>
           {description.map((item, index) => (

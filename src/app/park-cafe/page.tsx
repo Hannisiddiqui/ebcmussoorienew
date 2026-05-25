@@ -1,15 +1,8 @@
-import CommonCardSection from "@/components/CommonSections/CommonCardSection";
-import { parkCafePageData } from "./components/pageData";
-import DineSection from "./components/DineSection";
-import CommonCard2 from "@/components/CommonSections/CommonCard2";
-import Cuisine from "./components/Cuisine";
-import StayWith from "@/components/CommonSections/StayWith";
-import AdventuresSection from "@/components/CommonSections/AdventuresSection";
-import MilestoneSection from "./components/MilestoneSection";
-import AboutParkCafe from "./components/AboutParkCafe";
-import Banner from "@/components/banner/Banner";
 import HeroBanner from "@/components/banner/HeroBanner";
 import FamilyStaySection from "../family-stays/components/FamilyStaySection";
+import DineSection from "./components/DineSection";
+import MilestoneSection from "./components/MilestoneSection";
+import { parkCafePageData } from "./components/pageData";
 
 export default function ParkCafePage() {
   return (
@@ -29,15 +22,9 @@ export default function ParkCafePage() {
         sectionColor="text-[#686868]"
       />
       <Cuisine {...parkCafePageData.cuisineData} /> */}
-      <Experience data={parkCafePageData.experienceData} />
+      {/* <Experience card={parkCafePageData.experienceData} /> */}
       {/* <CommonCard2 {...parkCafePageData.addOnsData} /> */}
       <MilestoneSection {...parkCafePageData.milestoneData} />
-      <AdventuresSection {...parkCafePageData.testimonialData} />
-      <StayWith
-        {...parkCafePageData.ctaData}
-        isShowBgImage={false}
-        aspectRatio="aspect-4/2.5"
-      />
     </main>
   );
 }

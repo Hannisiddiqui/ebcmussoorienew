@@ -5,7 +5,7 @@ import React from "react";
 type FamilyStaySectionProps = {
   title: string;
   subTitle: string;
-  description: string;
+  description: string[];
   image: string;
 };
 
@@ -27,7 +27,13 @@ const FamilyStaySection = ({
             {subTitle}
           </h3>
 
-          <p className="text-lg text-neutral-400">{description}</p>
+          <p className="text-lg text-neutral-400">
+            {description.map((para, index) => (
+              <span key={index} className="block mb-4">
+                {para}
+              </span>
+            ))}
+          </p>
         </div>
 
         <div className="relative w-full md:aspect-4/3 aspect-square">

@@ -12,7 +12,7 @@ export const packagesPageData = {
     title: "Room Pricing",
     roomPricing: [
       {
-        accommodation: "Andrew's Villa",
+        accommodation: "The Andrew's Villa",
         category: "Flagship Villa",
         price: "₹20,000",
         included: "Breakfast, bonfire, nature walk, 24hr support",
@@ -32,7 +32,7 @@ export const packagesPageData = {
         },
       },
       {
-        accommodation: "The Zenith",
+        accommodation: "Zenith Luxury Cottage",
         category: "Signature Cottage",
         price: "₹18,000",
         included: "Breakfast, bonfire, nature walk, 24hr support",
@@ -52,7 +52,7 @@ export const packagesPageData = {
         },
       },
       {
-        accommodation: "The Surveyor",
+        accommodation: "The Surveyor suite",
         category: "Premium Glamping",
         price: "₹14,000",
         included: "Breakfast, bonfire, nature walk, 24hr support",

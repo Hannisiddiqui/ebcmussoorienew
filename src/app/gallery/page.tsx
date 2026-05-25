@@ -1,7 +1,6 @@
-import { galleryPageData } from "./components/pageData";
-import GalleryBanner from "./components/galleryBanner";
 import Gallery from "./components/gallery";
-import TitleSection from "@/components/TitleSection";
+import GalleryBanner from "./components/galleryBanner";
+import { galleryPageData } from "./components/pageData";
 
 export default function Page() {
   return (

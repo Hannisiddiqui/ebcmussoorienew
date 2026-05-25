@@ -87,8 +87,12 @@ export const roomFooterLinks = [
 ];
 export const exploreFooterLinks = [
   { name: "Experiences", href: "/activities" },
-  { name: "Packages & Pricing", href: "/packages" },
+  { name: "Park Cafe", href: "/park-cafe/" },
+  { name: "Gallery", href: "/gallery/" },
+  // { name: "About Us", href: "/about-us/" },
+  { name: "Den", href: "/den/" },
   { name: "Blog & Guides", href: "/blogs/" },
+  { name: "Packages & Pricing", href: "/packages" },
   { name: "FAQ", href: "/faq" },
   { name: "Location & Directions", href: contacts.addresses[0].addressUrl },
 ];
