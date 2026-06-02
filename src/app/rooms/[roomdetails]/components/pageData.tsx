@@ -19,15 +19,14 @@ export const roomDetailsPageData = [
       title: "Flagship Villa",
       subTitle: "The Andrew's Villa",
       price: "From ₹20,000 per night · Breakfast included",
-      description:
-        "Mussoorie's most exclusive private villa — a sanctuary of uncompromised luxury in the Himalayan forest.",
+      description: "Mussoorie's most exclusive private villa",
 
       image: "/andrew-villa/Suite-Bedroom-2.png",
     },
 
     aboutUsData: {
       title:
-        "Mussoorie's most exclusive private villa — a sanctuary of uncompromised luxury in the Himalayan forest.",
+        "Mussoorie's most exclusive private villa, a sanctuary of uncompromised luxury in the Himalayan forest.",
       description:
         "Andrew's Villa is EBC Mussoorie's most exclusive accommodation — a fully private villa experience at the edge of the deodar forest. With its own entrance, private bonfire terrace, and panoramic Himalayan views, the Villa is designed for those who want the mountain entirely to themselves.",
       image: "/andrew-villa/Suite-Bedroom-2.png",
@@ -138,8 +137,7 @@ export const roomDetailsPageData = [
       title: "Twin Luxury Cottages",
       subTitle: "Luxury Cottages",
       price: "From ₹20,000 per cottage per night · Breakfast included",
-      description:
-        "Dual luxury cottages with panoramic Himalayan views — perfect for families or two couples travelling together.",
+      description: "Dual luxury cottages with panoramic Himalayan views",
 
       image: "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
     },
@@ -253,11 +251,10 @@ export const roomDetailsPageData = [
     },
 
     banner: {
-      title: "Zenith Luxury Cottage",
-      subTitle: "Signature Cottage",
+      title: "Signature Cottage",
+      subTitle: "Zenith Luxury Cottage",
       price: "From ₹18,000 per night · Breakfast included",
-      description:
-        "The signature luxury cottage in the forest — EBC's original icon of Himalayan glamping.",
+      description: "The signature luxury cottage in the forest",
 
       image: "/family-stays/FamilyStayImage.jpg",
     },
@@ -479,7 +476,6 @@ export const roomDetailsPageData = [
   },
   {
     slug: "the-surveyor",
-
     metaData: {
       title: "Surveyor Suite | EBC Mussoorie",
       description:
@@ -487,17 +483,17 @@ export const roomDetailsPageData = [
     },
 
     banner: {
-      title: "The Surveyor",
-      subTitle: "Suite",
+      title: "Suite",
+      subTitle: "The Surveyor",
       price: "From ₹16,000 per night · Breakfast included",
-      description:
-        "Spacious suite with private sit-out — generous space for those who want room to breathe.",
+      description: "Spacious suite with private sit-out ",
 
       image: "/Surveyor Suite/RoomImage1.jpg",
     },
 
     aboutUsData: {
-      title: "The Surveyor",
+      title:
+        "Spacious suite with private sit-out — generous space for those who want room to breathe.",
       description:
         "The Surveyor Suite is EBC's most generous in terms of living space. A premium suite with a large private sit-out terrace, it combines the comfort of a luxury hotel suite with the intimacy of a forest retreat. Ideal for guests who value space as much as setting.",
       image: "/Surveyor Suite/RoomImage1.jpg",

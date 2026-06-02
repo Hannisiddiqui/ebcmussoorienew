@@ -4,14 +4,15 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-import { bookingLink, contacts } from "@/utils/constant";
-import { BiChevronDown } from "react-icons/bi";
-import MobileNav from "./MobileNav";
-import { useAppContext } from "@/contextApi/AppContext";
-import { MenuIcon } from "./Header";
-import Image from "next/image";
-import ShowSlidingTitle from "../slider/ShowSlidingTitle";
 import { homePageData } from "@/app/(home)/components/homePageData";
+import { useAppContext } from "@/contextApi/AppContext";
+import { bookingLink } from "@/utils/constant";
+import Image from "next/image";
+import { BiChevronDown } from "react-icons/bi";
+import ShowSlidingTitle from "../slider/ShowSlidingTitle";
+import { MenuIcon } from "./Header";
+import MobileNav from "./MobileNav";
+import WhatsAppCta from "./WhatsAppCta";
 
 export const navLinks = [
   {
@@ -218,6 +219,7 @@ const Navbar2 = () => {
               >
                 <span>BOOK NOW</span>
               </Link>
+              {/* <WhatsAppCta /> */}
             </div>
           </div>
         </div>

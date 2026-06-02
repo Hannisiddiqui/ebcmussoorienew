@@ -5,7 +5,7 @@ export const packagesPageData = {
     subTitle: "Packages & Pricing | EBC Mussoorie",
     title: "Transparent Pricing",
     description:
-      "Full pricing for all seven EBC Mussoorie accommodations. No hidden fees — what you see is what you pay.",
+      "Full pricing for all fourteen EBC Mussoorie accommodations. No hidden fees — what you see is what you pay.",
   },
 
   roomPricingSection: {
@@ -237,7 +237,7 @@ available on request.`,
       {
         question: "Check-in & Check-out timings",
         answer: [
-          "Check-in timing is 2:00PM to 9:00PM. Check-out timing is 10:30PM.",
+          "Check-in timing is 2:00PM to 9:00PM. Check-out timing is 10:30 AM.",
           "If your arrival is delayed beyond 6 pm, you are required to inform Everest Base Camp in advance to retain your booking for the day.",
         ],
       },

@@ -5,7 +5,7 @@ export const couplesAndHoneymoonPageData = {
     title: "Couples & Honeymoon",
     subTitle: `Romantic Getaway & Honeymoon Packages in Mussoorie`,
     description: "The Himalayan escape couples return to, year after year",
-    image: "/corporate-and-mice/BannerImage.jpg",
+    image:  "/family-stays/bnr.png",
   },
 
   familyStaySection: {

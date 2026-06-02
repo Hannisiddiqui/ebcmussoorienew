@@ -249,7 +249,7 @@ within.`,
         badge: "Forest Glamping",
         title: "The Camper",
         description: `The perfect forest glamping introduction —
-pure, elemental, and utterly memorable..`,
+pure, elemental, and utterly memorable.`,
         price: "From ₹10,000 / night",
         image: "/The Camper/RoomImage1.jpg",
         primaryButton: {
@@ -303,7 +303,7 @@ pure, elemental, and utterly memorable..`,
         description: [
           "Ideal for corporate retreats, team offsites, executive stays, and business gatherings in a peaceful mountain setting.",
         ],
-        image: "/landing/corporate.png",
+        image: "/IMG_5930.webp",
         link: "/corporate-and-mice",
       },
     ],
@@ -591,15 +591,15 @@ pure, elemental, and utterly memorable..`,
     testimonials: [
       {
         title: "Tina Thilyani",
-        subtle: `I highly commend Park Cafe in Mussoorie for it's exceptional food and delightful ambiance.The culinary experience was superb, and the inviting atmosphere added to the overall enjoyment. A most-visit for those seeking both quality cuisine and pleasant peaceful environment`,
+        subtle: `I highly recommend Park Cafe in Mussoorie for it's exceptional food and delightful ambiance.The culinary experience was superb, and the inviting atmosphere added to the overall enjoyment. A most-visit for those seeking both quality cuisine and pleasant peaceful environment`,
       },
       {
         title: "Kshitij Mishra",
-        subtle: `Recently visited the Park Cafe and was impressed by the ambiance and lush outdoor seating. The cafe's location within the park  added to it's appeal, providing a serene setting for enjoying a meal. Overall,I highly recommended.`,
+        subtle: `Recently visited the Park Cafe and was impressed by the ambiance and lush outdoor seating. The cafe's location within the park  added to it's appeal, providing a serene setting for enjoying a meal. Overall,I highly recommend.`,
       },
       {
         title: "Shweta Gyanchandani",
-        subtle: `Park Cafe in Mussoorie is a cozy spot with delicious food and friendly service. It's near beautiful picnic spot, making it great peace and relax and enjoy a meal with stunning views.`,
+        subtle: `Park Cafe in Mussoorie is a cozy spot with delicious food and friendly service. It's near a beautiful picnic spot, making it great peace and relax and enjoy a meal with stunning views.`,
       },
     ],
   },

@@ -1,4 +1,4 @@
-import { bookingLink, imgSrc, landingpageImgSrc } from "@/utils/constant";
+import { bookingLink, contacts, imgSrc, landingpageImgSrc } from "@/utils/constant";
 
 export const roomPageDataNew = {
   banner: {
@@ -47,7 +47,7 @@ export const roomPageDataNew = {
         },
         {
           label: "Book via WhatsApp",
-          href: bookingLink,
+          href: contacts.WhatsAppCta,
         },
       ],
     },
@@ -89,7 +89,7 @@ export const roomPageDataNew = {
         },
         {
           label: "Book via WhatsApp",
-          href: bookingLink,
+          href: contacts.WhatsAppCta,
         },
       ],
     },
@@ -124,7 +124,7 @@ export const roomPageDataNew = {
         },
         {
           label: "Book via WhatsApp",
-          href: bookingLink,
+          href: contacts.WhatsAppCta,
         },
       ],
     },
@@ -165,7 +165,7 @@ export const roomPageDataNew = {
         },
         {
           label: "Book via WhatsApp",
-          href: bookingLink,
+          href: contacts.WhatsAppCta,
         },
       ],
     },
@@ -206,7 +206,7 @@ export const roomPageDataNew = {
         },
         {
           label: "Book via WhatsApp",
-          href: bookingLink,
+          href: contacts.WhatsAppCta,
         },
       ],
     },
@@ -247,7 +247,7 @@ export const roomPageDataNew = {
         },
         {
           label: "Book via WhatsApp",
-          href: bookingLink,
+          href: contacts.WhatsAppCta,
         },
       ],
     },
@@ -288,7 +288,7 @@ export const roomPageDataNew = {
         },
         {
           label: "Book via WhatsApp",
-          href: bookingLink,
+          href: contacts.WhatsAppCta,
         },
       ],
     },

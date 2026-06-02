@@ -3,39 +3,39 @@ export const corporateAndMicePageData = {
     title: "Corporate & MICE",
     subTitle: "Corporate Retreats & MICE Events in Mussoorie | EBC Mussoorie",
     description: "Intimate luxury settings for corporate groups of 8–48 guests",
-    image: "/corporate-and-mice/BannerImage.jpg",
+    image: "/corporate-and-mice/bnr.png",
   },
 
   businessCaseSection: {
     title: "The Business Case",
     subTitle: "The Business Case for Nature",
     description: `Decades of research confirm what great leaders have always intuited:
-teams think better, connect more deeply, and produce better ideas
-when removed from office environments. EBC Mussoorie offers
-corporate groups the rarest of combinations — genuine luxury,
-complete privacy, and the restorative power of the Himalayan forest.`,
+        teams think better, connect more deeply, and produce better ideas
+        when removed from office environments. EBC Mussoorie offers
+        corporate groups the rarest of combinations — genuine luxury,
+        complete privacy, and the restorative power of the Himalayan forest.`,
 
     testimonials: [
       {
         name: "— Meera S., Gurgaon",
         message: `Organised a 15-person corporate offsite here. The team loved it — bonfire, forest
-walks, and the most peaceful meeting environment imaginable. We came back
-more connected than any team-building workshop had ever achieved`,
+        walks, and the most peaceful meeting environment imaginable. We came back
+        more connected than any team-building workshop had ever achieved`,
         designation: "CEO",
         reviews: {
           rating: 5,
         },
       },
-      {
-        name: "— Meera S., Gurgaon",
-        message: `Organised a 15-person corporate offsite here. The team loved it — bonfire, forest
-walks, and the most peaceful meeting environment imaginable. We came back
-more connected than any team-building workshop had ever achieved`,
-        designation: "CEO",
-        reviews: {
-          rating: 5,
-        },
-      },
+      //       {
+      //         name: "— Meera S., Gurgaon",
+      //         message: `Organised a 15-person corporate offsite here. The team loved it — bonfire, forest
+      // walks, and the most peaceful meeting environment imaginable. We came back
+      // more connected than any team-building workshop had ever achieved`,
+      //         designation: "CEO",
+      //         reviews: {
+      //           rating: 5,
+      //         },
+      //       },
     ],
 
     capacity: {

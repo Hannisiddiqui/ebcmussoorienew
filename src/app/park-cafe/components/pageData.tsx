@@ -12,8 +12,8 @@ export const parkCafePageData = {
     title: "",
     subTitle: `Dining Beyond the Ordinary`,
     description: [
-      "Our culinary gem seamlessly combines nature's beauty with exquisite flavors, offering a unique dining experience against the backdrop of breathtaking natural wonders.",
-      "To create a dining oasis in the middle of the wilderness, we at Park Café are all about fusing innovation and simplicity. Our menu offers a fusion of inventive twists and regional flavors, guaranteeing a delectable experience that ideally accentuates the soothing se`ttings. Everything about this place is meant to evoke memories, from carefree picnic brunches with a variety of BBQ dishes to special dinners served with hot cocoa.",
+      "Our culinary gem seamlessly combines nature's beauty with exquisite flavors, offering a unique dining experience against the backdrop of breathtaking natural wonders. ",
+      "To create a dining oasis in the middle of the wilderness, we at Park Café are all about fusing innovation and simplicity. Our menu offers a fusion of inventive twists and regional flavors, guaranteeing a delectable experience that ideally accentuates the soothing settings. Everything about this place is meant to evoke memories, from carefree picnic brunches with a variety of BBQ dishes to special dinners served with hot cocoa.",
       "We're proud to serve a variety of delicious dishes that celebrate Mussoorie's culinary heritage. Our cafe is situated where Sir George Everest once had his stables and rode around, along with the George Everest Museum just a few minutes walk away.",
     ],
     image: "/park-cafe/banner-1.png",
@@ -26,19 +26,19 @@ export const parkCafePageData = {
   //   image: "/park-cafe/cafe-table.png",
   // },
 
-  introData: {
-    description: [
-      "Our culinary gem seamlessly combines nature's beauty with exquisite flavors, offering a unique dining experience against the backdrop of breathtaking natural wonders.",
-      "To create a dining oasis in the middle of the wilderness, we at Park Café are all about fusing innovation and simplicity. Our menu offers a fusion of inventive twists and regional flavors, guaranteeing a delectable experience that ideally accentuates the soothing settings. Everything about this place is meant to evoke memories, from carefree picnic brunches with a variety of BBQ dishes to special dinners served with hot cocoa.",
-      "We're proud to serve a variety of delicious dishes that celebrate Mussoorie's culinary heritage. Our cafe is situated where Sir George Everest once had his stables and rode around, along with the George Everest Museum just a few minutes walk away.",
-    ],
-    images: [
-      imgSrc + "park-cafe/park-cafe-slider1/img1.webp",
-      imgSrc + "park-cafe/park-cafe-slider1/img2.webp",
-      imgSrc + "park-cafe/park-cafe-slider1/img3.webp",
-      imgSrc + "activities/bonfire/img1.webp",
-    ],
-  },
+  // introData: {
+  //   description: [
+  //     "Our culinary gem seamlessly combines nature's beauty with exquisite flavors, offering a unique dining experience against the backdrop of breathtaking natural wonders.",
+  //     "To create a dining oasis in the middle of the wilderness, we at Park Café are all about fusing innovation and simplicity. Our menu offers a fusion of inventive twists and regional flavors, guaranteeing a delectable experience that ideally accentuates the soothing settings. Everything about this place is meant to evoke memories, from carefree picnic brunches with a variety of BBQ dishes to special dinners served with hot cocoa.",
+  //     "We're proud to serve a variety of delicious dishes that celebrate Mussoorie's culinary heritage. Our cafe is situated where Sir George Everest once had his stables and rode around, along with the George Everest Museum just a few minutes walk away.",
+  //   ],
+  //   images: [
+  //     imgSrc + "park-cafe/park-cafe-slider1/img1.webp",
+  //     imgSrc + "park-cafe/park-cafe-slider1/img2.webp",
+  //     imgSrc + "park-cafe/park-cafe-slider1/img3.webp",
+  //     imgSrc + "activities/bonfire/img1.webp",
+  //   ],
+  // },
 
   dineData: {
     title: "Dine Amidst History & <i>Nature!</i>",
