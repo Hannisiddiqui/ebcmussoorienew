@@ -6,6 +6,7 @@ import WhyLoveEBC from "./components/WhyLoveEBCSection";
 import ActivitiesSection from "./components/ActivitiesSection";
 import FamilyRoomSection from "./components/FamilyRoomSection";
 import CtaSection from "@/components/CommonSections/CtaSection";
+import TestimonialSection from "../couples-and-honeymoon/components/TestimonialSection";
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
       <WhyLoveEBC {...familyStayPageData?.whyFamilyLoveEbcSection} />
       <ActivitiesSection {...familyStayPageData?.activitiesSection} />
       <FamilyRoomSection {...familyStayPageData?.familyRoomSection} />
+      <TestimonialSection testimonials={familyStayPageData?.testimonialSection} />
       <CtaSection {...familyStayPageData?.ctaData} />
     </main>
   );

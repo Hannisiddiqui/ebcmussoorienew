@@ -188,4 +188,25 @@ export const parkCafePageData = {
     title: ["Come Visit us at,", "Park <i>Cafe!</i>"],
     images: ["/park-cafe/cafe-table.png"],
   },
+
+  testimonialSection: [
+    {
+      name: "Tarushree Dr.",
+      message: `Loved the experience, 5 star to the staff and food. We went to visit George Everest house and took a break here. This cafe is nestled in George Everest estate, surrounded by greenery. We ordered momos and a mushroom dish suggested by the staff and it turned out to be sumptuous. Overall feel of place is very nice, will love visiting again.`,
+      designation: "Local Guide",
+      reviews: {
+        rating: 5,
+      },
+    },
+    {
+      name: "Ansh Kaushik",
+      message: `I would like to share my feedback for Puran Singh. He was extremely polite and professional throughout the service. He knows very well how to serve guests properly and how to communicate respectfully. His behaviour was calm, friendly, and very welcoming. Because of him, our dining experience became even more enjoyable.
+
+He is truly very good at his work and deserves appreciation. Thank you for such excellent service 😊 👏`,
+      designation: "Guest",
+      reviews: {
+        rating: 5,
+      },
+    },
+  ],
 };

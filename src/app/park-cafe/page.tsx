@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import MilestoneSection from "./components/MilestoneSection";
 import { parkCafePageData } from "./components/pageData";
 import LinkButton from "@/components/buttons/LinkButton";
+import TestimonialSection from "../couples-and-honeymoon/components/TestimonialSection";
 
 export default function ParkCafePage() {
   return (
@@ -35,6 +36,7 @@ export default function ParkCafePage() {
           />
         </div>
       </SectionWithContainer>
+      <TestimonialSection testimonials={parkCafePageData?.testimonialSection} />
       <Experience {...parkCafePageData.addOnsData} />
       <MilestoneSection {...parkCafePageData.milestoneData} />
     </main>

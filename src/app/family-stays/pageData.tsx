@@ -142,7 +142,7 @@ Himalayan forest.`,
           label: "Book for Family",
           href: bookingLink,
         },
-        image:"/andrew-villa/Suite-Bedroom-2.png",
+        image: "/andrew-villa/Suite-Bedroom-2.png",
       },
       {
         id: 3,
@@ -159,7 +159,46 @@ EBC's original icon of Himalayan glamping.`,
       },
     ],
   },
+  testimonialSection: [
+    {
+      name: "Kunal Dhruv",
+      message: `A Dreamlike Retreat in Nature’s Embrace
 
+We had an unforgettable 2-night stay at this extraordinary property with my wife, in-laws, and our small dog. The sprawling estate offered a true sense of freedom, with stunning trails that allowed us to reconnect with nature and ourselves. The serene isolation was perfectly complemented by flawless amenities—no issues with electricity or water, and the high-quality geysers made quick showers a delight.
+
+The space itself felt like a dream come true, blending rustic charm with modern comforts. The food was exceptional, and the staff’s outstanding training and warmth elevated our experience to another level. Every detail was thoughtfully curated, making this our best holiday ever. We left feeling refreshed and already planning our next visit.
+
+Highly recommended for anyone seeking a perfect blend of luxury and nature!`,
+      designation: "Google Review",
+      reviews: {
+        rating: 5,
+      },
+    },
+    {
+      name: "CA Mayank Chawla",
+      message: `The reservation team is very supportive, co-operative & friendly. I had to cancel & re-schedule couple of times due to last minute health issues, the reservation team accepted my plea for re-scheduling at the very last minute both the times (which most reject) & gave me time to re-schedule at my own convenience, how can one expect anymore than this.
+
+This gesture by the reservation team really made me feel valued & made me share this review because they truly deserve it.`,
+      designation: "Google Review",
+      reviews: {
+        rating: 5,
+      },
+    },
+    {
+      name: "Pranit Verma",
+      message: `We had a wonderful stay at EBC in Mussoorie. The property is excellent beautifully done, well-appointed rooms, and extremely comfortable.
+
+The staff is warm, friendly, and attentive, and everything is very well organised, including the thoughtfully planned treks.
+
+A special mention to the food the specially organised BBQs and bonfires make the evenings truly memorable.
+
+Overall, a fantastic luxury glamping experience and highly recommended.`,
+      designation: "Google Review",
+      reviews: {
+        rating: 5,
+      },
+    },
+  ],
   ctaData: {
     title: "",
     subtitle: "Plan Your Family Stay",

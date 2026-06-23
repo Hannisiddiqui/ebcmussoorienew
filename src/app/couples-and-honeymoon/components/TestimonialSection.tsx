@@ -1,11 +1,10 @@
 "use client";
 import { TestimonialCard } from "@/app/corporate-and-mice/components/cards/TestimonialCard";
 import {
-  Container,
-  SectionWithContainer,
+  SectionWithContainer
 } from "@/components/sectionComponants";
 import SwiperCarousel from "@/components/slider/SwiperCarousel";
-import React from "react";
+import { Autoplay } from "swiper/modules";
 
 type TestimonialProps = {
   testimonials: {
@@ -19,13 +18,19 @@ type TestimonialProps = {
 
 const TestimonialSection = ({ testimonials }: TestimonialProps) => {
   return (
-    <SectionWithContainer
-      sectionClassName="bg-ternary pb-6"
-      defaultPadding={false}
-    >
+    <SectionWithContainer sectionClassName="bg-ternary">
       <div className="max-w-3xl mx-auto space-y-4">
         <SwiperCarousel
           data={testimonials}
+          modules={[Autoplay]}
+          slidesPerView={1}
+          autoplay={
+            {
+              delay: 2500,
+              disableOnInteraction: false,
+            }
+          }
+          loop={true}
           renderSlide={(item, index) => (
             <TestimonialCard key={index} testimonial={item} />
           )}
