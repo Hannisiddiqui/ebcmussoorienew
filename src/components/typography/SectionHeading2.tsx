@@ -13,6 +13,8 @@ interface SectionHeadingDescProps {
   descriptionClassName?: string;
 }
 
+const isCustomColorValue = (value?: string) => Boolean(value && /^(#|rgb|hsl|var\()/i.test(value));
+
 export const SectionHeading2: React.FC<SectionHeadingDescProps> = ({
   title,
   subTitle,
@@ -27,30 +29,31 @@ export const SectionHeading2: React.FC<SectionHeadingDescProps> = ({
   subTitleClassName = "",
   descriptionClassName = "",
 }) => {
+  const titleColorClass = titleColor && !isCustomColorValue(titleColor) ? `text-${titleColor}` : "";
+  const subTitleColorClass = subTitleColor && !isCustomColorValue(subTitleColor) ? `text-${subTitleColor}` : "";
+  const descriptionColorClass = descriptionColor && !isCustomColorValue(descriptionColor) ? `text-${descriptionColor}` : "";
+
   return (
     <div className={`flex flex-col w-full gap-4 heading2 ${wrapperClassName}`}>
       {title && (
         <h2
-          className={`${titleClassName
-            } ${textCenter ? "text-center mx-auto" : ""} ${smTextCenter ? "max-md:text-center" : ""
-            } ${titleColor ? `text-${titleColor}` : "text-white"} md:text-5xl font-primary tracking-wider text-[2rem]`}
+          className={`${titleClassName} ${textCenter ? "text-center mx-auto" : ""} ${smTextCenter ? "max-md:text-center" : ""} ${titleColorClass} md:text-5xl font-primary tracking-wider text-[2rem]`}
+          style={isCustomColorValue(titleColor) ? { color: titleColor } : undefined}
           dangerouslySetInnerHTML={{ __html: title }}
         />
       )}
       {subTitle && (
         <h3
-          className={`${subTitleClassName
-            } ${textCenter ? "text-center mx-auto" : ""} ${smTextCenter ? "max-md:text-center" : ""
-            } ${subTitleColor ? `text-${subTitleColor}` : "text-primary"} md:text-3xl text-[1.5rem]`}
+          className={`${subTitleClassName} ${textCenter ? "text-center mx-auto" : ""} ${smTextCenter ? "max-md:text-center" : ""} ${subTitleColorClass} md:text-3xl text-[1.5rem]`}
+          style={isCustomColorValue(subTitleColor) ? { color: subTitleColor } : undefined}
         >
           {subTitle}
         </h3>
       )}
       {description && (
         <p
-          className={`${descriptionClassName
-            } ${textCenter ? "text-center mx-auto" : ""} ${smTextCenter ? "max-md:text-center" : ""
-            } ${descriptionColor ? `text-${descriptionColor}` : "text-light"}`}
+          className={`${descriptionClassName} ${textCenter ? "text-center mx-auto" : ""} ${smTextCenter ? "max-md:text-center" : ""} ${descriptionColorClass}`}
+          style={isCustomColorValue(descriptionColor) ? { color: descriptionColor } : undefined}
         >
           {description}
         </p>
