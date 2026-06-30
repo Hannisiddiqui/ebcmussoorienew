@@ -88,7 +88,11 @@ export default function ResortGuidePage() {
             <span className="inline-flex items-center rounded-full border border-secondary/20 bg-secondary/10 px-3 py-1 text-xs uppercase tracking-[0.35em] text-secondary">
               {articleData.details.subtitle}
             </span>
-            <SectionHeading title={articleData.details.title} titleColor="white" />
+            <div className="space-y-2">
+              <h2 className="text-4xl md:text-5xl font-primary font-bold text-white">
+                {articleData.details.title}
+              </h2>
+            </div>
             <div className="space-y-5 text-base leading-relaxed text-[#EDE7D9] md:text-lg">
               {articleData.intro.description.map((text, index) => (
                 <p key={`intro-${index}`}>{text}</p>
@@ -104,14 +108,9 @@ export default function ResortGuidePage() {
       <SectionWithContainer sectionClassName="bg-[#F7F5EE] py-16">
         <div className="mx-auto max-w-4xl space-y-8">
           <div className="space-y-3 text-center">
-            <p className="text-sm uppercase tracking-[0.35em] text-secondary">Common Questions</p>
-            <SectionHeading2
-              title="Frequently Asked Questions"
-              description="Everything you need to know before booking your resort stay."
-              textCenter
-              titleColor="#0C150D"
-              descriptionColor="#4A5A47"
-            />
+            <span className="text-sm uppercase tracking-[0.35em] text-secondary">Common Questions</span>
+            <h2 className="text-3xl md:text-4xl font-primary font-bold text-[#0C150D]">Frequently Asked Questions</h2>
+            <p className="text-base text-[#4A5A47]">Everything you need to know before booking your resort stay.</p>
           </div>
           <div className="space-y-4">
             {articleData.faqs.map((faq, index) => (
