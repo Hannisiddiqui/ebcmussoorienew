@@ -1,6 +1,7 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
 import Image from "next/image";
 import Link from "next/link";
+import Accordion2 from "@/components/accordion/Accordion2";
 import blogData from "../components/blogData";
 import ExploreMoreBLogs from "./components/ExploreMoreBLogs";
 
@@ -193,6 +194,25 @@ export default async function LandingPage({ params }: Params) {
               </div>
             ))}
           </div>
+
+          {data.faqs?.length > 0 && (
+            <div className="mt-14 rounded-[2rem] bg-[#FAF7F0] p-8 md:p-12">
+              <div className="mb-8">
+                <h2 className="font-light font-primary md:text-4xl text-2xl">
+                  Frequently Asked Questions
+                </h2>
+                <p className="text-[#686868] md:text-xl mt-3">
+                  Answers to common questions about visiting Mussoorie and staying at Everest Base Camp Mussoorie.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                {data.faqs.map((faq, index) => (
+                  <Accordion2 key={index} question={faq.question} answer={faq.answer} />
+                ))}
+              </div>
+            </div>
+          )}
         </article>
       </SectionWithContainer>
       <ExploreMoreBLogs {...randomData} />
