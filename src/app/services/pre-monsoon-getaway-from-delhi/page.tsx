@@ -152,7 +152,7 @@ const articleData = {
 export const metadata = articleData.metaData;
 
 export default function PreMonsoonGetawayPage() {
-  const renderContent = (htmlString) => {
+  const renderContent = (htmlString: string) => {
     return <div dangerouslySetInnerHTML={{ __html: htmlString }} />;
   };
 

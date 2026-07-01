@@ -101,7 +101,7 @@ export const metadata = articleData.metaData;
 
 export default function MountainWeekendPage() {
   // Helper to render HTML content from the description array
-  const renderContent = (htmlString) => {
+  const renderContent = (htmlString: string) => {
     return <div dangerouslySetInnerHTML={{ __html: htmlString }} />;
   };
 

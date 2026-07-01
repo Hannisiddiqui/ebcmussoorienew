@@ -158,7 +158,7 @@ const articleData = {
 export const metadata = articleData.metaData;
 
 export default function DigitalDetoxRetreatPage() {
-  const renderContent = (htmlString) => {
+  const renderContent = (htmlString: string) => {
     return <div dangerouslySetInnerHTML={{ __html: htmlString }} />;
   };
 

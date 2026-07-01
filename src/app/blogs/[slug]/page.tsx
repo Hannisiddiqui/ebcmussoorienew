@@ -195,7 +195,7 @@ export default async function LandingPage({ params }: Params) {
             ))}
           </div>
 
-          {data.faqs?.length > 0 && (
+          {(data?.faqs?.length ?? 0) > 0 && (
             <div className="mt-14 rounded-[2rem] bg-[#FAF7F0] p-8 md:p-12">
               <div className="mb-8">
                 <h2 className="font-light font-primary md:text-4xl text-2xl">
@@ -207,7 +207,7 @@ export default async function LandingPage({ params }: Params) {
               </div>
 
               <div className="space-y-4">
-                {data.faqs.map((faq, index) => (
+                {data?.faqs?.map((faq, index) => (
                   <Accordion2 key={index} question={faq.question} answer={faq.answer} />
                 ))}
               </div>

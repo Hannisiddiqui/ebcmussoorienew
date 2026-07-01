@@ -110,7 +110,7 @@ const articleData = {
 export const metadata = articleData.metaData;
 
 export default function FamilyResortPage() {
-  const renderContent = (htmlString) => {
+  const renderContent = (htmlString: string) => {
     return <div dangerouslySetInnerHTML={{ __html: htmlString }} />;
   };
 
