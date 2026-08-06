@@ -4,6 +4,10 @@ import { AppProvider } from "@/contextApi/AppContext";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import "./style.scss";
+import Call from "@/components/ContactButton/Call";
+import Whatsapp from "@/components/ContactButton/WhatsApp";
+import { contacts } from "@/utils/constant";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -92,7 +96,16 @@ export default function RootLayout({
           <Navbar2 />
           {children}
           <Footer />
+          <Call callNumber={contacts.phone[0]} />
+          <Whatsapp whatsAppNumber={contacts.WhatsAppCta} />
         </AppProvider>
+        <Script id="chatbot" strategy="beforeInteractive">
+          {`window.eazbotConfig = {
+            ndid: "e53a0946-ed31-455f-b278-37aa1b0c8c00",
+            hid: "56369483",
+          };`}
+        </Script>
+        <Script src="https://cb-script.dyq28lyxrazm2.amplifyapp.com/widget/lead-chatbot.js"></Script>
       </body>
     </html>
   );
