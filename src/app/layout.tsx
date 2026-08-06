@@ -97,7 +97,7 @@ export default function RootLayout({
           {children}
           <Footer />
           <Call callNumber={contacts.phone[0]} />
-          <Whatsapp whatsAppNumber={contacts.WhatsAppCta} />
+          <Whatsapp whatsAppNumber={contacts.phone[0]} />
         </AppProvider>
         <Script id="chatbot" strategy="beforeInteractive">
           {`window.eazbotConfig = {
